@@ -50,7 +50,7 @@
     <Sequence>1</Sequence>
     <Priority>1</Priority>
     <DateAdded>2014-05-15T21:18:08.8000199+03:00</DateAdded>
-    <DateModified>2014-05-15T21:32:06.472932+03:00</DateModified>
+    <DateModified>2014-05-15T21:18:22.0357769+03:00</DateModified>
   </UseCase>
   <Actor>
     <UniqueID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</UniqueID>
@@ -135,16 +135,6 @@
   <UCActor>
     <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
     <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-b7ac7a45-29c0-4b50-beee-79c99c65cc6b</ParentID>
-    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
-    <Kind>1</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-b7ac7a45-29c0-4b50-beee-79c99c65cc6b</ParentID>
-    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
     <Kind>0</Kind>
   </UCActor>
   <Scenario>
