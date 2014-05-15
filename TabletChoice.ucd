@@ -1,0 +1,699 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>4.0</Version>
+    <SavedWith>9.0.5219</SavedWith>
+    <CreatedWith>9.0.5219</CreatedWith>
+  </VersionInfo>
+  <Project>
+    <TrackChanges>false</TrackChanges>
+  </Project>
+  <TopLevelElement>
+    <RefID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</UniqueID>
+    <Name>Diyana</Name>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</UniqueID>
+    <UserID>UC-1</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>New Use Case</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-05-15T20:07:52.424857+03:00</DateAdded>
+    <DateModified>2014-05-15T20:07:52.4958611+03:00</DateModified>
+  </UseCase>
+  <Requirement>
+    <UniqueID>REQ-f148363c-d44a-403b-8209-bcdc05057d0b</UniqueID>
+    <UserID>REQ-1</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Препоръчани и най-високо оцененни ястия</Name>
+    <Description>Системата трябва да показва на клиента препоръчани от заведението ястия и най-високо оценените ястия.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ef\'ee\'ea\'e0\'e7\'e2\'e0 \'ed\'e0 \'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'ef\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8 \'ee\'f2 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'ff\'f1\'f2\'e8\'ff \'e8 \'ed\'e0\'e9-\'e2\'e8\'f1\'ee\'ea\'ee \'ee\'f6\'e5\'ed\'e5\'ed\'e8\'f2\'e5 \'ff\'f1\'f2\'e8\'ff.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T19:53:38.8390347+03:00</DateAdded>
+    <DateModified>2014-05-15T20:37:31.5046145+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d0441862-07fc-4586-a305-285694f56223</UniqueID>
+    <UserID>REQ-2</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Поръчка на ястие</Name>
+    <Description>Клиентът трябва да има възможност да поръча ястие</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'ef\'ee\'f0\'fa\'f7\'e0 \'ff\'f1\'f2\'e8\'e5\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:37:37.2289419+03:00</DateAdded>
+    <DateModified>2014-05-15T20:38:35.1242534+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-3a6cf7ac-2ad1-447f-b9c2-82298662ecf9</UniqueID>
+    <UserID>REQ-3</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Избиране на грамаж</Name>
+    <Description>Клиентът трябва да има възможност да избира грамажа на някои артикули</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'e8\'e7\'e1\'e8\'f0\'e0 \'e3\'f0\'e0\'ec\'e0\'e6\'e0 \'ed\'e0 \'ed\'ff\'ea\'ee\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <Source />
+    <Status>Approved</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:39:46.2693226+03:00</DateAdded>
+    <DateModified>2014-05-15T20:40:29.6918063+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c3e05a08-5f52-44c2-8c6e-973bd9aa9c4e</UniqueID>
+    <UserID>REQ-4</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Поръчка на ястие с добавки</Name>
+    <Description>Клиентът трябва да има възможност да поръча ястие с добавки, което се отразява в цената</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'ef\'ee\'f0\'fa\'f7\'e0 \'ff\'f1\'f2\'e8\'e5 \'f1 \'e4\'ee\'e1\'e0\'e2\'ea\'e8, \'ea\'ee\'e5\'f2\'ee \'f1\'e5 \'ee\'f2\'f0\'e0\'e7\'ff\'e2\'e0 \'e2 \'f6\'e5\'ed\'e0\'f2\'e0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:40:47.6808352+03:00</DateAdded>
+    <DateModified>2014-05-15T20:41:39.5408014+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-6d5d8624-823e-4a4a-a1fc-18aeeb678658</UniqueID>
+    <UserID>REQ-5</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Поръчка на ястие без някаква съставка</Name>
+    <Description>Клиентът трябва да има възможност да поръча ястие без някаква съставка</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'ef\'ee\'f0\'fa\'f7\'e0 \'ff\'f1\'f2\'e8\'e5 \'e1\'e5\'e7 \'ed\'ff\'ea\'e0\'ea\'e2\'e0 \'f1\'fa\'f1\'f2\'e0\'e2\'ea\'e0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:41:51.8365047+03:00</DateAdded>
+    <DateModified>2014-05-15T20:42:41.9043684+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-bef2b237-edc2-4e7d-b0c9-df1c97cf3640</UniqueID>
+    <UserID>REQ-6</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Повикване на  сервитьор</Name>
+    <Description>Клиентът трябва да има възможност да повика сервитьора</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'ef\'ee\'e2\'e8\'ea\'e0 \'f1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'e0\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:43:24.7568194+03:00</DateAdded>
+    <DateModified>2014-05-15T20:44:03.1070129+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-560553ed-e4f0-4255-83e5-24455eaaf394</UniqueID>
+    <UserID>REQ-7</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Обща сметка</Name>
+    <Description>Клиентът трябва да има възможност да види общата сметка</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'e2\'e8\'e4\'e8 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:44:07.4812631+03:00</DateAdded>
+    <DateModified>2014-05-15T20:44:54.7809685+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a2d7f61b-4b8e-4dcb-aed0-5f16676e6f75</UniqueID>
+    <UserID>REQ-8</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Индивидуална сметка</Name>
+    <Description>Клиентът трябва да има възможност да види индивидуалната си сметка като в списъка с продуктите маркира тези, които  той консумира</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'e2\'e8\'e4\'e8 \'e8\'ed\'e4\'e8\'e2\'e8\'e4\'f3\'e0\'eb\'ed\'e0\'f2\'e0 \'f1\'e8 \'f1\'ec\'e5\'f2\'ea\'e0 \'ea\'e0\'f2\'ee \'e2 \'f1\'ef\'e8\'f1\'fa\'ea\'e0 \'f1 \'ef\'f0\'ee\'e4\'f3\'ea\'f2\'e8\'f2\'e5 \'ec\'e0\'f0\'ea\'e8\'f0\'e0 \'f2\'e5\'e7\'e8, \'ea\'ee\'e8\'f2\'ee  \'f2\'ee\'e9 \'ea\'ee\'ed\'f1\'f3\'ec\'e8\'f0\'e0\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:45:03.5184682+03:00</DateAdded>
+    <DateModified>2014-05-15T20:46:03.5068994+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e4622e91-8567-41ff-a740-cbe2e2bbe510</UniqueID>
+    <UserID>REQ-9</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Оценка на артикул</Name>
+    <Description>Клиентът трябва да има възможност да оцени даден акртикул с оценка от 1 до 5.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'ee\'f6\'e5\'ed\'e8 \'e4\'e0\'e4\'e5\'ed \'e0\'ea\'f0\'f2\'e8\'ea\'f3\'eb \'f1 \'ee\'f6\'e5\'ed\'ea\'e0 \'ee\'f2 1 \'e4\'ee 5.\par
+}
+</RichDescription>
+    <Sequence>8</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:46:14.3145175+03:00</DateAdded>
+    <DateModified>2014-05-15T20:46:59.5611055+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-757786ea-02ca-4098-b900-8a4a79e596c0</UniqueID>
+    <UserID>REQ-10</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Коментар за артикул</Name>
+    <Description>Клиентът трябва да има възможност да напише коментар за даден артикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'ed\'e0\'ef\'e8\'f8\'e5 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\par
+}
+</RichDescription>
+    <Sequence>9</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:47:05.2034282+03:00</DateAdded>
+    <DateModified>2014-05-15T20:47:40.218431+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-87e93616-dd09-42a0-9124-b9a60334f8da</UniqueID>
+    <UserID>REQ-11</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Коментар за заведението и обслужването</Name>
+    <Description>Клиентът трябва да има възможност да напише коментар за заведението и начина на обслужване.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'ed\'e0\'ef\'e8\'f8\'e5 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ed\'e0\'f7\'e8\'ed\'e0 \'ed\'e0 \'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5.\par
+}
+</RichDescription>
+    <Sequence>10</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:47:41.966531+03:00</DateAdded>
+    <DateModified>2014-05-15T20:48:28.3311829+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-cfda5ff2-ca69-468f-99e6-1a2127697abf</UniqueID>
+    <UserID>REQ-12</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Анкета за заведението и обслужването</Name>
+    <Description>Клиентът трябва да има възможност да попълва анкета за заведението и обслужването</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'ef\'ee\'ef\'fa\'eb\'e2\'e0 \'e0\'ed\'ea\'e5\'f2\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>11</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:48:36.1576305+03:00</DateAdded>
+    <DateModified>2014-05-15T20:49:17.9440206+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7f5fdd98-7a17-4288-82d2-d9539c404ac0</UniqueID>
+    <UserID>REQ-13</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Препратки към външни ресурси</Name>
+    <Description>Системата трябва да предоставя възможност в описанието на даден артикул да се вмъкват препратки към външни ресурси.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e2 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\'f2\'ee \'ed\'e0 \'e4\'e0\'e4\'e5\'ed \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'e4\'e0 \'f1\'e5 \'e2\'ec\'fa\'ea\'e2\'e0\'f2 \'ef\'f0\'e5\'ef\'f0\'e0\'f2\'ea\'e8 \'ea\'fa\'ec \'e2\'fa\'ed\'f8\'ed\'e8 \'f0\'e5\'f1\'f3\'f0\'f1\'e8.\par
+}
+</RichDescription>
+    <Sequence>12</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:49:22.2502669+03:00</DateAdded>
+    <DateModified>2014-05-15T20:50:08.6879229+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-13f37727-62b7-418a-b1b5-3cf84b43be75</UniqueID>
+    <UserID>REQ-14</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Карта на заведението</Name>
+    <Description>Системата трябва да предоставя карта на заведението.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'ea\'e0\'f0\'f2\'e0 \'ed\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee.\par
+}
+</RichDescription>
+    <Sequence>13</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:50:10.4780253+03:00</DateAdded>
+    <DateModified>2014-05-15T20:50:47.292131+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-eb4805cf-981a-4c3e-adb2-4cbea9de0151</UniqueID>
+    <UserID>REQ-15</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Меню по категории</Name>
+    <Description>Системата трябва да предоставя меню с предлаганите артикули на заведението, разделено на категории                                  
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'ec\'e5\'ed\'fe \'f1 \'ef\'f0\'e5\'e4\'eb\'e0\'e3\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'ed\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee, \'f0\'e0\'e7\'e4\'e5\'eb\'e5\'ed\'ee \'ed\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8                                  \par
+\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:50:49.286245+03:00</DateAdded>
+    <DateModified>2014-05-15T20:51:42.0062604+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5ba16158-7fb9-4d78-9d86-ce75ab7118e4</UniqueID>
+    <UserID>REQ-16</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Информация за артикула</Name>
+    <Description>Системата трябва да предоставя следната информация за артикула:име, снимка, описание, състав,грамаж,калории,  цена, коментар, рейтинг.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'f1\'eb\'e5\'e4\'ed\'e0\'f2\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'e7\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0:\'e8\'ec\'e5, \'f1\'ed\'e8\'ec\'ea\'e0, \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5, \'f1\'fa\'f1\'f2\'e0\'e2,\'e3\'f0\'e0\'ec\'e0\'e6,\'ea\'e0\'eb\'ee\'f0\'e8\'e8,  \'f6\'e5\'ed\'e0, \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0, \'f0\'e5\'e9\'f2\'e8\'ed\'e3.\par
+}
+</RichDescription>
+    <Sequence>15</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-15T20:52:00.5853231+03:00</DateAdded>
+    <DateModified>2014-05-15T20:52:41.1226417+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <UserID>
+    <DefaultPrefix>UC-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-</DefaultPrefix>
+    <NextValue>17</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <BuiltInField>
+    <UniqueID>1</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the use case.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>2</UniqueID>
+    <Name>Level</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>The level of detail in the use case.</Description>
+    <DefaultValue />
+    <Choices>Summary;User;Subfunction</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>3</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>An indication of the difficulty of implementation.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>4</UniqueID>
+    <Name>UseCaseStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case specification.</Description>
+    <DefaultValue />
+    <Choices>Name Only;Initial;Base;Complete;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>5</UniqueID>
+    <Name>ImplStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case implementation.</Description>
+    <DefaultValue />
+    <Choices>Scheduled;Started;Partially Complete;Complete;Partially Deferred;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>6</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this use case.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>7</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this use case is applicable to.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>100</UniqueID>
+    <Name>ReqType</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>The type of requirement.</Description>
+    <DefaultValue>Non-functional</DefaultValue>
+    <Choices>Functional;Non-functional;Business Rule;Constraint;Performance;Test;Change Request</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>101</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the requirement.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>102</UniqueID>
+    <Name>Source</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Where did the requirement originate?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>103</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the requirement.</Description>
+    <DefaultValue />
+    <Choices>Proposed;Approved;Rejected;Deferred;Implemented;Mandatory;Obsolete</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>104</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this requirement?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>105</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this requirement is applicable to.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>200</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>1</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of this actor's interactions with the system.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>300</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority for resolving issue.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>301</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of issue.</Description>
+    <DefaultValue />
+    <Choices>New;Assigned;Resolved;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>302</UniqueID>
+    <Name>Type</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of issue.</Description>
+    <DefaultValue />
+    <Choices>Question;Approval;Clarification;Defect;Feature</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>303</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of issue to be resolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>304</UniqueID>
+    <Name>Risk</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Risk to project while unresolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>400</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of test scenario.</Description>
+    <DefaultValue />
+    <Choices>New;Partially defined;Defined</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>401</UniqueID>
+    <Name>TestType</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of test.</Description>
+    <DefaultValue />
+    <Choices>Acceptance;Usability;Performance;Load;Security;Bounds;White box</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>402</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of test.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>403</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the test scenario.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>501</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the user story.</Description>
+    <DefaultValue />
+    <Choices>Must;Should;Could;Won't</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>502</UniqueID>
+    <Name>Size</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>The relative complexity of the user story.</Description>
+    <DefaultValue />
+    <Choices>X-Small;Small;Med;Large;X-Large</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>503</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this user story?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>504</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the user story.</Description>
+    <DefaultValue />
+    <Choices>Backlog;Doing;Review;Done</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+</UCTDataSet>
