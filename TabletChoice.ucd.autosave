@@ -40,17 +40,110 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-15T20:07:52.424857+03:00</DateAdded>
-    <DateModified>2014-05-15T21:17:57.5743778+03:00</DateModified>
+    <DateModified>2014-05-17T17:09:42.7503423+03:00</DateModified>
   </UseCase>
   <UseCase>
-    <UniqueID>UC-b7ac7a45-29c0-4b50-beee-79c99c65cc6b</UniqueID>
-    <UserID>UC-2</UserID>
+    <UniqueID>UC-9094c264-a03e-4880-8773-13d23475681a</UniqueID>
+    <UserID>UC-3</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Log in</Name>
+    <Name>Преглед на обща сметка</Name>
     <Sequence>1</Sequence>
     <Priority>1</Priority>
-    <DateAdded>2014-05-15T21:18:08.8000199+03:00</DateAdded>
-    <DateModified>2014-05-15T21:18:22.0357769+03:00</DateModified>
+    <PreConditions>Приложението е отворено
+Клиентът е поръчал ястия или напитки.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-17T17:11:50.0146214+03:00</DateAdded>
+    <DateModified>2014-05-17T18:42:52.5630613+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</UniqueID>
+    <UserID>UC-4</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Поръчване на ястие или напитка</Name>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-05-17T17:16:52.45392+03:00</DateAdded>
+    <DateModified>2014-05-17T17:40:52.3752788+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-a32427bc-c13c-4edd-b85f-bc9c2784275b</UniqueID>
+    <UserID>UC-9</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Преглед на индивидуална сметка</Name>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Приложението е отворено
+Клиентът е поръчал ястия или напитки.
+Общата сметка е изчислена</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-17T17:34:35.3177123+03:00</DateAdded>
+    <DateModified>2014-05-18T13:27:38.6085126+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5d16630e-3421-424a-8965-99b228e535da</UniqueID>
+    <UserID>UC-10</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Оценка на  даден артикул</Name>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-05-17T17:36:30.1542806+03:00</DateAdded>
+    <DateModified>2014-05-18T13:33:54.6380202+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-9825e2ac-3709-43ae-b360-eba6aaab8885</UniqueID>
+    <UserID>UC-11</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Пишене на коментар за даден артикул</Name>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-05-17T17:38:01.5425077+03:00</DateAdded>
+    <DateModified>2014-05-18T13:43:45.1507956+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-0a194b0e-a479-404b-86ae-16b93f099b3e</UniqueID>
+    <UserID>UC-12</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Пишене на коментар за заведението и облужването</Name>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-17T17:38:43.1508876+03:00</DateAdded>
+    <DateModified>2014-05-18T13:52:56.1573114+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-8b27f9a5-44f7-47a0-94dc-b07520366762</UniqueID>
+    <UserID>UC-13</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Попълване на анкета за заведението и обслужването</Name>
+    <Sequence>7</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-05-17T17:41:44.3612522+03:00</DateAdded>
+    <DateModified>2014-05-18T13:53:30.0992528+03:00</DateModified>
   </UseCase>
   <Actor>
     <UniqueID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</UniqueID>
@@ -111,6 +204,15 @@
     <DateAdded>2014-05-15T21:18:05.7678464+03:00</DateAdded>
     <DateModified>2014-05-15T21:18:38.769734+03:00</DateModified>
   </Actor>
+  <Actor>
+    <UniqueID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</UniqueID>
+    <UserID>A-8</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Клиент</Name>
+    <Sequence>6</Sequence>
+    <DateAdded>2014-05-17T17:11:33.7406906+03:00</DateAdded>
+    <DateModified>2014-05-17T17:11:46.5294221+03:00</DateModified>
+  </Actor>
   <Diagram>
     <UniqueID>D-5efb1714-73cb-4653-b395-8be94f29285b</UniqueID>
     <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
@@ -127,6 +229,22 @@
     <FileName>Log in.ndx</FileName>
     <Type>0</Type>
   </Diagram>
+  <Diagram>
+    <UniqueID>D-cdfe3893-cd6f-436b-a80c-a099ebd757f4</UniqueID>
+    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
+    <Name>Клиент</Name>
+    <Sequence>0</Sequence>
+    <FileName>Обща сметка.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-0df3142a-ae2d-4d37-aad9-9d37d398b73a</UniqueID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Индивидуална сметка</Name>
+    <Sequence>0</Sequence>
+    <FileName>Индивидуална сметка.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
   <UCActor>
     <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
     <ActorID>A-5e2ee41d-4e78-4554-8b24-2ba9eb38fe29</ActorID>
@@ -137,9 +255,68 @@
     <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
     <Kind>0</Kind>
   </UCActor>
+  <UCActor>
+    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
+    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
+    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5d16630e-3421-424a-8965-99b228e535da</ParentID>
+    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</ParentID>
+    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</ParentID>
+    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-0a194b0e-a479-404b-86ae-16b93f099b3e</ParentID>
+    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-9825e2ac-3709-43ae-b360-eba6aaab8885</ParentID>
+    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
   <Scenario>
     <UniqueID>MSS-2b5a7b3b-6374-4d15-a0ba-e57531d211ab</UniqueID>
     <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-8568f6a0-b0ed-4d90-96ca-b62a882e6fd6</UniqueID>
+    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-0291cbe2-6d05-442d-b24e-4b37b5e962a4</UniqueID>
+    <ParentID>UC-a32427bc-c13c-4edd-b85f-bc9c2784275b</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</UniqueID>
+    <ParentID>UC-5d16630e-3421-424a-8965-99b228e535da</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</UniqueID>
+    <ParentID>UC-9825e2ac-3709-43ae-b360-eba6aaab8885</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</UniqueID>
+    <ParentID>UC-0a194b0e-a479-404b-86ae-16b93f099b3e</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</UniqueID>
+    <ParentID>UC-8b27f9a5-44f7-47a0-94dc-b07520366762</ParentID>
   </Scenario>
   <Requirement>
     <UniqueID>REQ-f148363c-d44a-403b-8209-bcdc05057d0b</UniqueID>
@@ -528,6 +705,320 @@
     <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
+  <Step>
+    <UniqueID>ST-b4a8ef7f-6807-4d3d-be86-17ef4a986675</UniqueID>
+    <ParentID>MSS-2b5a7b3b-6374-4d15-a0ba-e57531d211ab</ParentID>
+    <Description />
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0e0af7b4-e04f-48f6-b838-d622ab638ea0</UniqueID>
+    <ParentID>MSS-8568f6a0-b0ed-4d90-96ca-b62a882e6fd6</ParentID>
+    <Description>Системата е изчислила сметката на масата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e5 \'e8\'e7\'f7\'e8\'f1\'eb\'e8\'eb\'e0 \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4c7bf06c-88d5-4832-9eac-cb2c0df6a13f</UniqueID>
+    <ParentID>MSS-8568f6a0-b0ed-4d90-96ca-b62a882e6fd6</ParentID>
+    <Description>Клиента отваря сметката.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'e0 \'ee\'f2\'e2\'e0\'f0\'ff \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1b310f7a-63b4-40ae-a21a-bc25f0b65a02</UniqueID>
+    <ParentID>MSS-8568f6a0-b0ed-4d90-96ca-b62a882e6fd6</ParentID>
+    <Description>Клиента преглежда общата сметка на масата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e6\'e4\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3ea3faee-47cd-4521-84ce-ec3b79548206</UniqueID>
+    <ParentID>MSS-0291cbe2-6d05-442d-b24e-4b37b5e962a4</ParentID>
+    <Description>Системата е изчислила общата сметка на масата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e5 \'e8\'e7\'f7\'e8\'f1\'eb\'e8\'eb\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-31bdedac-c0b4-4272-80dc-e20ebe020a38</UniqueID>
+    <ParentID>MSS-0291cbe2-6d05-442d-b24e-4b37b5e962a4</ParentID>
+    <Description>Клиентът отваря общата сметка и маркира продуктите, който е консумурал.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'e8 \'ec\'e0\'f0\'ea\'e8\'f0\'e0 \'ef\'f0\'ee\'e4\'f3\'ea\'f2\'e8\'f2\'e5, \'ea\'ee\'e9\'f2\'ee \'e5 \'ea\'ee\'ed\'f1\'f3\'ec\'f3\'f0\'e0\'eb.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e9c91e02-d48a-496f-a008-a296c7c17e40</UniqueID>
+    <ParentID>MSS-0291cbe2-6d05-442d-b24e-4b37b5e962a4</ParentID>
+    <Description>Системата изчислява индивидуалната сметка на клиента и визиализира сумата. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e8\'e7\'f7\'e8\'f1\'eb\'ff\'e2\'e0 \'e8\'ed\'e4\'e8\'e2\'e8\'e4\'f3\'e0\'eb\'ed\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'e8 \'e2\'e8\'e7\'e8\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'f1\'f3\'ec\'e0\'f2\'e0. \cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e6515d04-db75-447a-9950-2c2a77104b30</UniqueID>
+    <ParentID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</ParentID>
+    <Description>Приложението е стартирано.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e5 \'f1\'f2\'e0\'f0\'f2\'e8\'f0\'e0\'ed\'ee.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-822723e0-543f-4c77-8cb7-ee8d093742b7</UniqueID>
+    <ParentID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</ParentID>
+    <Description>Клиентът е поръчал и консумирал даден акрикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e5 \'ef\'ee\'f0\'fa\'f7\'e0\'eb \'e8 \'ea\'ee\'ed\'f1\'f3\'ec\'e8\'f0\'e0\'eb \'e4\'e0\'e4\'e5\'ed \'e0\'ea\'f0\'e8\'ea\'f3\'eb.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bc2f5368-7048-47c8-a1b8-5678115983d3</UniqueID>
+    <ParentID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</ParentID>
+    <Description>Клиентът отваря дадено ястие и се визуализира форма със 5 звездички,където той да въведе своята оценка.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'e4\'e0\'e4\'e5\'ed\'ee \'ff\'f1\'f2\'e8\'e5 \'e8 \'f1\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'f4\'ee\'f0\'ec\'e0 \'f1\'fa\'f1 5 \'e7\'e2\'e5\'e7\'e4\'e8\'f7\'ea\'e8,\'ea\'fa\'e4\'e5\'f2\'ee \'f2\'ee\'e9 \'e4\'e0 \'e2\'fa\'e2\'e5\'e4\'e5 \'f1\'e2\'ee\'ff\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e118dc1a-cebf-4c64-aa98-834b52ea18c4</UniqueID>
+    <ParentID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</ParentID>
+    <Description>Клиентът въвежда оценката си за дадения артикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e2\'fa\'e2\'e5\'e6\'e4\'e0 \'ee\'f6\'e5\'ed\'ea\'e0\'f2\'e0 \'f1\'e8 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3828dff6-ee4b-4710-bf9f-0699dcc6ef2d</UniqueID>
+    <ParentID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</ParentID>
+    <Description>Клиентът вижда общата оценка за дадения артикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e2\'e8\'e6\'e4\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ae565a40-012f-4268-8f2d-c3948f93aad4</UniqueID>
+    <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
+    <Description>Приложението е стартирано.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e5 \'f1\'f2\'e0\'f0\'f2\'e8\'f0\'e0\'ed\'ee.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-95a5fff9-6364-492d-919f-feee6b3744da</UniqueID>
+    <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
+    <Description>Клиентът е поръчал и консумирал даден акрикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e5 \'ef\'ee\'f0\'fa\'f7\'e0\'eb \'e8 \'ea\'ee\'ed\'f1\'f3\'ec\'e8\'f0\'e0\'eb \'e4\'e0\'e4\'e5\'ed \'e0\'ea\'f0\'e8\'ea\'f3\'eb.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-19249b93-5e99-426b-ac78-d8e7ce9fb827</UniqueID>
+    <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
+    <Description>Клиентът отваря дадено ястие и се визуализира форма за писане на коментар за дадения артикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'e4\'e0\'e4\'e5\'ed\'ee \'ff\'f1\'f2\'e8\'e5 \'e8 \'f1\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'f4\'ee\'f0\'ec\'e0 \'e7\'e0 \'ef\'e8\'f1\'e0\'ed\'e5 \'ed\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3de4a025-6e9e-430d-a760-686bdc4a6eec</UniqueID>
+    <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
+    <Description>Клиентът написва коментара си дадения артикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e0\'ef\'e8\'f1\'e2\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e0 \'f1\'e8 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-36fbcf43-9c18-459e-8112-693d58805473</UniqueID>
+    <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
+    <Description>Клиентът вижда всички коментари за дадения артикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e2\'e8\'e6\'e4\'e0 \'e2\'f1\'e8\'f7\'ea\'e8 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e8 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-c89efe07-d027-47a9-a844-13ddb9c5af7a</UniqueID>
+    <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
+    <Description>Приложението е стартирано.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e5 \'f1\'f2\'e0\'f0\'f2\'e8\'f0\'e0\'ed\'ee.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a39b9569-36f4-4704-9d66-dc6d4ee93134</UniqueID>
+    <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
+    <Description>Клиентът е получил и платил сметката.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e5 \'ef\'ee\'eb\'f3\'f7\'e8\'eb \'e8 \'ef\'eb\'e0\'f2\'e8\'eb \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-13cc14aa-3cda-464d-bacc-a19520cc3f77</UniqueID>
+    <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
+    <Description>Клиентът отваря форма за коментар за заведението и облуждането.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'f4\'ee\'f0\'ec\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e4\'e0\'ed\'e5\'f2\'ee.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-96e3195f-4875-49ba-a00b-e3bd840cb804</UniqueID>
+    <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
+    <Description>Клиентът попълва формата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ef\'ee\'ef\'fa\'eb\'e2\'e0 \'f4\'ee\'f0\'ec\'e0\'f2\'e0.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-33e466c1-3dfe-43da-bc88-f110cfd1d9df</UniqueID>
+    <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
+    <Description>Клиентът вижда всички коментари за заведението и облужването.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e2\'e8\'e6\'e4\'e0 \'e2\'f1\'e8\'f7\'ea\'e8 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e8 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3dd3bcc2-b5dc-46c8-b9ba-145a18862b7a</UniqueID>
+    <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
+    <Description>Приложението е стартирано.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e5 \'f1\'f2\'e0\'f0\'f2\'e8\'f0\'e0\'ed\'ee.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1b6f3f8c-7433-465c-97d1-b1a57703ebeb</UniqueID>
+    <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
+    <Description>Клиентът е получил и платил сметката.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e5 \'ef\'ee\'eb\'f3\'f7\'e8\'eb \'e8 \'ef\'eb\'e0\'f2\'e8\'eb \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0f35e044-8858-44aa-b8a2-d39fd38a0c91</UniqueID>
+    <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
+    <Description>Клиентът отваря анкета за заведението и облуждането.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'e0\'ed\'ea\'e5\'f2\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e4\'e0\'ed\'e5\'f2\'ee.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7259b47e-cfc4-492c-a548-46436fd0f3f8</UniqueID>
+    <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
+    <Description>Клиентът попълва анкетата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ef\'ee\'ef\'fa\'eb\'e2\'e0 \'e0\'ed\'ea\'e5\'f2\'e0\'f2\'e0.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1b84cb02-d217-4bcf-a18f-bca2023cbdd6</UniqueID>
+    <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
+    <Description>Клиентът вижда всички коментари за заведението и облужването.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e2\'e8\'e6\'e4\'e0 \'e2\'f1\'e8\'f7\'ea\'e8 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e8 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
   <Extension>
     <UniqueID>X-b8ace3aa-2d95-4674-b7fe-10e14b38a2f1</UniqueID>
     <ParentID>ST-a590ef8e-5bb6-4225-9b4c-b4ac3d391d4e</ParentID>
@@ -550,13 +1041,258 @@
     <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Extension>
+  <Extension>
+    <UniqueID>X-1d73ca2f-41bd-4875-b1c8-83d48a9b86bf</UniqueID>
+    <ParentID>ST-0e0af7b4-e04f-48f6-b838-d622ab638ea0</ParentID>
+    <Description>Системата не е успяла да изчисли сметката на масата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e5 \'f3\'f1\'ef\'ff\'eb\'e0 \'e4\'e0 \'e8\'e7\'f7\'e8\'f1\'eb\'e8 \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-555d29f1-d902-4d30-ab38-9373e004b472</UniqueID>
+    <ParentID>ST-1b310f7a-63b4-40ae-a21a-bc25f0b65a02</ParentID>
+    <Description>Клиента не може да види общата сметка на масата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'e0 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e2\'e8\'e4\'e8 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-8de32e95-8043-4b92-9bf0-ddc21b2dc0a5</UniqueID>
+    <ParentID>ST-3ea3faee-47cd-4521-84ce-ec3b79548206</ParentID>
+    <Description>Системата не е успяла да изчисли общата сметка на масата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e5 \'f3\'f1\'ef\'ff\'eb\'e0 \'e4\'e0 \'e8\'e7\'f7\'e8\'f1\'eb\'e8 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-10a9b022-3e84-4045-86ec-17f1095bc4ae</UniqueID>
+    <ParentID>ST-31bdedac-c0b4-4272-80dc-e20ebe020a38</ParentID>
+    <Description>Системата не може да отвори общата сметка.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-25d11b0f-628f-4ed1-b2c8-63077fde5707</UniqueID>
+    <ParentID>ST-31bdedac-c0b4-4272-80dc-e20ebe020a38</ParentID>
+    <Description>Системата не позволява на клиента да маркира консумираните продукти.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'ef\'ee\'e7\'e2\'ee\'eb\'ff\'e2\'e0 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'e4\'e0 \'ec\'e0\'f0\'ea\'e8\'f0\'e0 \'ea\'ee\'ed\'f1\'f3\'ec\'e8\'f0\'e0\'ed\'e8\'f2\'e5 \'ef\'f0\'ee\'e4\'f3\'ea\'f2\'e8.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-9dc0e557-312b-47ae-aacd-8fa0f7610bf4</UniqueID>
+    <ParentID>ST-e9c91e02-d48a-496f-a008-a296c7c17e40</ParentID>
+    <Description>Системата не може да изчисли индивидуалната сметка на клиента.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e8\'e7\'f7\'e8\'f1\'eb\'e8 \'e8\'ed\'e4\'e8\'e2\'e8\'e4\'f3\'e0\'eb\'ed\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-31a4ddc7-894c-4235-ac7b-7738aedb9f49</UniqueID>
+    <ParentID>ST-bc2f5368-7048-47c8-a1b8-5678115983d3</ParentID>
+    <Description>Клиентът не може да отвори дадено ястие и формата за оценяване към него.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'e4\'e0\'e4\'e5\'ed\'ee \'ff\'f1\'f2\'e8\'e5 \'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ee\'f6\'e5\'ed\'ff\'e2\'e0\'ed\'e5 \'ea\'fa\'ec \'ed\'e5\'e3\'ee.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-40a67a55-244c-42c0-8dcd-1db0ea646d98</UniqueID>
+    <ParentID>ST-e118dc1a-cebf-4c64-aa98-834b52ea18c4</ParentID>
+    <Description>Клиентът не може да въведе оценка за дадения артикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e2\'fa\'e2\'e5\'e4\'e5 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-4a360e67-ef22-4a1a-9e4d-6c00e5d93767</UniqueID>
+    <ParentID>ST-3828dff6-ee4b-4710-bf9f-0699dcc6ef2d</ParentID>
+    <Description>Системата не визуализира общата оценка за артикула.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-7fb1d912-d922-4105-9d01-c17e05c844a8</UniqueID>
+    <ParentID>ST-19249b93-5e99-426b-ac78-d8e7ce9fb827</ParentID>
+    <Description>Клиентът не може да отвори дадено ястие и формата за коментар към него.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'e4\'e0\'e4\'e5\'ed\'ee \'ff\'f1\'f2\'e8\'e5 \'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'ea\'fa\'ec \'ed\'e5\'e3\'ee.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-d85ee1f6-5487-46d1-8f3f-8749394e734c</UniqueID>
+    <ParentID>ST-3de4a025-6e9e-430d-a760-686bdc4a6eec</ParentID>
+    <Description>Клиентът не може да въведе коментар за дадения артикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e2\'fa\'e2\'e5\'e4\'e5 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-4437168a-c372-4a73-a297-5f8261c593c6</UniqueID>
+    <ParentID>ST-36fbcf43-9c18-459e-8112-693d58805473</ParentID>
+    <Description>Системата не визуализира общата оценка за артикула.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-acbbcf3d-0289-4b59-b1ba-cb487d4ca05f</UniqueID>
+    <ParentID>ST-3de4a025-6e9e-430d-a760-686bdc4a6eec</ParentID>
+    <Description>Клиентът не иска да въведе коментар и пропуска формата за коментар.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'e8\'f1\'ea\'e0 \'e4\'e0 \'e2\'fa\'e2\'e5\'e4\'e5 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e8 \'ef\'f0\'ee\'ef\'f3\'f1\'ea\'e0 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-c9ca029c-5145-429f-95b1-27447e6d52eb</UniqueID>
+    <ParentID>ST-13cc14aa-3cda-464d-bacc-a19520cc3f77</ParentID>
+    <Description>Клиентът не може да отвори  формата за коментар за заведението и облуждането</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8  \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e4\'e0\'ed\'e5\'f2\'ee\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-682192bc-bfb3-46fe-b1a3-80659a27f6c5</UniqueID>
+    <ParentID>ST-96e3195f-4875-49ba-a00b-e3bd840cb804</ParentID>
+    <Description>Клиентът не може да попълни формата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'ee\'ef\'fa\'eb\'ed\'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-ca94bf66-a508-4bb7-aa45-dc0836a0793d</UniqueID>
+    <ParentID>ST-96e3195f-4875-49ba-a00b-e3bd840cb804</ParentID>
+    <Description>Клиентът не иска да попълни формата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'e8\'f1\'ea\'e0 \'e4\'e0 \'ef\'ee\'ef\'fa\'eb\'ed\'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-fdfd1c69-42b5-4811-af8c-6805293de12c</UniqueID>
+    <ParentID>ST-33e466c1-3dfe-43da-bc88-f110cfd1d9df</ParentID>
+    <Description>Системата не визуализира коментарите за заведението и облужването.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e8\'f2\'e5 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-ac5980db-b339-40a4-9b1e-a5d713b82b79</UniqueID>
+    <ParentID>ST-0f35e044-8858-44aa-b8a2-d39fd38a0c91</ParentID>
+    <Description>Клиентът не може да отвори  формата за коментар за заведението и облуждането</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8  \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e4\'e0\'ed\'e5\'f2\'ee\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-d01a4203-4509-4e7f-a6a7-d4f27ea049c0</UniqueID>
+    <ParentID>ST-7259b47e-cfc4-492c-a548-46436fd0f3f8</ParentID>
+    <Description>Клиентът не може да попълни формата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'ee\'ef\'fa\'eb\'ed\'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-41b8aa35-ac9f-4065-b829-c3a2d565a5ac</UniqueID>
+    <ParentID>ST-7259b47e-cfc4-492c-a548-46436fd0f3f8</ParentID>
+    <Description>Клиентът не иска да попълни формата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'e8\'f1\'ea\'e0 \'e4\'e0 \'ef\'ee\'ef\'fa\'eb\'ed\'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-bcfa0603-bc20-4c5d-85da-9e77374ecbbb</UniqueID>
+    <ParentID>ST-1b84cb02-d217-4bcf-a18f-bca2023cbdd6</ParentID>
+    <Description>Системата не визуализира коментарите за заведението и облужването.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e8\'f2\'e5 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
   <UserID>
     <DefaultPrefix>UC-</DefaultPrefix>
-    <NextValue>3</NextValue>
+    <NextValue>14</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-</DefaultPrefix>
-    <NextValue>7</NextValue>
+    <NextValue>9</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-</DefaultPrefix>
