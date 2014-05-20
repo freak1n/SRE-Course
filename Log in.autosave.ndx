@@ -64,7 +64,7 @@
                         </Offset>
                       </TextStyle>
                     </Style>
-                    <Transform M11="1" M12="0" M21="0" M22="1" DX="98.09524" DY="38.3333359" />
+                    <Transform M11="1" M12="0" M21="0" M22="1" DX="88.571434" DY="38.33334" />
                     <PinAlignment PercentX="69.99999" PercentY="-7.14285" />
                     <ModelBounds X="11.4285631" Y="19.9999962" Width="47.6190376" Height="83.33333" />
                     <Nodes>
