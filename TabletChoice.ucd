@@ -103,7 +103,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:34:35.3177123+03:00</DateAdded>
-    <DateModified>2014-05-20T18:10:14.0716809+03:00</DateModified>
+    <DateModified>2014-05-22T00:19:19.7727799+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-5d16630e-3421-424a-8965-99b228e535da</UniqueID>
@@ -309,6 +309,131 @@
     <DateAdded>2014-05-20T11:29:34.0145892+03:00</DateAdded>
     <DateModified>2014-05-20T11:51:08.071605+03:00</DateModified>
   </UseCase>
+  <UseCase>
+    <UniqueID>UC-63b30154-c329-4bcb-a306-4a3da0eb31b6</UniqueID>
+    <UserID>UC-22</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Изтриване на катеогория</Name>
+    <Description>Изтрива категория перманентно</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'f2\'f0\'e8\'e2\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'ef\'e5\'f0\'ec\'e0\'ed\'e5\'ed\'f2\'ed\'ee\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-21T23:55:38.5944931+03:00</DateAdded>
+    <DateModified>2014-05-22T00:07:50.8793774+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-ffa533ea-f329-4610-a664-408778e5e347</UniqueID>
+    <UserID>UC-23</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Редакция на категория</Name>
+    <Description>Редакция на името и описанието на категория от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e4\'e0\'ea\'f6\'e8\'ff \'ed\'e0 \'e8\'ec\'e5\'f2\'ee \'e8 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\'f2\'ee \'ed\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>15</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-21T23:59:37.2011407+03:00</DateAdded>
+    <DateModified>2014-05-22T00:05:22.6018965+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-8ce70b41-a516-4c55-8dc8-9cfd21eee6c4</UniqueID>
+    <UserID>UC-24</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Добавяне на артикул</Name>
+    <Description>Добавя артикул в менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c4\'ee\'e1\'e0\'e2\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'e2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>16</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T00:07:57.2647427+03:00</DateAdded>
+    <DateModified>2014-05-22T00:09:56.7725781+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-d8292d38-f9cf-4657-868f-92a7739620c2</UniqueID>
+    <UserID>UC-25</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Изтриване на артикул</Name>
+    <Description>Изтрива артикул от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'f2\'f0\'e8\'e2\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>17</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T00:10:55.3159266+03:00</DateAdded>
+    <DateModified>2014-05-22T00:15:41.4742939+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</UniqueID>
+    <UserID>UC-26</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Редакция на артикул</Name>
+    <Description>Редактира артикул от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>18</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T00:10:55.3159266+03:00</DateAdded>
+    <DateModified>2014-05-22T00:19:52.4386483+03:00</DateModified>
+  </UseCase>
   <Actor>
     <UniqueID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</UniqueID>
     <UserID>A-1</UserID>
@@ -317,24 +442,14 @@
     <Sequence>0</Sequence>
     <Complexity />
     <DateAdded>2014-05-15T21:15:17.9612484+03:00</DateAdded>
-    <DateModified>2014-05-20T18:20:33.6831207+03:00</DateModified>
-  </Actor>
-  <Actor>
-    <UniqueID>A-5e2ee41d-4e78-4554-8b24-2ba9eb38fe29</UniqueID>
-    <UserID>A-2</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>рвитьор</Name>
-    <Sequence>1</Sequence>
-    <Complexity />
-    <DateAdded>2014-05-15T21:15:30.4989656+03:00</DateAdded>
-    <DateModified>2014-05-20T18:22:07.2234709+03:00</DateModified>
+    <DateModified>2014-05-22T00:02:58.862675+03:00</DateModified>
   </Actor>
   <Actor>
     <UniqueID>A-5dd8979f-90cd-4d88-a8a2-63435a5f6d26</UniqueID>
     <UserID>A-3</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Барман</Name>
-    <Sequence>2</Sequence>
+    <Sequence>1</Sequence>
     <Complexity />
     <DateAdded>2014-05-15T21:15:42.4186473+03:00</DateAdded>
     <DateModified>2014-05-15T21:15:51.574171+03:00</DateModified>
@@ -344,7 +459,7 @@
     <UserID>A-4</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Готвач</Name>
-    <Sequence>3</Sequence>
+    <Sequence>2</Sequence>
     <Complexity />
     <DateAdded>2014-05-15T21:15:53.2432665+03:00</DateAdded>
     <DateModified>2014-05-15T21:16:01.9877666+03:00</DateModified>
@@ -354,7 +469,7 @@
     <UserID>A-5</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Клиент</Name>
-    <Sequence>4</Sequence>
+    <Sequence>3</Sequence>
     <Complexity />
     <DateAdded>2014-05-15T21:16:08.5821438+03:00</DateAdded>
     <DateModified>2014-05-15T21:16:13.131404+03:00</DateModified>
@@ -364,7 +479,7 @@
     <UserID>A-6</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Сервитьор</Name>
-    <Sequence>5</Sequence>
+    <Sequence>4</Sequence>
     <DateAdded>2014-05-15T21:18:05.7678464+03:00</DateAdded>
     <DateModified>2014-05-15T21:18:38.769734+03:00</DateModified>
   </Actor>
@@ -373,7 +488,7 @@
     <UserID>A-8</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Клиент</Name>
-    <Sequence>6</Sequence>
+    <Sequence>5</Sequence>
     <DateAdded>2014-05-17T17:11:33.7406906+03:00</DateAdded>
     <DateModified>2014-05-20T17:59:05.5484436+03:00</DateModified>
   </Actor>
@@ -400,6 +515,22 @@
     <Sequence>0</Sequence>
     <FileName>Обща сметка.ndx</FileName>
     <Type>0</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-9c419fee-4892-4740-81ac-bd600bde622e</UniqueID>
+    <ParentID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ParentID>
+    <Name>menu_administration</Name>
+    <Sequence>0</Sequence>
+    <FileName>menu_administration.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-3d43a166-e5a5-47f2-81d8-e5e5abd0c990</UniqueID>
+    <ParentID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</ParentID>
+    <Name>Activity Diagram</Name>
+    <Sequence>0</Sequence>
+    <FileName>РедакцияНаАртикулActivityDiagram.ndx</FileName>
+    <Type>1</Type>
   </Diagram>
   <UCActor>
     <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
@@ -483,17 +614,37 @@
   </UCActor>
   <UCActor>
     <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
-    <ActorID>A-5e2ee41d-4e78-4554-8b24-2ba9eb38fe29</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
     <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
     <Kind>0</Kind>
   </UCActor>
   <UCActor>
     <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
     <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-63b30154-c329-4bcb-a306-4a3da0eb31b6</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-ffa533ea-f329-4610-a664-408778e5e347</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8ce70b41-a516-4c55-8dc8-9cfd21eee6c4</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-d8292d38-f9cf-4657-868f-92a7739620c2</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
     <Kind>0</Kind>
   </UCActor>
   <Scenario>
@@ -551,6 +702,26 @@
   <Scenario>
     <UniqueID>MSS-705ab59a-8d6a-4e62-a662-54f420cef9df</UniqueID>
     <ParentID>UC-f1b3e280-1f57-48e4-875a-84f0b94ac3fe</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-23417514-9321-4c33-ab0d-e635b0a4be6e</UniqueID>
+    <ParentID>UC-63b30154-c329-4bcb-a306-4a3da0eb31b6</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</UniqueID>
+    <ParentID>UC-ffa533ea-f329-4610-a664-408778e5e347</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</UniqueID>
+    <ParentID>UC-8ce70b41-a516-4c55-8dc8-9cfd21eee6c4</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-7377e798-f25b-413e-954b-766d3da9f237</UniqueID>
+    <ParentID>UC-d8292d38-f9cf-4657-868f-92a7739620c2</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-a5d1aeff-e58d-4724-be38-6084422c76bf</UniqueID>
+    <ParentID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</ParentID>
   </Scenario>
   <Requirement>
     <UniqueID>REQ-f148363c-d44a-403b-8209-bcdc05057d0b</UniqueID>
@@ -1795,6 +1966,255 @@
     <Sequence>3</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
+  <Step>
+    <UniqueID>ST-afe75a63-5da6-46e5-bdac-10548a856ff5</UniqueID>
+    <ParentID>MSS-23417514-9321-4c33-ab0d-e635b0a4be6e</ParentID>
+    <Description>Отваря дървото с категориите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ce\'f2\'e2\'e0\'f0\'ff \'e4\'fa\'f0\'e2\'ee\'f2\'ee \'f1 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3b7e484d-ecba-4fd1-be3a-731b5fd8051f</UniqueID>
+    <ParentID>MSS-23417514-9321-4c33-ab0d-e635b0a4be6e</ParentID>
+    <Description>Маркирата избраната категория</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cc\'e0\'f0\'ea\'e8\'f0\'e0\'f2\'e0 \'e8\'e7\'e1\'f0\'e0\'ed\'e0\'f2\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-97a18ebd-dd3d-4b30-8051-f38ebd2fc832</UniqueID>
+    <ParentID>MSS-23417514-9321-4c33-ab0d-e635b0a4be6e</ParentID>
+    <Description>Избира "Изтрий"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c8\'e7\'f2\'f0\'e8\'e9"\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ea9f8db9-ffc2-4555-ae13-490c9f643a36</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description>Отваря дървото с категориите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ce\'f2\'e2\'e0\'f0\'ff \'e4\'fa\'f0\'e2\'ee\'f2\'ee \'f1 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fa158a37-e1e4-49c9-829c-66874b8c8cf3</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description>Маркирата избраната категория</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cc\'e0\'f0\'ea\'e8\'f0\'e0\'f2\'e0 \'e8\'e7\'e1\'f0\'e0\'ed\'e0\'f2\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bba0f0d4-06cb-4c42-81ff-3d736de823a3</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description>Избира "Редактирай"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'d0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0\'e9"\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-acab4708-ea35-4b19-8083-46e7fe1118d0</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description>Редактира</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-348ef922-f55e-4196-9767-a9e63a3701fb</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description>Избира "Запиши"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c7\'e0\'ef\'e8\'f8\'e8"\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0d77aca6-0b46-4a06-a6d1-e0a9f0124a80</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description />
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-640b8926-c9c6-4677-a59a-f0de48421c90</UniqueID>
+    <ParentID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</ParentID>
+    <Description>Избира "Добави артикул"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c4\'ee\'e1\'e0\'e2\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb"\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9046feb1-6bb4-41b6-80bf-43b621d7e9d3</UniqueID>
+    <ParentID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</ParentID>
+    <Description>Въвежда информацията за артикула</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'fa\'e2\'e5\'e6\'e4\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff\'f2\'e0 \'e7\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fbaf7500-6307-4e1b-bce1-beb05af5149d</UniqueID>
+    <ParentID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</ParentID>
+    <Description>Избира категориите, в които да се включи артикула</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5, \'e2 \'ea\'ee\'e8\'f2\'ee \'e4\'e0 \'f1\'e5 \'e2\'ea\'eb\'fe\'f7\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0719faa7-67d9-4562-92c1-d6b927e01c3d</UniqueID>
+    <ParentID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</ParentID>
+    <Description>Избира "Запиши"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c7\'e0\'ef\'e8\'f8\'e8"\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-63b360eb-742a-4339-a347-4ddca9fee400</UniqueID>
+    <ParentID>MSS-7377e798-f25b-413e-954b-766d3da9f237</ParentID>
+    <Description>Намира продуктът</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cd\'e0\'ec\'e8\'f0\'e0 \'ef\'f0\'ee\'e4\'f3\'ea\'f2\'fa\'f2\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0aab481a-adfa-4e68-ba2f-0e2468b92348</UniqueID>
+    <ParentID>MSS-7377e798-f25b-413e-954b-766d3da9f237</ParentID>
+    <Description>Избира "Изтрий"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c8\'e7\'f2\'f0\'e8\'e9"\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2f9d5911-2f31-42b4-a504-239483d66d7d</UniqueID>
+    <ParentID>X-f39810b0-8d80-440f-ab4e-ca03ba4058f0</ParentID>
+    <Description>намира категория в която артикулът е добавен</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ed\'e0\'ec\'e8\'f0\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'e2 \'ea\'ee\'ff\'f2\'ee \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'fa\'f2 \'e5 \'e4\'ee\'e1\'e0\'e2\'e5\'ed\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f8ddce3c-3a14-4403-8174-21d88d9d760e</UniqueID>
+    <ParentID>X-f39810b0-8d80-440f-ab4e-ca03ba4058f0</ParentID>
+    <Description>маркира артикула</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ec\'e0\'f0\'ea\'e8\'f0\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d2f5a4af-7ab1-4949-8585-f1fd71b8125a</UniqueID>
+    <ParentID>MSS-a5d1aeff-e58d-4724-be38-6084422c76bf</ParentID>
+    <Description>Намира продуктът</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cd\'e0\'ec\'e8\'f0\'e0 \'ef\'f0\'ee\'e4\'f3\'ea\'f2\'fa\'f2\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8f13ab70-9f2d-4d0c-a522-78d14295b3a0</UniqueID>
+    <ParentID>X-b9a73e6f-e7ed-4d61-ac5e-91684d47fb8c</ParentID>
+    <Description>намира категория в която артикулът е добавен</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ed\'e0\'ec\'e8\'f0\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'e2 \'ea\'ee\'ff\'f2\'ee \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'fa\'f2 \'e5 \'e4\'ee\'e1\'e0\'e2\'e5\'ed\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-929c0e86-0c45-4b5e-ab96-12aa3a79f9f5</UniqueID>
+    <ParentID>X-b9a73e6f-e7ed-4d61-ac5e-91684d47fb8c</ParentID>
+    <Description>маркира артикула</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ec\'e0\'f0\'ea\'e8\'f0\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d1bf9fdc-27c5-421b-9504-125f500be441</UniqueID>
+    <ParentID>MSS-a5d1aeff-e58d-4724-be38-6084422c76bf</ParentID>
+    <Description>Избира "Редактирай"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'d0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0\'e9"\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3d9f0d41-6551-46eb-8a7f-ba8b71d611da</UniqueID>
+    <ParentID>MSS-a5d1aeff-e58d-4724-be38-6084422c76bf</ParentID>
+    <Description>Редактира желаната информация</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0 \'e6\'e5\'eb\'e0\'ed\'e0\'f2\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5cee14f9-2b88-426c-9d23-9438036ac799</UniqueID>
+    <ParentID>MSS-a5d1aeff-e58d-4724-be38-6084422c76bf</ParentID>
+    <Description>Избира "Запиши"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c7\'e0\'ef\'e8\'f8\'e8"\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
   <Extension>
     <UniqueID>X-b8ace3aa-2d95-4674-b7fe-10e14b38a2f1</UniqueID>
     <ParentID>ST-a590ef8e-5bb6-4225-9b4c-b4ac3d391d4e</ParentID>
@@ -2250,9 +2670,75 @@
     <Sequence>0</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Extension>
+  <Extension>
+    <UniqueID>X-171b5096-9a8d-427a-aafe-79941228fda9</UniqueID>
+    <ParentID>ST-9046feb1-6bb4-41b6-80bf-43b621d7e9d3</ParentID>
+    <Description>добавя артикула в "Препоръчани"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'e4\'ee\'e1\'e0\'e2\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0 \'e2 "\'cf\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8"\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-f39810b0-8d80-440f-ab4e-ca03ba4058f0</UniqueID>
+    <ParentID>ST-63b360eb-742a-4339-a347-4ddca9fee400</ParentID>
+    <Description>през категориите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ef\'f0\'e5\'e7 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-e280ade5-b8a4-4a27-972d-a9cbecd09213</UniqueID>
+    <ParentID>ST-63b360eb-742a-4339-a347-4ddca9fee400</ParentID>
+    <Description>използва търсачката</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'e8\'e7\'ef\'ee\'eb\'e7\'e2\'e0 \'f2\'fa\'f0\'f1\'e0\'f7\'ea\'e0\'f2\'e0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-b9a73e6f-e7ed-4d61-ac5e-91684d47fb8c</UniqueID>
+    <ParentID>ST-d2f5a4af-7ab1-4949-8585-f1fd71b8125a</ParentID>
+    <Description>през категориите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ef\'f0\'e5\'e7 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-5b5715c9-e389-4d8e-99f1-9fb3cbb0a9b2</UniqueID>
+    <ParentID>ST-d2f5a4af-7ab1-4949-8585-f1fd71b8125a</ParentID>
+    <Description>използва търсачката</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'e8\'e7\'ef\'ee\'eb\'e7\'e2\'e0 \'f2\'fa\'f0\'f1\'e0\'f7\'ea\'e0\'f2\'e0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-b15314e2-2ef7-4e8d-88d7-afee1e96bb1d</UniqueID>
+    <ParentID>ST-3d9f0d41-6551-46eb-8a7f-ba8b71d611da</ParentID>
+    <Description>добавя или премахва от списъка с препоръчани</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'e4\'ee\'e1\'e0\'e2\'ff \'e8\'eb\'e8 \'ef\'f0\'e5\'ec\'e0\'f5\'e2\'e0 \'ee\'f2 \'f1\'ef\'e8\'f1\'fa\'ea\'e0 \'f1 \'ef\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
   <UserID>
     <DefaultPrefix>UC-</DefaultPrefix>
-    <NextValue>22</NextValue>
+    <NextValue>27</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-</DefaultPrefix>
