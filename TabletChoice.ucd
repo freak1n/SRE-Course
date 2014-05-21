@@ -61,7 +61,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:11:50.0146214+03:00</DateAdded>
-    <DateModified>2014-05-20T18:01:50.3678707+03:00</DateModified>
+    <DateModified>2014-05-21T21:40:56.2732905+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</UniqueID>
@@ -309,6 +309,16 @@
     <DateAdded>2014-05-20T11:29:34.0145892+03:00</DateAdded>
     <DateModified>2014-05-20T11:51:08.071605+03:00</DateModified>
   </UseCase>
+  <UseCase>
+    <UniqueID>UC-46e0104d-1dcf-4be3-b55d-8753881840b7</UniqueID>
+    <UserID>UC-20</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>New Use Case</Name>
+    <Sequence>14</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2014-05-21T21:39:12.6379057+03:00</DateAdded>
+    <DateModified>2014-05-21T21:39:12.6479058+03:00</DateModified>
+  </UseCase>
   <Actor>
     <UniqueID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</UniqueID>
     <UserID>A-1</UserID>
@@ -377,6 +387,24 @@
     <DateAdded>2014-05-17T17:11:33.7406906+03:00</DateAdded>
     <DateModified>2014-05-20T17:59:05.5484436+03:00</DateModified>
   </Actor>
+  <Actor>
+    <UniqueID>A-ce2a220d-a28b-420c-8dd7-040ff5b11563</UniqueID>
+    <UserID>A-9</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Haralampi</Name>
+    <Sequence>7</Sequence>
+    <DateAdded>2014-05-21T21:39:09.1869008+03:00</DateAdded>
+    <DateModified>2014-05-21T21:39:30.9319316+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-3dc7260f-71b8-4588-91a9-38da9d683533</UniqueID>
+    <UserID>A-10</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name />
+    <Sequence>8</Sequence>
+    <DateAdded>2014-05-21T21:40:59.7273028+03:00</DateAdded>
+    <DateModified>2014-05-21T21:41:13.5733225+03:00</DateModified>
+  </Actor>
   <Diagram>
     <UniqueID>D-5efb1714-73cb-4653-b395-8be94f29285b</UniqueID>
     <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
@@ -399,6 +427,22 @@
     <Name>Клиент</Name>
     <Sequence>0</Sequence>
     <FileName>Обща сметка.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-d496a311-b437-4cf7-b57a-4d2ec0a55afd</UniqueID>
+    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
+    <Name>test</Name>
+    <Sequence>0</Sequence>
+    <FileName>test.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-78a230a3-9e8f-4630-a361-a1d6ac935ff9</UniqueID>
+    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
+    <Name>go6o</Name>
+    <Sequence>1</Sequence>
+    <FileName>go6o.ndx</FileName>
     <Type>0</Type>
   </Diagram>
   <UCActor>
@@ -2098,11 +2142,11 @@
   </Extension>
   <UserID>
     <DefaultPrefix>UC-</DefaultPrefix>
-    <NextValue>20</NextValue>
+    <NextValue>21</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-</DefaultPrefix>
-    <NextValue>9</NextValue>
+    <NextValue>11</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-</DefaultPrefix>
