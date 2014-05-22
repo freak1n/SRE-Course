@@ -432,7 +432,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-22T00:10:55.3159266+03:00</DateAdded>
-    <DateModified>2014-05-22T00:15:36.194992+03:00</DateModified>
+    <DateModified>2014-05-22T00:19:52.4386483+03:00</DateModified>
   </UseCase>
   <Actor>
     <UniqueID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</UniqueID>
@@ -523,6 +523,14 @@
     <Sequence>0</Sequence>
     <FileName>menu_administration.ndx</FileName>
     <Type>0</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-3d43a166-e5a5-47f2-81d8-e5e5abd0c990</UniqueID>
+    <ParentID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</ParentID>
+    <Name>Activity Diagram</Name>
+    <Sequence>0</Sequence>
+    <FileName>РедакцияНаАртикулActivityDiagram.ndx</FileName>
+    <Type>1</Type>
   </Diagram>
   <UCActor>
     <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
@@ -1093,7 +1101,7 @@
   </Requirement>
   <Requirement>
     <UniqueID>REQ-b9b740d2-3179-4109-809c-2c69ca905f39</UniqueID>
-    <UserID>REQ-18</UserID>
+    <UserID>REQ-28</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Редактиране на категория</Name>
     <Description>Администраторът трябва да може да редактира категории от менюто</Description>
@@ -1102,7 +1110,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'f0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8 \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
 }
 </RichDescription>
-    <Sequence>17</Sequence>
+    <Sequence>25</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
     <Source />
@@ -1110,7 +1118,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2014-05-21T23:28:58.9139966+03:00</DateAdded>
-    <DateModified>2014-05-21T23:30:18.3785418+03:00</DateModified>
+    <DateModified>2014-05-22T09:33:51.9596584+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -1124,7 +1132,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e2 \'ec\'e5\'ed\'fe\'f2\'ee\par
 }
 </RichDescription>
-    <Sequence>18</Sequence>
+    <Sequence>17</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
     <Source />
@@ -1146,7 +1154,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e8\'e7\'f2\'f0\'e8\'e2\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
 }
 </RichDescription>
-    <Sequence>19</Sequence>
+    <Sequence>18</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
     <Source />
@@ -1168,7 +1176,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'f0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
 }
 </RichDescription>
-    <Sequence>20</Sequence>
+    <Sequence>19</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
     <Source />
@@ -1190,7 +1198,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e2 \'f1\'ef\'e8\'f1\'fa\'ea\'e0 \'f1 \'ef\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\par
 }
 </RichDescription>
-    <Sequence>21</Sequence>
+    <Sequence>20</Sequence>
     <Type>Functional</Type>
     <Priority>2</Priority>
     <Source />
@@ -1212,7 +1220,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'ee\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'ec\'e0\'f5\'e2\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'ee\'f2 \'f1\'ef\'e8\'f1\'fa\'ea\'e0 \'f1 \'ef\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\par
 }
 </RichDescription>
-    <Sequence>22</Sequence>
+    <Sequence>21</Sequence>
     <Type>Functional</Type>
     <Priority>2</Priority>
     <Source />
@@ -1221,6 +1229,116 @@
     <Release />
     <DateAdded>2014-05-21T23:35:27.910246+03:00</DateAdded>
     <DateModified>2014-05-21T23:37:31.1442945+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8fab773c-673c-4749-b811-4e7d43f105a7</UniqueID>
+    <UserID>REQ-27</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Добавяне на категории</Name>
+    <Description>Администраторът трябва да добавя категории</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\f1\par
+}
+</RichDescription>
+    <Sequence>24</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:24:30.6673992+03:00</DateAdded>
+    <DateModified>2014-05-22T09:33:37.9557701+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-450613c0-c65b-489c-a5e9-5395ad0231d1</UniqueID>
+    <UserID>REQ-25</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Списък с коментари - Преглед</Name>
+    <Description>Администраторът трябва да вижда списък с коментарите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0\f1  \f0\'e2\'e8\'e6\'e4\'e0 \'f1\'ef\'e8\'f1\'fa\'ea \'f1 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e8\'f2\'e5\f1\par
+}
+</RichDescription>
+    <Sequence>22</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:28:40.1307547+03:00</DateAdded>
+    <DateModified>2014-05-22T09:31:14.0854991+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-3cc0d4e7-6c8f-4369-a027-0d19550b9c1b</UniqueID>
+    <UserID>REQ-26</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Вход за сервитьор</Name>
+    <Description>Сервитьорът трябва да има възможност да  избира номера на масата, на която оставя таблета, като преди това въвежда парола</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0  \'e8\'e7\'e1\'e8\'f0\'e0 \'ed\'ee\'ec\'e5\'f0\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0, \'ed\'e0 \'ea\'ee\'ff\'f2\'ee \'ee\'f1\'f2\'e0\'e2\'ff \'f2\'e0\'e1\'eb\'e5\'f2\'e0, \'ea\'e0\'f2\'ee \'ef\'f0\'e5\'e4\'e8 \'f2\'ee\'e2\'e0 \'e2\'fa\'e2\'e5\'e6\'e4\'e0 \'ef\'e0\'f0\'ee\'eb\'e0\f1\par
+}
+</RichDescription>
+    <Sequence>23</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:31:16.0371499+03:00</DateAdded>
+    <DateModified>2014-05-22T09:33:21.3812641+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-cc5ef1db-1121-423d-80e3-ba077454bf09</UniqueID>
+    <UserID>REQ-29</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Преглед на поръчаните артикули за маса</Name>
+    <Description>Сервитьорът трябва да има възможност да вижда кои са поръчаните артикули за дадена маса.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'e2\'e8\'e6\'e4\'e0 \'ea\'ee\'e8 \'f1\'e0 \'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e0 \'ec\'e0\'f1\'e0.\par
+}
+</RichDescription>
+    <Sequence>26</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:34:06.2871551+03:00</DateAdded>
+    <DateModified>2014-05-22T09:34:34.4049737+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-484da225-43db-436d-93e5-14a1aa8f7797</UniqueID>
+    <UserID>REQ-30</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Преглед на вече занесените артикули</Name>
+    <Description>Сервитьорът трябва да има възможност да вижда кои са поръчаните артикули за дадена маса</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'e2\'e8\'e6\'e4\'e0 \'ea\'ee\'e8 \'f1\'e0 \'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e0 \'ec\'e0\'f1\'e0\f1\par
+}
+</RichDescription>
+    <Sequence>27</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:34:41.1835202+03:00</DateAdded>
+    <DateModified>2014-05-22T09:35:42.9400107+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Step>
@@ -2738,7 +2856,7 @@
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-</DefaultPrefix>
-    <NextValue>24</NextValue>
+    <NextValue>31</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>DEF-</DefaultPrefix>
