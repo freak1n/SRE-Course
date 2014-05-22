@@ -1385,6 +1385,134 @@
     <DateModified>2014-05-22T09:37:37.7052533+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c1201132-1057-44bb-83fd-2058a5070ba0</UniqueID>
+    <UserID>REQ-33</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Необходимост от мобилни устройства (таблети)</Name>
+    <Description>Клиентската част на системата е мобилно приложение и за това заведението трябва да предостави необходимия брой мобилни устройства (таблети)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'f1\'ea\'e0\'f2\'e0 \'f7\'e0\'f1\'f2 \'ed\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e5 \'ec\'ee\'e1\'e8\'eb\'ed\'ee \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5 \'e8 \'e7\'e0 \'f2\'ee\'e2\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'e8 \'ed\'e5\'ee\'e1\'f5\'ee\'e4\'e8\'ec\'e8\'ff \'e1\'f0\'ee\'e9 \'ec\'ee\'e1\'e8\'eb\'ed\'e8 \'f3\'f1\'f2\'f0\'ee\'e9\'f1\'f2\'e2\'e0 (\'f2\'e0\'e1\'eb\'e5\'f2\'e8)\f1\par
+}
+</RichDescription>
+    <Sequence>30</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:54:49.7404417+03:00</DateAdded>
+    <DateModified>2014-05-22T09:55:11.0474065+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-6dfd201d-6742-4f6c-bd9b-3386dc441b93</UniqueID>
+    <UserID>REQ-34</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Време за отговор</Name>
+    <Description>Време за отговор  при интеракциите в приложението да е  под 1 секунда.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c2\'f0\'e5\'ec\'e5 \'e7\'e0 \'ee\'f2\'e3\'ee\'e2\'ee\'f0  \'ef\'f0\'e8 \'e8\'ed\'f2\'e5\'f0\'e0\'ea\'f6\'e8\'e8\'f2\'e5 \'e2 \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e4\'e0 \'e5  \'ef\'ee\'e4 1 \'f1\'e5\'ea\'f3\'ed\'e4\'e0.\f1\par
+}
+</RichDescription>
+    <Sequence>31</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:55:54.6494881+03:00</DateAdded>
+    <DateModified>2014-05-22T09:56:12.9007057+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f474e24c-2ea4-41a9-81d1-d78f0694a965</UniqueID>
+    <UserID>REQ-35</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Защитена връзка</Name>
+    <Description>Връзката между клиента (таблета) и сървъра да се извършва през ssl (https)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c2\'f0\'fa\'e7\'ea\'e0\'f2\'e0 \'ec\'e5\'e6\'e4\'f3 \'ea\'eb\'e8\'e5\'ed\'f2\'e0 (\'f2\'e0\'e1\'eb\'e5\'f2\'e0) \'e8 \'f1\'fa\'f0\'e2\'fa\'f0\'e0 \'e4\'e0 \'f1\'e5 \'e8\'e7\'e2\'fa\'f0\'f8\'e2\'e0 \'ef\'f0\'e5\'e7 ssl (https)\f1\par
+}
+</RichDescription>
+    <Sequence>32</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:56:25.4677921+03:00</DateAdded>
+    <DateModified>2014-05-22T09:56:36.7527889+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-98ea51c2-7ea9-4e5d-9291-22c6fe44e546</UniqueID>
+    <UserID>REQ-36</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Ясно дефинирани потребители на системата</Name>
+    <Description>Ясно дефинирани роли при работата на централното устройство, което ще приема поръчките и ще пази данните за менюто. (администратор, сервитьорка, готвач и т.н.)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'df\'f1\'ed\'ee \'e4\'e5\'f4\'e8\'ed\'e8\'f0\'e0\'ed\'e8 \'f0\'ee\'eb\'e8 \'ef\'f0\'e8 \'f0\'e0\'e1\'ee\'f2\'e0\'f2\'e0 \'ed\'e0 \'f6\'e5\'ed\'f2\'f0\'e0\'eb\'ed\'ee\'f2\'ee \'f3\'f1\'f2\'f0\'ee\'e9\'f1\'f2\'e2\'ee, \'ea\'ee\'e5\'f2\'ee \'f9\'e5 \'ef\'f0\'e8\'e5\'ec\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e8\'f2\'e5 \'e8 \'f9\'e5 \'ef\'e0\'e7\'e8 \'e4\'e0\'ed\'ed\'e8\'f2\'e5 \'e7\'e0 \'ec\'e5\'ed\'fe\'f2\'ee. (\'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0, \'f1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'ea\'e0, \cf2\ul\'e3\'ee\'f2\'e2\'e0\'f7\cf1\ulnone  \'e8 \'f2.\'ed.)\f1\par
+}
+</RichDescription>
+    <Sequence>33</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:56:38.5856353+03:00</DateAdded>
+    <DateModified>2014-05-22T09:57:15.5595745+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5f65ae3d-15b7-4fae-90e3-31de67250a7f</UniqueID>
+    <UserID>REQ-37</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Изискване на операционна система</Name>
+    <Description>Системата да бъде разработена за операционната система Android</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e4\'e0 \'e1\'fa\'e4\'e5 \'f0\'e0\'e7\'f0\'e0\'e1\'ee\'f2\'e5\'ed\'e0 \'e7\'e0 \'ee\'ef\'e5\'f0\'e0\'f6\'e8\'ee\'ed\'ed\'e0\'f2\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0 Android\f1\par
+}
+</RichDescription>
+    <Sequence>34</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:57:17.2299025+03:00</DateAdded>
+    <DateModified>2014-05-22T09:57:40.7709937+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d039b83c-3b08-4a57-8fdc-51b78f5a6ce8</UniqueID>
+    <UserID>REQ-38</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Системата трябва да е разширяема</Name>
+    <Description>Трябва да има разширяемост с други системи в   зависимост от различните изисквания и различните системи. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'f0\'e0\'e7\'f8\'e8\'f0\'ff\'e5\'ec\'ee\'f1\'f2 \'f1 \'e4\'f0\'f3\'e3\'e8 \'f1\'e8\'f1\'f2\'e5\'ec\'e8 \'e2   \'e7\'e0\'e2\'e8\'f1\'e8\'ec\'ee\'f1\'f2 \'ee\'f2 \'f0\'e0\'e7\'eb\'e8\'f7\'ed\'e8\'f2\'e5 \'e8\'e7\'e8\'f1\'ea\'e2\'e0\'ed\'e8\'ff \'e8 \'f0\'e0\'e7\'eb\'e8\'f7\'ed\'e8\'f2\'e5 \'f1\'e8\'f1\'f2\'e5\'ec\'e8. \f1\par
+}
+</RichDescription>
+    <Sequence>35</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2014-05-22T09:59:19.4296945+03:00</DateAdded>
+    <DateModified>2014-05-22T09:59:40.6391733+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
   <Step>
     <UniqueID>ST-5055a332-0457-432e-bf1d-49bb3d0216ff</UniqueID>
     <ParentID>MSS-2b5a7b3b-6374-4d15-a0ba-e57531d211ab</ParentID>
@@ -2900,7 +3028,7 @@
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-</DefaultPrefix>
-    <NextValue>33</NextValue>
+    <NextValue>39</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>DEF-</DefaultPrefix>
