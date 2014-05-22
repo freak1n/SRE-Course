@@ -388,7 +388,7 @@
     <UniqueID>UC-d8292d38-f9cf-4657-868f-92a7739620c2</UniqueID>
     <UserID>UC-25</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Изтриване на артикул</Name>
+    <Name>yИзтриване на артикул</Name>
     <Description>Изтрива артикул от менюто</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 \viewkind4\uc1\pard\f0\fs20\'c8\'e7\'f2\'f0\'e8\'e2\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
@@ -407,7 +407,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-22T00:10:55.3159266+03:00</DateAdded>
-    <DateModified>2014-05-22T00:15:41.4742939+03:00</DateModified>
+    <DateModified>2014-05-22T10:18:15.8116834+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</UniqueID>
@@ -434,63 +434,129 @@
     <DateAdded>2014-05-22T00:10:55.3159266+03:00</DateAdded>
     <DateModified>2014-05-22T00:19:52.4386483+03:00</DateModified>
   </UseCase>
+  <UseCase>
+    <UniqueID>UC-32d10214-1759-4ddd-81f5-a84930fac26a</UniqueID>
+    <UserID>UC-27</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yВижда коментарите</Name>
+    <Sequence>19</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:18:33.7639474+03:00</DateAdded>
+    <DateModified>2014-05-22T10:19:27.3819778+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-65faaee7-2808-4105-8b1f-9ddc3cbefee5</UniqueID>
+    <UserID>UC-28</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yИзбиране на номер на маса преди да се даде устройството</Name>
+    <Description>yИзбира номера на масата, на която оставя таблета, като преди това въвежда парола</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 y\lang1026\f1\'c8\lang1033\'e7\'e1\'e8\'f0\'e0 \'ed\'ee\'ec\'e5\'f0\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0, \'ed\'e0 \'ea\'ee\'ff\'f2\'ee \'ee\'f1\'f2\'e0\'e2\'ff \'f2\'e0\'e1\'eb\'e5\'f2\'e0, \'ea\'e0\'f2\'ee \'ef\'f0\'e5\'e4\'e8 \'f2\'ee\'e2\'e0 \'e2\'fa\'e2\'e5\'e6\'e4\'e0 \'ef\'e0\'f0\'ee\'eb\'e0\f0\par
+}
+</RichDescription>
+    <Sequence>20</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:19:51.213997+03:00</DateAdded>
+    <DateModified>2014-05-22T10:20:40.7038594+03:00</DateModified>
+  </UseCase>
   <Actor>
     <UniqueID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</UniqueID>
     <UserID>A-1</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Администратор на системата</Name>
+    <Description>Администратор на системата - добавяне, премахване и поддържане на съдържанието на менюто. В повечето случаи това е управителят на заведението. Не се прави посредством самото мобилно приложение, а чрез външна система.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0 \'ed\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0\cf0\ulnone  - \'e4\'ee\'e1\'e0\'e2\'ff\'ed\'e5, \'ef\'f0\'e5\'ec\'e0\'f5\'e2\'e0\'ed\'e5 \'e8 \'ef\'ee\'e4\'e4\'fa\'f0\'e6\'e0\'ed\'e5 \'ed\'e0 \'f1\'fa\'e4\'fa\'f0\'e6\'e0\'ed\'e8\'e5\'f2\'ee \'ed\'e0 \'ec\'e5\'ed\'fe\'f2\'ee. \'c2 \'ef\'ee\'e2\'e5\'f7\'e5\'f2\'ee \'f1\'eb\'f3\'f7\'e0\'e8 \'f2\'ee\'e2\'e0 \'e5 \'f3\'ef\'f0\'e0\'e2\'e8\'f2\'e5\'eb\'ff\'f2 \'ed\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee. \'cd\'e5 \'f1\'e5 \'ef\'f0\'e0\'e2\'e8 \'ef\'ee\'f1\'f0\'e5\'e4\'f1\'f2\'e2\'ee\'ec \'f1\'e0\'ec\'ee\'f2\'ee \'ec\'ee\'e1\'e8\'eb\'ed\'ee \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5, \'e0 \'f7\'f0\'e5\'e7 \'e2\'fa\'ed\'f8\'ed\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0.\f1\par
+}
+</RichDescription>
     <Sequence>0</Sequence>
     <Complexity />
     <DateAdded>2014-05-15T21:15:17.9612484+03:00</DateAdded>
-    <DateModified>2014-05-22T00:02:58.862675+03:00</DateModified>
+    <DateModified>2014-05-22T10:03:08.1653151+03:00</DateModified>
   </Actor>
   <Actor>
     <UniqueID>A-5dd8979f-90cd-4d88-a8a2-63435a5f6d26</UniqueID>
     <UserID>A-3</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Барман</Name>
+    <Description>От него зисква да видят следващите поръчки, като системата принтира информация за всяка поръчка при съответния служител.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ce\'f2 \'ed\'e5\'e3\'ee \'e7\'e8\'f1\'ea\'e2\'e0 \'e4\'e0 \'e2\'e8\'e4\'ff\'f2 \'f1\'eb\'e5\'e4\'e2\'e0\'f9\'e8\'f2\'e5 \'ef\'ee\'f0\'fa\'f7\'ea\'e8, \'ea\'e0\'f2\'ee \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e8\'ed\'f2\'e8\'f0\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'e7\'e0 \'e2\'f1\'ff\'ea\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e0 \'ef\'f0\'e8 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'e8\'ff \'f1\'eb\'f3\'e6\'e8\'f2\'e5\'eb.\f1\par
+\f0\par
+}
+</RichDescription>
     <Sequence>1</Sequence>
     <Complexity />
     <DateAdded>2014-05-15T21:15:42.4186473+03:00</DateAdded>
-    <DateModified>2014-05-15T21:15:51.574171+03:00</DateModified>
+    <DateModified>2014-05-22T10:04:00.8303055+03:00</DateModified>
   </Actor>
   <Actor>
     <UniqueID>A-7b10f69c-cd1d-4fdb-b605-7d1b009bb9c4</UniqueID>
     <UserID>A-4</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Готвач</Name>
+    <Description>От него зисква да видят следващите поръчки, като системата принтира информация за всяка поръчка при съответния служител.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ce\'f2 \'ed\'e5\'e3\'ee \'e7\'e8\'f1\'ea\'e2\'e0 \'e4\'e0 \'e2\'e8\'e4\'ff\'f2 \'f1\'eb\'e5\'e4\'e2\'e0\'f9\'e8\'f2\'e5 \'ef\'ee\'f0\'fa\'f7\'ea\'e8, \'ea\'e0\'f2\'ee \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e8\'ed\'f2\'e8\'f0\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'e7\'e0 \'e2\'f1\'ff\'ea\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e0 \'ef\'f0\'e8 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'e8\'ff \'f1\'eb\'f3\'e6\'e8\'f2\'e5\'eb.\f1\par
+}
+</RichDescription>
     <Sequence>2</Sequence>
     <Complexity />
     <DateAdded>2014-05-15T21:15:53.2432665+03:00</DateAdded>
-    <DateModified>2014-05-15T21:16:01.9877666+03:00</DateModified>
+    <DateModified>2014-05-22T10:03:42.8038047+03:00</DateModified>
   </Actor>
   <Actor>
     <UniqueID>A-65e53aad-a293-4821-afb5-cd860a825195</UniqueID>
     <UserID>A-5</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Клиент</Name>
+    <Description>Това е основната целева група на приложенито с чиито изисквания трябва да се съобразим защото е разнородна група с различни технически познания. За разлика от останали целеви групи, тази не подлежи на обучение за работа с прилжението за това то трябва да е направено максимално интуитивно. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d2\'ee\'e2\'e0 \'e5 \'ee\'f1\'ed\'ee\'e2\'ed\'e0\'f2\'e0 \'f6\'e5\'eb\'e5\'e2\'e0 \'e3\'f0\'f3\'ef\'e0 \'ed\'e0 \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'f2\'ee \'f1 \'f7\'e8\'e8\'f2\'ee \'e8\'e7\'e8\'f1\'ea\'e2\'e0\'ed\'e8\'ff \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'f1\'e5 \'f1\'fa\'ee\'e1\'f0\'e0\'e7\'e8\'ec \'e7\'e0\'f9\'ee\'f2\'ee \'e5 \'f0\'e0\'e7\'ed\'ee\'f0\'ee\'e4\'ed\'e0 \'e3\'f0\'f3\'ef\'e0 \'f1 \'f0\'e0\'e7\'eb\'e8\'f7\'ed\'e8 \'f2\'e5\'f5\'ed\'e8\'f7\'e5\'f1\'ea\'e8 \'ef\'ee\'e7\'ed\'e0\'ed\'e8\'ff. \'c7\'e0 \'f0\'e0\'e7\'eb\'e8\'ea\'e0 \'ee\'f2 \'ee\'f1\'f2\'e0\'ed\'e0\'eb\'e8 \'f6\'e5\'eb\'e5\'e2\'e8 \'e3\'f0\'f3\'ef\'e8, \'f2\'e0\'e7\'e8 \'ed\'e5 \'ef\'ee\'e4\'eb\'e5\'e6\'e8 \'ed\'e0 \'ee\'e1\'f3\'f7\'e5\'ed\'e8\'e5 \'e7\'e0 \'f0\'e0\'e1\'ee\'f2\'e0 \'f1 \'ef\'f0\'e8\'eb\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e7\'e0 \'f2\'ee\'e2\'e0 \'f2\'ee \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e5 \'ed\'e0\'ef\'f0\'e0\'e2\'e5\'ed\'ee \'ec\'e0\'ea\'f1\'e8\'ec\'e0\'eb\'ed\'ee \'e8\'ed\'f2\'f3\'e8\'f2\'e8\'e2\'ed\'ee. \f1\par
+}
+</RichDescription>
     <Sequence>3</Sequence>
     <Complexity />
     <DateAdded>2014-05-15T21:16:08.5821438+03:00</DateAdded>
-    <DateModified>2014-05-15T21:16:13.131404+03:00</DateModified>
+    <DateModified>2014-05-22T10:02:50.1026991+03:00</DateModified>
   </Actor>
   <Actor>
     <UniqueID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</UniqueID>
     <UserID>A-6</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Сервитьор</Name>
+    <Description>Сервитьор - изисква се да предостави функциониращ таблет с въведена парола и номер на съответната маса, която ще бъде обслужена. При доставяне на изисканите артикули, сервитьорът отбелязва какво и къде е занесено посредством главния терминал, намиращ се на бара.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\cf0\ulnone  - \'e8\'e7\'e8\'f1\'ea\'e2\'e0 \'f1\'e5 \'e4\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'e8 \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e8\'f0\'e0\'f9 \'f2\'e0\'e1\'eb\'e5\'f2 \'f1 \'e2\'fa\'e2\'e5\'e4\'e5\'ed\'e0 \'ef\'e0\'f0\'ee\'eb\'e0 \'e8 \'ed\'ee\'ec\'e5\'f0 \'ed\'e0 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'e0\'f2\'e0 \'ec\'e0\'f1\'e0, \'ea\'ee\'ff\'f2\'ee \'f9\'e5 \'e1\'fa\'e4\'e5 \'ee\'e1\'f1\'eb\'f3\'e6\'e5\'ed\'e0. \'cf\'f0\'e8 \'e4\'ee\'f1\'f2\'e0\'e2\'ff\'ed\'e5 \'ed\'e0 \'e8\'e7\'e8\'f1\'ea\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8, \'f1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'ee\'f2\'e1\'e5\'eb\'ff\'e7\'e2\'e0 \'ea\'e0\'ea\'e2\'ee \'e8 \'ea\'fa\'e4\'e5 \'e5 \'e7\'e0\'ed\'e5\'f1\'e5\'ed\'ee \'ef\'ee\'f1\'f0\'e5\'e4\'f1\'f2\'e2\'ee\'ec \'e3\'eb\'e0\'e2\'ed\'e8\'ff \'f2\'e5\'f0\'ec\'e8\'ed\'e0\'eb, \'ed\'e0\'ec\'e8\'f0\'e0\'f9 \'f1\'e5 \'ed\'e0 \'e1\'e0\'f0\'e0.\f1\par
+}
+</RichDescription>
     <Sequence>4</Sequence>
+    <Complexity />
     <DateAdded>2014-05-15T21:18:05.7678464+03:00</DateAdded>
-    <DateModified>2014-05-15T21:18:38.769734+03:00</DateModified>
-  </Actor>
-  <Actor>
-    <UniqueID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</UniqueID>
-    <UserID>A-8</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Клиент</Name>
-    <Sequence>5</Sequence>
-    <DateAdded>2014-05-17T17:11:33.7406906+03:00</DateAdded>
-    <DateModified>2014-05-20T17:59:05.5484436+03:00</DateModified>
+    <DateModified>2014-05-22T10:03:18.0418191+03:00</DateModified>
   </Actor>
   <Diagram>
     <UniqueID>D-5efb1714-73cb-4653-b395-8be94f29285b</UniqueID>
@@ -506,14 +572,6 @@
     <Name>Log in</Name>
     <Sequence>1</Sequence>
     <FileName>Log in.ndx</FileName>
-    <Type>0</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-cdfe3893-cd6f-436b-a80c-a099ebd757f4</UniqueID>
-    <ParentID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ParentID>
-    <Name>Клиент</Name>
-    <Sequence>0</Sequence>
-    <FileName>Обща сметка.ndx</FileName>
     <Type>0</Type>
   </Diagram>
   <Diagram>
@@ -533,51 +591,6 @@
     <Type>1</Type>
   </Diagram>
   <UCActor>
-    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
-    <Kind>1</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-5d16630e-3421-424a-8965-99b228e535da</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
-    <Kind>1</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-0a194b0e-a479-404b-86ae-16b93f099b3e</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-9825e2ac-3709-43ae-b360-eba6aaab8885</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-8b27f9a5-44f7-47a0-94dc-b07520366762</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-f1b3e280-1f57-48e4-875a-84f0b94ac3fe</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
     <ParentID>UC-4cae19ba-a1c9-4661-b711-7a32d8eb963b</ParentID>
     <ActorID>A-65e53aad-a293-4821-afb5-cd860a825195</ActorID>
     <Kind>0</Kind>
@@ -590,16 +603,6 @@
   <UCActor>
     <ParentID>UC-d6516cde-8c4b-4816-ac12-e5ad0eb894d9</ParentID>
     <ActorID>A-65e53aad-a293-4821-afb5-cd860a825195</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-a32427bc-c13c-4edd-b85f-bc9c2784275b</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-c85218f3-dab4-4c2b-ada3-282089735d38</ParentID>
-    <ActorID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ActorID>
     <Kind>0</Kind>
   </UCActor>
   <UCActor>
@@ -645,6 +648,16 @@
   <UCActor>
     <ParentID>UC-d8292d38-f9cf-4657-868f-92a7739620c2</ParentID>
     <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-32d10214-1759-4ddd-81f5-a84930fac26a</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-65faaee7-2808-4105-8b1f-9ddc3cbefee5</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
     <Kind>0</Kind>
   </UCActor>
   <Scenario>
@@ -3020,11 +3033,11 @@
   </Extension>
   <UserID>
     <DefaultPrefix>UC-</DefaultPrefix>
-    <NextValue>27</NextValue>
+    <NextValue>29</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-</DefaultPrefix>
-    <NextValue>9</NextValue>
+    <NextValue>8</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-</DefaultPrefix>
