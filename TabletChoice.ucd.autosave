@@ -1324,10 +1324,10 @@
     <UserID>REQ-30</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Преглед на вече занесените артикули</Name>
-    <Description>Сервитьорът трябва да има възможност да вижда кои са поръчаните артикули за дадена маса</Description>
+    <Description>Сервитьорът трябва да има възможност вижда, кои артикули са занесени на клиентите</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'e2\'e8\'e6\'e4\'e0 \'ea\'ee\'e8 \'f1\'e0 \'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e0 \'ec\'e0\'f1\'e0\f1\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e2\'e8\'e6\'e4\'e0, \'ea\'ee\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'f1\'e0 \'e7\'e0\'ed\'e5\'f1\'e5\'ed\'e8 \'ed\'e0 \'ea\'eb\'e8\'e5\'ed\'f2\'e8\'f2\'e5\f1\par
 }
 </RichDescription>
     <Sequence>27</Sequence>
@@ -1338,7 +1338,51 @@
     <AssignedTo />
     <Release />
     <DateAdded>2014-05-22T09:34:41.1835202+03:00</DateAdded>
-    <DateModified>2014-05-22T09:35:42.9400107+03:00</DateModified>
+    <DateModified>2014-05-22T09:36:00.3443343+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-074dd21e-4fb4-4188-a0ec-5ba9c94597ec</UniqueID>
+    <UserID>REQ-31</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Приключване на поръчката</Name>
+    <Description>Сервитьорът трябва да има възможност да приключва поръчката, след като се поиска сметката</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'ef\'f0\'e8\'ea\'eb\'fe\'f7\'e2\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e0\'f2\'e0, \'f1\'eb\'e5\'e4 \'ea\'e0\'f2\'ee \'f1\'e5 \'ef\'ee\'e8\'f1\'ea\'e0 \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0\f1\par
+}
+</RichDescription>
+    <Sequence>28</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:36:10.5283041+03:00</DateAdded>
+    <DateModified>2014-05-22T09:36:40.8625915+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-3c1cfa3f-e47f-4b8d-a3e6-a1703388616f</UniqueID>
+    <UserID>REQ-32</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Информация до барман и готвач, поръчаните артикули</Name>
+    <Description>Барманът и готвачът получават бележки с поръчаните артикули, часа и масата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c1\'e0\'f0\'ec\'e0\'ed\'fa\'f2 \'e8 \'e3\'ee\'f2\'e2\'e0\'f7\'fa\'f2 \'ef\'ee\'eb\'f3\'f7\'e0\'e2\'e0\'f2 \'e1\'e5\'eb\'e5\'e6\'ea\'e8 \'f1 \'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8, \'f7\'e0\'f1\'e0 \'e8 \'ec\'e0\'f1\'e0\'f2\'e0.\f1\par
+}
+</RichDescription>
+    <Sequence>29</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:36:54.0168321+03:00</DateAdded>
+    <DateModified>2014-05-22T09:37:37.7052533+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Step>
@@ -2856,7 +2900,7 @@
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-</DefaultPrefix>
-    <NextValue>31</NextValue>
+    <NextValue>33</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>DEF-</DefaultPrefix>
