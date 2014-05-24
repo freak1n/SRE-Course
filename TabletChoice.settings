@@ -4,7 +4,7 @@
   <ShowDescendants>true</ShowDescendants>
   <Sorting>
     <UseCaseViewSortColumns>
-      <string>Name</string>
+      <string>UserID</string>
       <string />
       <string />
     </UseCaseViewSortColumns>
