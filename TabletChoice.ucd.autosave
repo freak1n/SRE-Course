@@ -13,7 +13,7 @@
   </TopLevelElement>
   <Package>
     <UniqueID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</UniqueID>
-    <Name>Diyana</Name>
+    <Name>Tablet Choise</Name>
   </Package>
   <UseCase>
     <UniqueID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</UniqueID>
@@ -26,6 +26,7 @@
 \viewkind4\uc1\pard\f0\fs17\par
 \pard\f1\fs20\par
 }
+<<<<<<< HEAD
 </RichDescription>
     <Sequence>0</Sequence>
     <Priority>1</Priority>
@@ -618,6 +619,814 @@
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Препоръчани и най-високо оцененни ястия</Name>
     <Description>Системата трябва да показва на клиента препоръчани от заведението ястия и най-високо оценените ястия.</Description>
+=======
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-15T20:07:52.424857+03:00</DateAdded>
+    <DateModified>2014-05-20T18:22:18.1210942+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-9094c264-a03e-4880-8773-13d23475681a</UniqueID>
+    <UserID>UC-3</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Преглеждане на обща сметка</Name>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Приложението е стартирано.
+Клиентът е поръчал ястия или напитки.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-17T17:11:50.0146214+03:00</DateAdded>
+    <DateModified>2014-05-21T22:43:55.5230267+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</UniqueID>
+    <UserID>UC-4</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Поръчване на артикул</Name>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Приложението е заредено.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-17T17:16:52.45392+03:00</DateAdded>
+    <DateModified>2014-05-20T11:35:50.9631494+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-a32427bc-c13c-4edd-b85f-bc9c2784275b</UniqueID>
+    <UserID>UC-9</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Преглеждане на индивидуална сметка</Name>
+    <Sequence>3</Sequence>
+    <Priority>3</Priority>
+    <PreConditions>Приложението е стартирано.
+Клиентът е поръчал ястия или напитки.
+Системата е изчислила общата сметка на масата.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-17T17:34:35.3177123+03:00</DateAdded>
+    <DateModified>2014-05-22T00:19:19.7727799+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5d16630e-3421-424a-8965-99b228e535da</UniqueID>
+    <UserID>UC-10</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Оценяване на  даден артикул</Name>
+    <Sequence>4</Sequence>
+    <Priority>3</Priority>
+    <PreConditions>Приложението е стартирано.
+Клиентът е поръчал и консумирал даден акрикул.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-17T17:36:30.1542806+03:00</DateAdded>
+    <DateModified>2014-05-20T18:10:01.8559822+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-9825e2ac-3709-43ae-b360-eba6aaab8885</UniqueID>
+    <UserID>UC-11</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Писане на коментар за даден артикул</Name>
+    <Sequence>5</Sequence>
+    <Priority>3</Priority>
+    <PreConditions>Приложението е стартирано.
+Клиентът е поръчал и консумирал даден акрикул.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-17T17:38:01.5425077+03:00</DateAdded>
+    <DateModified>2014-05-20T18:13:03.8833936+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-0a194b0e-a479-404b-86ae-16b93f099b3e</UniqueID>
+    <UserID>UC-12</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Писане на коментар за заведението и обслужването</Name>
+    <Sequence>6</Sequence>
+    <Priority>3</Priority>
+    <PreConditions>Приложението е стартирано.
+Клиентът е получил и платил сметката.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-17T17:38:43.1508876+03:00</DateAdded>
+    <DateModified>2014-05-20T18:19:49.1075711+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-8b27f9a5-44f7-47a0-94dc-b07520366762</UniqueID>
+    <UserID>UC-13</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Попълване на анкета за заведението и обслужването</Name>
+    <Sequence>8</Sequence>
+    <Priority>3</Priority>
+    <PreConditions>Приложението е стартирано.
+Клиентът е получил и платил сметката.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-17T17:41:44.3612522+03:00</DateAdded>
+    <DateModified>2014-05-20T18:18:52.3553251+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-c85218f3-dab4-4c2b-ada3-282089735d38</UniqueID>
+    <UserID>UC-14</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Показване на препоръчани ястия</Name>
+    <Sequence>7</Sequence>
+    <Priority>2</Priority>
+    <PreConditions>Приложението е стартирано.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-19T12:48:37.0858824+03:00</DateAdded>
+    <DateModified>2014-05-20T17:37:37.9233962+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-4cae19ba-a1c9-4661-b711-7a32d8eb963b</UniqueID>
+    <UserID>UC-15</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Избиране на грамаж</Name>
+    <Sequence>9</Sequence>
+    <Priority>2</Priority>
+    <PreConditions>Приложението е стартирано.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-19T12:57:08.6901445+03:00</DateAdded>
+    <DateModified>2014-05-20T17:39:42.9165454+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-d6516cde-8c4b-4816-ac12-e5ad0eb894d9</UniqueID>
+    <UserID>UC-16</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Поръчване на ястие с добавки</Name>
+    <Sequence>10</Sequence>
+    <Priority>2</Priority>
+    <PreConditions>Приложението е стартирано и клиентът е избрал категория за даден тип ястия.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-19T13:01:35.7174176+03:00</DateAdded>
+    <DateModified>2014-05-20T17:41:59.8653784+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-71b82bce-d47a-4ac0-8910-d17ad3355258</UniqueID>
+    <UserID>UC-17</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Поръчване на ястие без някаква съставка</Name>
+    <Sequence>11</Sequence>
+    <Priority>2</Priority>
+    <PreConditions>Приложението е стартирано и клиентът е избрал категория за даден тип ястия.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-19T13:05:40.2224025+03:00</DateAdded>
+    <DateModified>2014-05-20T17:42:54.3164929+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-f1b3e280-1f57-48e4-875a-84f0b94ac3fe</UniqueID>
+    <UserID>UC-18</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Повикване на сервитьор</Name>
+    <Sequence>12</Sequence>
+    <Priority>1</Priority>
+    <PreConditions>Приложението е стартирано.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-19T13:13:16.3834934+03:00</DateAdded>
+    <DateModified>2014-05-20T17:45:10.2562682+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-d5b8cd48-27c0-4868-8e6b-224236a9fe95</UniqueID>
+    <UserID>UC-19</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Показване на най-високо оценените ястия</Name>
+    <Sequence>13</Sequence>
+    <Priority>2</Priority>
+    <PreConditions>Приложението е стартирано.</PreConditions>
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-20T11:29:34.0145892+03:00</DateAdded>
+    <DateModified>2014-05-20T11:51:08.071605+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-63b30154-c329-4bcb-a306-4a3da0eb31b6</UniqueID>
+    <UserID>UC-22</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Изтриване на катеогория</Name>
+    <Description>Изтрива категория перманентно</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'f2\'f0\'e8\'e2\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'ef\'e5\'f0\'ec\'e0\'ed\'e5\'ed\'f2\'ed\'ee\par
+}
+</RichDescription>
+    <Sequence>14</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-21T23:55:38.5944931+03:00</DateAdded>
+    <DateModified>2014-05-22T00:07:50.8793774+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-ffa533ea-f329-4610-a664-408778e5e347</UniqueID>
+    <UserID>UC-23</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Редакция на категория</Name>
+    <Description>Редакция на името и описанието на категория от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e4\'e0\'ea\'f6\'e8\'ff \'ed\'e0 \'e8\'ec\'e5\'f2\'ee \'e8 \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5\'f2\'ee \'ed\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>15</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-21T23:59:37.2011407+03:00</DateAdded>
+    <DateModified>2014-05-22T00:05:22.6018965+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-8ce70b41-a516-4c55-8dc8-9cfd21eee6c4</UniqueID>
+    <UserID>UC-24</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Добавяне на артикул</Name>
+    <Description>Добавя артикул в менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c4\'ee\'e1\'e0\'e2\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'e2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>16</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T00:07:57.2647427+03:00</DateAdded>
+    <DateModified>2014-05-22T00:09:56.7725781+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-d8292d38-f9cf-4657-868f-92a7739620c2</UniqueID>
+    <UserID>UC-25</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yИзтриване на артикул</Name>
+    <Description>Изтрива артикул от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'f2\'f0\'e8\'e2\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>17</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T00:10:55.3159266+03:00</DateAdded>
+    <DateModified>2014-05-22T10:18:15.8116834+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</UniqueID>
+    <UserID>UC-26</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Редакция на артикул</Name>
+    <Description>Редактира артикул от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>18</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T00:10:55.3159266+03:00</DateAdded>
+    <DateModified>2014-05-22T00:19:52.4386483+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-32d10214-1759-4ddd-81f5-a84930fac26a</UniqueID>
+    <UserID>UC-27</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yВижда коментарите</Name>
+    <Sequence>19</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:18:33.7639474+03:00</DateAdded>
+    <DateModified>2014-05-22T10:19:27.3819778+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-65faaee7-2808-4105-8b1f-9ddc3cbefee5</UniqueID>
+    <UserID>UC-28</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yИзбиране на номер на маса преди да се даде устройството</Name>
+    <Description>yИзбира номера на масата, на която оставя таблета, като преди това въвежда парола</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 y\lang1026\f1\'c8\lang1033\'e7\'e1\'e8\'f0\'e0 \'ed\'ee\'ec\'e5\'f0\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0, \'ed\'e0 \'ea\'ee\'ff\'f2\'ee \'ee\'f1\'f2\'e0\'e2\'ff \'f2\'e0\'e1\'eb\'e5\'f2\'e0, \'ea\'e0\'f2\'ee \'ef\'f0\'e5\'e4\'e8 \'f2\'ee\'e2\'e0 \'e2\'fa\'e2\'e5\'e6\'e4\'e0 \'ef\'e0\'f0\'ee\'eb\'e0\f0\par
+}
+</RichDescription>
+    <Sequence>20</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:19:51.213997+03:00</DateAdded>
+    <DateModified>2014-05-22T10:20:40.7038594+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-68beffbc-fd00-49be-85ae-dff540b48c68</UniqueID>
+    <UserID>UC-29</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yПреглед на поръчани артикули за дадена маса</Name>
+    <Description>Преглежда кои са поръчаните артикули за дадена маса</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e5\'e3\'eb\'e5\'e6\'e4\'e0 \'ea\'ee\'e8 \'f1\'e0 \'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e0 \'ec\'e0\'f1\'e0\f1\par
+}
+</RichDescription>
+    <Sequence>21</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:20:58.318045+03:00</DateAdded>
+    <DateModified>2014-05-22T10:21:51.0974002+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-828d3aa6-62b6-4e3a-8a3f-2a74bc40fe26</UniqueID>
+    <UserID>UC-30</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yПреглед на кой артикули са вече занесени на клиента</Name>
+    <Description>Вижда, кои артикули са занесени на клиентите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'e8\'e6\'e4\'e0, \'ea\'ee\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'f1\'e0 \'e7\'e0\'ed\'e5\'f1\'e5\'ed\'e8 \'ed\'e0 \'ea\'eb\'e8\'e5\'ed\'f2\'e8\'f2\'e5\f1\par
+}
+</RichDescription>
+    <Sequence>22</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:22:00.0008002+03:00</DateAdded>
+    <DateModified>2014-05-22T10:22:24.6915586+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-dedde7dd-08cd-4386-a3e0-34247aef52c0</UniqueID>
+    <UserID>UC-31</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yПриключване на поръчката</Name>
+    <Description>приключване поръчката, след като се поиска сметката</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ef\'f0\'e8\'ea\'eb\'fe\'f7\'e2\'e0\'ed\'e5 \'ef\'ee\'f0\'fa\'f7\'ea\'e0\'f2\'e0, \'f1\'eb\'e5\'e4 \'ea\'e0\'f2\'ee \'f1\'e5 \'ef\'ee\'e8\'f1\'ea\'e0 \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0\f1\par
+}
+</RichDescription>
+    <Sequence>23</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:22:26.2726018+03:00</DateAdded>
+    <DateModified>2014-05-22T10:23:08.4621778+03:00</DateModified>
+  </UseCase>
+  <Actor>
+    <UniqueID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</UniqueID>
+    <UserID>A-1</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Администратор на системата</Name>
+    <Description>Администратор на системата - добавяне, премахване и поддържане на съдържанието на менюто. В повечето случаи това е управителят на заведението. Не се прави посредством самото мобилно приложение, а чрез външна система.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0 \'ed\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0\cf0\ulnone  - \'e4\'ee\'e1\'e0\'e2\'ff\'ed\'e5, \'ef\'f0\'e5\'ec\'e0\'f5\'e2\'e0\'ed\'e5 \'e8 \'ef\'ee\'e4\'e4\'fa\'f0\'e6\'e0\'ed\'e5 \'ed\'e0 \'f1\'fa\'e4\'fa\'f0\'e6\'e0\'ed\'e8\'e5\'f2\'ee \'ed\'e0 \'ec\'e5\'ed\'fe\'f2\'ee. \'c2 \'ef\'ee\'e2\'e5\'f7\'e5\'f2\'ee \'f1\'eb\'f3\'f7\'e0\'e8 \'f2\'ee\'e2\'e0 \'e5 \'f3\'ef\'f0\'e0\'e2\'e8\'f2\'e5\'eb\'ff\'f2 \'ed\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee. \'cd\'e5 \'f1\'e5 \'ef\'f0\'e0\'e2\'e8 \'ef\'ee\'f1\'f0\'e5\'e4\'f1\'f2\'e2\'ee\'ec \'f1\'e0\'ec\'ee\'f2\'ee \'ec\'ee\'e1\'e8\'eb\'ed\'ee \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5, \'e0 \'f7\'f0\'e5\'e7 \'e2\'fa\'ed\'f8\'ed\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0.\f1\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Complexity />
+    <DateAdded>2014-05-15T21:15:17.9612484+03:00</DateAdded>
+    <DateModified>2014-05-22T10:03:08.1653151+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-5dd8979f-90cd-4d88-a8a2-63435a5f6d26</UniqueID>
+    <UserID>A-3</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Барман</Name>
+    <Description>От него зисква да видят следващите поръчки, като системата принтира информация за всяка поръчка при съответния служител.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ce\'f2 \'ed\'e5\'e3\'ee \'e7\'e8\'f1\'ea\'e2\'e0 \'e4\'e0 \'e2\'e8\'e4\'ff\'f2 \'f1\'eb\'e5\'e4\'e2\'e0\'f9\'e8\'f2\'e5 \'ef\'ee\'f0\'fa\'f7\'ea\'e8, \'ea\'e0\'f2\'ee \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e8\'ed\'f2\'e8\'f0\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'e7\'e0 \'e2\'f1\'ff\'ea\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e0 \'ef\'f0\'e8 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'e8\'ff \'f1\'eb\'f3\'e6\'e8\'f2\'e5\'eb.\f1\par
+\f0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Complexity />
+    <DateAdded>2014-05-15T21:15:42.4186473+03:00</DateAdded>
+    <DateModified>2014-05-22T10:04:00.8303055+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-7b10f69c-cd1d-4fdb-b605-7d1b009bb9c4</UniqueID>
+    <UserID>A-4</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Готвач</Name>
+    <Description>От него зисква да видят следващите поръчки, като системата принтира информация за всяка поръчка при съответния служител.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ce\'f2 \'ed\'e5\'e3\'ee \'e7\'e8\'f1\'ea\'e2\'e0 \'e4\'e0 \'e2\'e8\'e4\'ff\'f2 \'f1\'eb\'e5\'e4\'e2\'e0\'f9\'e8\'f2\'e5 \'ef\'ee\'f0\'fa\'f7\'ea\'e8, \'ea\'e0\'f2\'ee \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e8\'ed\'f2\'e8\'f0\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff \'e7\'e0 \'e2\'f1\'ff\'ea\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e0 \'ef\'f0\'e8 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'e8\'ff \'f1\'eb\'f3\'e6\'e8\'f2\'e5\'eb.\f1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Complexity />
+    <DateAdded>2014-05-15T21:15:53.2432665+03:00</DateAdded>
+    <DateModified>2014-05-22T10:03:42.8038047+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-65e53aad-a293-4821-afb5-cd860a825195</UniqueID>
+    <UserID>A-5</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Клиент</Name>
+    <Description>Това е основната целева група на приложенито с чиито изисквания трябва да се съобразим защото е разнородна група с различни технически познания. За разлика от останали целеви групи, тази не подлежи на обучение за работа с прилжението за това то трябва да е направено максимално интуитивно. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d2\'ee\'e2\'e0 \'e5 \'ee\'f1\'ed\'ee\'e2\'ed\'e0\'f2\'e0 \'f6\'e5\'eb\'e5\'e2\'e0 \'e3\'f0\'f3\'ef\'e0 \'ed\'e0 \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'f2\'ee \'f1 \'f7\'e8\'e8\'f2\'ee \'e8\'e7\'e8\'f1\'ea\'e2\'e0\'ed\'e8\'ff \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'f1\'e5 \'f1\'fa\'ee\'e1\'f0\'e0\'e7\'e8\'ec \'e7\'e0\'f9\'ee\'f2\'ee \'e5 \'f0\'e0\'e7\'ed\'ee\'f0\'ee\'e4\'ed\'e0 \'e3\'f0\'f3\'ef\'e0 \'f1 \'f0\'e0\'e7\'eb\'e8\'f7\'ed\'e8 \'f2\'e5\'f5\'ed\'e8\'f7\'e5\'f1\'ea\'e8 \'ef\'ee\'e7\'ed\'e0\'ed\'e8\'ff. \'c7\'e0 \'f0\'e0\'e7\'eb\'e8\'ea\'e0 \'ee\'f2 \'ee\'f1\'f2\'e0\'ed\'e0\'eb\'e8 \'f6\'e5\'eb\'e5\'e2\'e8 \'e3\'f0\'f3\'ef\'e8, \'f2\'e0\'e7\'e8 \'ed\'e5 \'ef\'ee\'e4\'eb\'e5\'e6\'e8 \'ed\'e0 \'ee\'e1\'f3\'f7\'e5\'ed\'e8\'e5 \'e7\'e0 \'f0\'e0\'e1\'ee\'f2\'e0 \'f1 \'ef\'f0\'e8\'eb\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e7\'e0 \'f2\'ee\'e2\'e0 \'f2\'ee \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e5 \'ed\'e0\'ef\'f0\'e0\'e2\'e5\'ed\'ee \'ec\'e0\'ea\'f1\'e8\'ec\'e0\'eb\'ed\'ee \'e8\'ed\'f2\'f3\'e8\'f2\'e8\'e2\'ed\'ee. \f1\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Complexity />
+    <DateAdded>2014-05-15T21:16:08.5821438+03:00</DateAdded>
+    <DateModified>2014-05-22T10:02:50.1026991+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</UniqueID>
+    <UserID>A-6</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Сервитьор</Name>
+    <Description>Сервитьор - изисква се да предостави функциониращ таблет с въведена парола и номер на съответната маса, която ще бъде обслужена. При доставяне на изисканите артикули, сервитьорът отбелязва какво и къде е занесено посредством главния терминал, намиращ се на бара.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\cf0\ulnone  - \'e8\'e7\'e8\'f1\'ea\'e2\'e0 \'f1\'e5 \'e4\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'e8 \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e8\'f0\'e0\'f9 \'f2\'e0\'e1\'eb\'e5\'f2 \'f1 \'e2\'fa\'e2\'e5\'e4\'e5\'ed\'e0 \'ef\'e0\'f0\'ee\'eb\'e0 \'e8 \'ed\'ee\'ec\'e5\'f0 \'ed\'e0 \'f1\'fa\'ee\'f2\'e2\'e5\'f2\'ed\'e0\'f2\'e0 \'ec\'e0\'f1\'e0, \'ea\'ee\'ff\'f2\'ee \'f9\'e5 \'e1\'fa\'e4\'e5 \'ee\'e1\'f1\'eb\'f3\'e6\'e5\'ed\'e0. \'cf\'f0\'e8 \'e4\'ee\'f1\'f2\'e0\'e2\'ff\'ed\'e5 \'ed\'e0 \'e8\'e7\'e8\'f1\'ea\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8, \'f1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'ee\'f2\'e1\'e5\'eb\'ff\'e7\'e2\'e0 \'ea\'e0\'ea\'e2\'ee \'e8 \'ea\'fa\'e4\'e5 \'e5 \'e7\'e0\'ed\'e5\'f1\'e5\'ed\'ee \'ef\'ee\'f1\'f0\'e5\'e4\'f1\'f2\'e2\'ee\'ec \'e3\'eb\'e0\'e2\'ed\'e8\'ff \'f2\'e5\'f0\'ec\'e8\'ed\'e0\'eb, \'ed\'e0\'ec\'e8\'f0\'e0\'f9 \'f1\'e5 \'ed\'e0 \'e1\'e0\'f0\'e0.\f1\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Complexity />
+    <DateAdded>2014-05-15T21:18:05.7678464+03:00</DateAdded>
+    <DateModified>2014-05-22T10:03:18.0418191+03:00</DateModified>
+  </Actor>
+  <Diagram>
+    <UniqueID>D-5efb1714-73cb-4653-b395-8be94f29285b</UniqueID>
+    <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
+    <Name>Activity Diagram</Name>
+    <Sequence>0</Sequence>
+    <FileName>LogInActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-5eb1de2a-a7e8-4961-bba7-a67b41c7ca1e</UniqueID>
+    <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
+    <Name>Log in</Name>
+    <Sequence>1</Sequence>
+    <FileName>Log in.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-9c419fee-4892-4740-81ac-bd600bde622e</UniqueID>
+    <ParentID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ParentID>
+    <Name>menu_administration</Name>
+    <Sequence>0</Sequence>
+    <FileName>menu_administration.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-3d43a166-e5a5-47f2-81d8-e5e5abd0c990</UniqueID>
+    <ParentID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</ParentID>
+    <Name>Activity Diagram</Name>
+    <Sequence>0</Sequence>
+    <FileName>РедакцияНаАртикулActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <UCActor>
+    <ParentID>UC-4cae19ba-a1c9-4661-b711-7a32d8eb963b</ParentID>
+    <ActorID>A-65e53aad-a293-4821-afb5-cd860a825195</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-71b82bce-d47a-4ac0-8910-d17ad3355258</ParentID>
+    <ActorID>A-65e53aad-a293-4821-afb5-cd860a825195</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-d6516cde-8c4b-4816-ac12-e5ad0eb894d9</ParentID>
+    <ActorID>A-65e53aad-a293-4821-afb5-cd860a825195</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-d5b8cd48-27c0-4868-8e6b-224236a9fe95</ParentID>
+    <ActorID>A-65e53aad-a293-4821-afb5-cd860a825195</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-63b30154-c329-4bcb-a306-4a3da0eb31b6</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-ffa533ea-f329-4610-a664-408778e5e347</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-8ce70b41-a516-4c55-8dc8-9cfd21eee6c4</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-d8292d38-f9cf-4657-868f-92a7739620c2</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-32d10214-1759-4ddd-81f5-a84930fac26a</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-65faaee7-2808-4105-8b1f-9ddc3cbefee5</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-68beffbc-fd00-49be-85ae-dff540b48c68</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-828d3aa6-62b6-4e3a-8a3f-2a74bc40fe26</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-dedde7dd-08cd-4386-a3e0-34247aef52c0</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-2b5a7b3b-6374-4d15-a0ba-e57531d211ab</UniqueID>
+    <ParentID>UC-27643880-7aa9-40bb-8633-9c5d04a1bb9f</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-8568f6a0-b0ed-4d90-96ca-b62a882e6fd6</UniqueID>
+    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-0291cbe2-6d05-442d-b24e-4b37b5e962a4</UniqueID>
+    <ParentID>UC-a32427bc-c13c-4edd-b85f-bc9c2784275b</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</UniqueID>
+    <ParentID>UC-5d16630e-3421-424a-8965-99b228e535da</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</UniqueID>
+    <ParentID>UC-9825e2ac-3709-43ae-b360-eba6aaab8885</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</UniqueID>
+    <ParentID>UC-0a194b0e-a479-404b-86ae-16b93f099b3e</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</UniqueID>
+    <ParentID>UC-8b27f9a5-44f7-47a0-94dc-b07520366762</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-97f92019-8ac4-451e-8454-11e2fbdb8a7f</UniqueID>
+    <ParentID>UC-c85218f3-dab4-4c2b-ada3-282089735d38</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ec5ef53f-6b92-4470-a37b-7ebcb16ac578</UniqueID>
+    <ParentID>UC-4cae19ba-a1c9-4661-b711-7a32d8eb963b</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ad80546c-96d9-4591-95fb-481bca80a7c2</UniqueID>
+    <ParentID>UC-d6516cde-8c4b-4816-ac12-e5ad0eb894d9</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-213c2c66-501c-4f10-9856-e2cb34b391bd</UniqueID>
+    <ParentID>UC-71b82bce-d47a-4ac0-8910-d17ad3355258</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-d449acf9-3b83-4fa8-a42f-fc5c781b3a8b</UniqueID>
+    <ParentID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-395bb342-7ddd-407e-824f-deff915cc0b2</UniqueID>
+    <ParentID>UC-d5b8cd48-27c0-4868-8e6b-224236a9fe95</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-705ab59a-8d6a-4e62-a662-54f420cef9df</UniqueID>
+    <ParentID>UC-f1b3e280-1f57-48e4-875a-84f0b94ac3fe</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-23417514-9321-4c33-ab0d-e635b0a4be6e</UniqueID>
+    <ParentID>UC-63b30154-c329-4bcb-a306-4a3da0eb31b6</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</UniqueID>
+    <ParentID>UC-ffa533ea-f329-4610-a664-408778e5e347</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</UniqueID>
+    <ParentID>UC-8ce70b41-a516-4c55-8dc8-9cfd21eee6c4</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-7377e798-f25b-413e-954b-766d3da9f237</UniqueID>
+    <ParentID>UC-d8292d38-f9cf-4657-868f-92a7739620c2</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-a5d1aeff-e58d-4724-be38-6084422c76bf</UniqueID>
+    <ParentID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</ParentID>
+  </Scenario>
+  <Requirement>
+    <UniqueID>REQ-f148363c-d44a-403b-8209-bcdc05057d0b</UniqueID>
+    <UserID>REQ-1</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Препоръчани и най-високо оцененни ястия</Name>
+    <Description>Системата трябва да показва на клиента препоръчани от заведението ястия и най-високо оценените ястия.</Description>
+>>>>>>> 7481684768b1c6d9651f3e7d1fbe1eee2189514c
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ef\'ee\'ea\'e0\'e7\'e2\'e0 \'ed\'e0 \'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'ef\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8 \'ee\'f2 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'ff\'f1\'f2\'e8\'ff \'e8 \'ed\'e0\'e9-\'e2\'e8\'f1\'ee\'ea\'ee \'ee\'f6\'e5\'ed\'e5\'ed\'e8\'f2\'e5 \'ff\'f1\'f2\'e8\'ff.\par
@@ -966,6 +1775,442 @@
     <DateModified>2014-05-15T20:52:41.1226417+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
+  <Requirement>
+    <UniqueID>REQ-19e5bbc1-5447-4a19-b3bf-a2791685bfd6</UniqueID>
+    <UserID>REQ-17</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Изтриване на категория</Name>
+    <Description>Администраторът трябва да може да редактира категории от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'f0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8 \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>16</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-21T23:27:41.0775447+03:00</DateAdded>
+    <DateModified>2014-05-21T23:30:30.5292367+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-b9b740d2-3179-4109-809c-2c69ca905f39</UniqueID>
+    <UserID>REQ-28</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Редактиране на категория</Name>
+    <Description>Администраторът трябва да може да редактира категории от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'f0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8 \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>25</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-21T23:28:58.9139966+03:00</DateAdded>
+    <DateModified>2014-05-22T09:33:51.9596584+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-dd5a8c4a-6c34-4997-9531-0fc72281999e</UniqueID>
+    <UserID>REQ-19</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Добавяне на артикул</Name>
+    <Description>Администраторът трябва да може да добавя артикули в менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>17</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-21T23:30:33.3964007+03:00</DateAdded>
+    <DateModified>2014-05-21T23:31:24.8053412+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-e0ae73d7-24a9-451d-bfd4-3a6d68146abb</UniqueID>
+    <UserID>REQ-20</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Изтриване на артикул</Name>
+    <Description>Администраторът трябва да може да изтрива артикули от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e8\'e7\'f2\'f0\'e8\'e2\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>18</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-21T23:32:43.4758408+03:00</DateAdded>
+    <DateModified>2014-05-21T23:33:14.3056042+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-b4903bda-31e7-402f-91a3-308252a92d45</UniqueID>
+    <UserID>REQ-21</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Редактиране на артикул</Name>
+    <Description>Администраторът трябва да може да редактира артикули от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'f0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
+}
+</RichDescription>
+    <Sequence>19</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-21T23:33:23.0161024+03:00</DateAdded>
+    <DateModified>2014-05-21T23:37:44.3210482+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-30e6a5ac-d21a-4b13-a959-c5482e704d80</UniqueID>
+    <UserID>REQ-22</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Добавяне на артикули в списъка с препоръчани</Name>
+    <Description>Администратоорът трябва да може да добавя артикули в списъка с препоръчани</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e2 \'f1\'ef\'e8\'f1\'fa\'ea\'e0 \'f1 \'ef\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\par
+}
+</RichDescription>
+    <Sequence>20</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-21T23:35:01.6947465+03:00</DateAdded>
+    <DateModified>2014-05-21T23:37:38.1606959+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d3c8188f-ac5b-4ffd-971b-cd0ad0e9b229</UniqueID>
+    <UserID>REQ-23</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Премахване на артикули от списъка с препоръчани</Name>
+    <Description>Администроторът трябва да може да премахва артикули от списъка с препоръчани</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'ee\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ef\'f0\'e5\'ec\'e0\'f5\'e2\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'ee\'f2 \'f1\'ef\'e8\'f1\'fa\'ea\'e0 \'f1 \'ef\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\par
+}
+</RichDescription>
+    <Sequence>21</Sequence>
+    <Type>Functional</Type>
+    <Priority>2</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-21T23:35:27.910246+03:00</DateAdded>
+    <DateModified>2014-05-21T23:37:31.1442945+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8fab773c-673c-4749-b811-4e7d43f105a7</UniqueID>
+    <UserID>REQ-27</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Добавяне на категории</Name>
+    <Description>Администраторът трябва да добавя категории</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e4\'ee\'e1\'e0\'e2\'ff \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\f1\par
+}
+</RichDescription>
+    <Sequence>24</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status>Proposed</Status>
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:24:30.6673992+03:00</DateAdded>
+    <DateModified>2014-05-22T09:33:37.9557701+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-450613c0-c65b-489c-a5e9-5395ad0231d1</UniqueID>
+    <UserID>REQ-25</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Списък с коментари - Преглед</Name>
+    <Description>Администраторът трябва да вижда списък с коментарите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0\f1  \f0\'e2\'e8\'e6\'e4\'e0 \'f1\'ef\'e8\'f1\'fa\'ea \'f1 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e8\'f2\'e5\f1\par
+}
+</RichDescription>
+    <Sequence>22</Sequence>
+    <Type>Functional</Type>
+    <Priority>3</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:28:40.1307547+03:00</DateAdded>
+    <DateModified>2014-05-22T09:31:14.0854991+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-3cc0d4e7-6c8f-4369-a027-0d19550b9c1b</UniqueID>
+    <UserID>REQ-26</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Вход за сервитьор</Name>
+    <Description>Сервитьорът трябва да има възможност да  избира номера на масата, на която оставя таблета, като преди това въвежда парола</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0  \'e8\'e7\'e1\'e8\'f0\'e0 \'ed\'ee\'ec\'e5\'f0\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0, \'ed\'e0 \'ea\'ee\'ff\'f2\'ee \'ee\'f1\'f2\'e0\'e2\'ff \'f2\'e0\'e1\'eb\'e5\'f2\'e0, \'ea\'e0\'f2\'ee \'ef\'f0\'e5\'e4\'e8 \'f2\'ee\'e2\'e0 \'e2\'fa\'e2\'e5\'e6\'e4\'e0 \'ef\'e0\'f0\'ee\'eb\'e0\f1\par
+}
+</RichDescription>
+    <Sequence>23</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:31:16.0371499+03:00</DateAdded>
+    <DateModified>2014-05-22T09:33:21.3812641+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-cc5ef1db-1121-423d-80e3-ba077454bf09</UniqueID>
+    <UserID>REQ-29</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Преглед на поръчаните артикули за маса</Name>
+    <Description>Сервитьорът трябва да има възможност да вижда кои са поръчаните артикули за дадена маса.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'e2\'e8\'e6\'e4\'e0 \'ea\'ee\'e8 \'f1\'e0 \'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e0 \'ec\'e0\'f1\'e0.\par
+}
+</RichDescription>
+    <Sequence>26</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:34:06.2871551+03:00</DateAdded>
+    <DateModified>2014-05-22T09:34:34.4049737+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-484da225-43db-436d-93e5-14a1aa8f7797</UniqueID>
+    <UserID>REQ-30</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Преглед на вече занесените артикули</Name>
+    <Description>Сервитьорът трябва да има възможност вижда, кои артикули са занесени на клиентите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e2\'e8\'e6\'e4\'e0, \'ea\'ee\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'f1\'e0 \'e7\'e0\'ed\'e5\'f1\'e5\'ed\'e8 \'ed\'e0 \'ea\'eb\'e8\'e5\'ed\'f2\'e8\'f2\'e5\f1\par
+}
+</RichDescription>
+    <Sequence>27</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:34:41.1835202+03:00</DateAdded>
+    <DateModified>2014-05-22T09:36:00.3443343+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-074dd21e-4fb4-4188-a0ec-5ba9c94597ec</UniqueID>
+    <UserID>REQ-31</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Приключване на поръчката</Name>
+    <Description>Сервитьорът трябва да има възможност да приключва поръчката, след като се поиска сметката</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'e4\'e0 \'ef\'f0\'e8\'ea\'eb\'fe\'f7\'e2\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e0\'f2\'e0, \'f1\'eb\'e5\'e4 \'ea\'e0\'f2\'ee \'f1\'e5 \'ef\'ee\'e8\'f1\'ea\'e0 \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0\f1\par
+}
+</RichDescription>
+    <Sequence>28</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:36:10.5283041+03:00</DateAdded>
+    <DateModified>2014-05-22T09:36:40.8625915+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-3c1cfa3f-e47f-4b8d-a3e6-a1703388616f</UniqueID>
+    <UserID>REQ-32</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Информация до барман и готвач, поръчаните артикули</Name>
+    <Description>Барманът и готвачът получават бележки с поръчаните артикули, часа и масата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c1\'e0\'f0\'ec\'e0\'ed\'fa\'f2 \'e8 \'e3\'ee\'f2\'e2\'e0\'f7\'fa\'f2 \'ef\'ee\'eb\'f3\'f7\'e0\'e2\'e0\'f2 \'e1\'e5\'eb\'e5\'e6\'ea\'e8 \'f1 \'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8, \'f7\'e0\'f1\'e0 \'e8 \'ec\'e0\'f1\'e0\'f2\'e0.\f1\par
+}
+</RichDescription>
+    <Sequence>29</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:36:54.0168321+03:00</DateAdded>
+    <DateModified>2014-05-22T09:37:37.7052533+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c1201132-1057-44bb-83fd-2058a5070ba0</UniqueID>
+    <UserID>REQ-33</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Необходимост от мобилни устройства (таблети)</Name>
+    <Description>Клиентската част на системата е мобилно приложение и за това заведението трябва да предостави необходимия брой мобилни устройства (таблети)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'f1\'ea\'e0\'f2\'e0 \'f7\'e0\'f1\'f2 \'ed\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e5 \'ec\'ee\'e1\'e8\'eb\'ed\'ee \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5 \'e8 \'e7\'e0 \'f2\'ee\'e2\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'f2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'e8 \'ed\'e5\'ee\'e1\'f5\'ee\'e4\'e8\'ec\'e8\'ff \'e1\'f0\'ee\'e9 \'ec\'ee\'e1\'e8\'eb\'ed\'e8 \'f3\'f1\'f2\'f0\'ee\'e9\'f1\'f2\'e2\'e0 (\'f2\'e0\'e1\'eb\'e5\'f2\'e8)\f1\par
+}
+</RichDescription>
+    <Sequence>30</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:54:49.7404417+03:00</DateAdded>
+    <DateModified>2014-05-22T09:55:11.0474065+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-6dfd201d-6742-4f6c-bd9b-3386dc441b93</UniqueID>
+    <UserID>REQ-34</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Време за отговор</Name>
+    <Description>Време за отговор  при интеракциите в приложението да е  под 1 секунда.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c2\'f0\'e5\'ec\'e5 \'e7\'e0 \'ee\'f2\'e3\'ee\'e2\'ee\'f0  \'ef\'f0\'e8 \'e8\'ed\'f2\'e5\'f0\'e0\'ea\'f6\'e8\'e8\'f2\'e5 \'e2 \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e4\'e0 \'e5  \'ef\'ee\'e4 1 \'f1\'e5\'ea\'f3\'ed\'e4\'e0.\f1\par
+}
+</RichDescription>
+    <Sequence>31</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:55:54.6494881+03:00</DateAdded>
+    <DateModified>2014-05-22T09:56:12.9007057+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f474e24c-2ea4-41a9-81d1-d78f0694a965</UniqueID>
+    <UserID>REQ-35</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Защитена връзка</Name>
+    <Description>Връзката между клиента (таблета) и сървъра да се извършва през ssl (https)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'c2\'f0\'fa\'e7\'ea\'e0\'f2\'e0 \'ec\'e5\'e6\'e4\'f3 \'ea\'eb\'e8\'e5\'ed\'f2\'e0 (\'f2\'e0\'e1\'eb\'e5\'f2\'e0) \'e8 \'f1\'fa\'f0\'e2\'fa\'f0\'e0 \'e4\'e0 \'f1\'e5 \'e8\'e7\'e2\'fa\'f0\'f8\'e2\'e0 \'ef\'f0\'e5\'e7 ssl (https)\f1\par
+}
+</RichDescription>
+    <Sequence>32</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:56:25.4677921+03:00</DateAdded>
+    <DateModified>2014-05-22T09:56:36.7527889+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-98ea51c2-7ea9-4e5d-9291-22c6fe44e546</UniqueID>
+    <UserID>REQ-36</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Ясно дефинирани потребители на системата</Name>
+    <Description>Ясно дефинирани роли при работата на централното устройство, което ще приема поръчките и ще пази данните за менюто. (администратор, сервитьорка, готвач и т.н.)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'df\'f1\'ed\'ee \'e4\'e5\'f4\'e8\'ed\'e8\'f0\'e0\'ed\'e8 \'f0\'ee\'eb\'e8 \'ef\'f0\'e8 \'f0\'e0\'e1\'ee\'f2\'e0\'f2\'e0 \'ed\'e0 \'f6\'e5\'ed\'f2\'f0\'e0\'eb\'ed\'ee\'f2\'ee \'f3\'f1\'f2\'f0\'ee\'e9\'f1\'f2\'e2\'ee, \'ea\'ee\'e5\'f2\'ee \'f9\'e5 \'ef\'f0\'e8\'e5\'ec\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e8\'f2\'e5 \'e8 \'f9\'e5 \'ef\'e0\'e7\'e8 \'e4\'e0\'ed\'ed\'e8\'f2\'e5 \'e7\'e0 \'ec\'e5\'ed\'fe\'f2\'ee. (\'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0, \'f1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'ea\'e0, \cf2\ul\'e3\'ee\'f2\'e2\'e0\'f7\cf1\ulnone  \'e8 \'f2.\'ed.)\f1\par
+}
+</RichDescription>
+    <Sequence>33</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:56:38.5856353+03:00</DateAdded>
+    <DateModified>2014-05-22T09:57:15.5595745+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5f65ae3d-15b7-4fae-90e3-31de67250a7f</UniqueID>
+    <UserID>REQ-37</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Изискване на операционна система</Name>
+    <Description>Системата да бъде разработена за операционната система Android</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e4\'e0 \'e1\'fa\'e4\'e5 \'f0\'e0\'e7\'f0\'e0\'e1\'ee\'f2\'e5\'ed\'e0 \'e7\'e0 \'ee\'ef\'e5\'f0\'e0\'f6\'e8\'ee\'ed\'ed\'e0\'f2\'e0 \'f1\'e8\'f1\'f2\'e5\'ec\'e0 Android\f1\par
+}
+</RichDescription>
+    <Sequence>34</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2014-05-22T09:57:17.2299025+03:00</DateAdded>
+    <DateModified>2014-05-22T09:57:40.7709937+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-d039b83c-3b08-4a57-8fdc-51b78f5a6ce8</UniqueID>
+    <UserID>REQ-38</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Системата трябва да е разширяема</Name>
+    <Description>Трябва да има разширяемост с други системи в   зависимост от различните изисквания и различните системи. </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'d2\'f0\'ff\'e1\'e2\'e0 \'e4\'e0 \'e8\'ec\'e0 \'f0\'e0\'e7\'f8\'e8\'f0\'ff\'e5\'ec\'ee\'f1\'f2 \'f1 \'e4\'f0\'f3\'e3\'e8 \'f1\'e8\'f1\'f2\'e5\'ec\'e8 \'e2   \'e7\'e0\'e2\'e8\'f1\'e8\'ec\'ee\'f1\'f2 \'ee\'f2 \'f0\'e0\'e7\'eb\'e8\'f7\'ed\'e8\'f2\'e5 \'e8\'e7\'e8\'f1\'ea\'e2\'e0\'ed\'e8\'ff \'e8 \'f0\'e0\'e7\'eb\'e8\'f7\'ed\'e8\'f2\'e5 \'f1\'e8\'f1\'f2\'e5\'ec\'e8. \f1\par
+}
+</RichDescription>
+    <Sequence>35</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2014-05-22T09:59:19.4296945+03:00</DateAdded>
+    <DateModified>2014-05-22T09:59:40.6391733+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
   <Step>
     <UniqueID>ST-5055a332-0457-432e-bf1d-49bb3d0216ff</UniqueID>
     <ParentID>MSS-2b5a7b3b-6374-4d15-a0ba-e57531d211ab</ParentID>
@@ -991,19 +2236,12 @@
   <Step>
     <UniqueID>ST-a590ef8e-5bb6-4225-9b4c-b4ac3d391d4e</UniqueID>
     <ParentID>MSS-2b5a7b3b-6374-4d15-a0ba-e57531d211ab</ParentID>
-    <Description>Натискане на бутона Log in</Description>
+    <Description>Натискане на бутона Log in.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20\'cd\'e0\'f2\'e8\'f1\'ea\'e0\'ed\'e5 \'ed\'e0 \'e1\'f3\'f2\'ee\'ed\'e0 \lang1033\f1 Log in\lang1026\f0\par
+\viewkind4\uc1\pard\f0\fs20\'cd\'e0\'f2\'e8\'f1\'ea\'e0\'ed\'e5 \'ed\'e0 \'e1\'f3\'f2\'ee\'ed\'e0 \lang1033\f1 Log in\lang1026\f0 .\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-b4a8ef7f-6807-4d3d-be86-17ef4a986675</UniqueID>
-    <ParentID>MSS-2b5a7b3b-6374-4d15-a0ba-e57531d211ab</ParentID>
-    <Description />
-    <Sequence>3</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -1021,10 +2259,10 @@
   <Step>
     <UniqueID>ST-4c7bf06c-88d5-4832-9eac-cb2c0df6a13f</UniqueID>
     <ParentID>MSS-8568f6a0-b0ed-4d90-96ca-b62a882e6fd6</ParentID>
-    <Description>Клиента отваря сметката.</Description>
+    <Description>Клиентът отваря сметката.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'e0 \'ee\'f2\'e2\'e0\'f0\'ff \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0.\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -1033,24 +2271,13 @@
   <Step>
     <UniqueID>ST-1b310f7a-63b4-40ae-a21a-bc25f0b65a02</UniqueID>
     <ParentID>MSS-8568f6a0-b0ed-4d90-96ca-b62a882e6fd6</ParentID>
-    <Description>Клиента преглежда общата сметка на масата.</Description>
+    <Description>Клиентът преглежда общата сметка на масата.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e6\'e4\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ef\'f0\'e5\'e3\'eb\'e5\'e6\'e4\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\cf0\par
 }
 </RichDescription>
-    <Sequence>2</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-3ea3faee-47cd-4521-84ce-ec3b79548206</UniqueID>
-    <ParentID>MSS-0291cbe2-6d05-442d-b24e-4b37b5e962a4</ParentID>
-    <Description>Системата е изчислила общата сметка на масата.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e5 \'e8\'e7\'f7\'e8\'f1\'eb\'e8\'eb\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\par
-}
-</RichDescription>
-    <Sequence>0</Sequence>
+    <Sequence>3</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -1078,38 +2305,15 @@
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-e6515d04-db75-447a-9950-2c2a77104b30</UniqueID>
+    <UniqueID>ST-bc2f5368-7048-47c8-a1b8-5678115983d3</UniqueID>
     <ParentID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</ParentID>
-    <Description>Приложението е стартирано.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e5 \'f1\'f2\'e0\'f0\'f2\'e8\'f0\'e0\'ed\'ee.\par
-}
-</RichDescription>
-    <Sequence>0</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-822723e0-543f-4c77-8cb7-ee8d093742b7</UniqueID>
-    <ParentID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</ParentID>
-    <Description>Клиентът е поръчал и консумирал даден акрикул.</Description>
+    <Description>Клиентът отваря даден атрикул и се визуализира форма с 5 звездички,където той може да въведе своята оценка.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e5 \'ef\'ee\'f0\'fa\'f7\'e0\'eb \'e8 \'ea\'ee\'ed\'f1\'f3\'ec\'e8\'f0\'e0\'eb \'e4\'e0\'e4\'e5\'ed \'e0\'ea\'f0\'e8\'ea\'f3\'eb.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'e4\'e0\'e4\'e5\'ed \'e0\'f2\'f0\'e8\'ea\'f3\'eb \'e8 \'f1\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'f4\'ee\'f0\'ec\'e0 \'f1 5 \'e7\'e2\'e5\'e7\'e4\'e8\'f7\'ea\'e8,\'ea\'fa\'e4\'e5\'f2\'ee \'f2\'ee\'e9 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e2\'fa\'e2\'e5\'e4\'e5 \'f1\'e2\'ee\'ff\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0.\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-bc2f5368-7048-47c8-a1b8-5678115983d3</UniqueID>
-    <ParentID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</ParentID>
-    <Description>Клиентът отваря дадено ястие и се визуализира форма със 5 звездички,където той да въведе своята оценка.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'e4\'e0\'e4\'e5\'ed\'ee \'ff\'f1\'f2\'e8\'e5 \'e8 \'f1\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'f4\'ee\'f0\'ec\'e0 \'f1\'fa\'f1 5 \'e7\'e2\'e5\'e7\'e4\'e8\'f7\'ea\'e8,\'ea\'fa\'e4\'e5\'f2\'ee \'f2\'ee\'e9 \'e4\'e0 \'e2\'fa\'e2\'e5\'e4\'e5 \'f1\'e2\'ee\'ff\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0.\cf0\par
-}
-</RichDescription>
-    <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -1121,7 +2325,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e2\'fa\'e2\'e5\'e6\'e4\'e0 \'ee\'f6\'e5\'ed\'ea\'e0\'f2\'e0 \'f1\'e8 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\cf0\par
 }
 </RichDescription>
-    <Sequence>3</Sequence>
+    <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -1137,50 +2341,27 @@
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-ae565a40-012f-4268-8f2d-c3948f93aad4</UniqueID>
+    <UniqueID>ST-19249b93-5e99-426b-ac78-d8e7ce9fb827</UniqueID>
     <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
-    <Description>Приложението е стартирано.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e5 \'f1\'f2\'e0\'f0\'f2\'e8\'f0\'e0\'ed\'ee.\par
-}
-</RichDescription>
-    <Sequence>0</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-95a5fff9-6364-492d-919f-feee6b3744da</UniqueID>
-    <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
-    <Description>Клиентът е поръчал и консумирал даден акрикул.</Description>
+    <Description>Клиентът отваря даден артикул и се визуализира форма за писане на коментар за дадения артикул.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e5 \'ef\'ee\'f0\'fa\'f7\'e0\'eb \'e8 \'ea\'ee\'ed\'f1\'f3\'ec\'e8\'f0\'e0\'eb \'e4\'e0\'e4\'e5\'ed \'e0\'ea\'f0\'e8\'ea\'f3\'eb.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'e4\'e0\'e4\'e5\'ed \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'e8 \'f1\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'f4\'ee\'f0\'ec\'e0 \'e7\'e0 \'ef\'e8\'f1\'e0\'ed\'e5 \'ed\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-19249b93-5e99-426b-ac78-d8e7ce9fb827</UniqueID>
+    <UniqueID>ST-3de4a025-6e9e-430d-a760-686bdc4a6eec</UniqueID>
     <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
-    <Description>Клиентът отваря дадено ястие и се визуализира форма за писане на коментар за дадения артикул.</Description>
+    <Description>Клиентът написва коментара си за дадения артикул.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'e4\'e0\'e4\'e5\'ed\'ee \'ff\'f1\'f2\'e8\'e5 \'e8 \'f1\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'f4\'ee\'f0\'ec\'e0 \'e7\'e0 \'ef\'e8\'f1\'e0\'ed\'e5 \'ed\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e0\'ef\'e8\'f1\'e2\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e0 \'f1\'e8 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-3de4a025-6e9e-430d-a760-686bdc4a6eec</UniqueID>
-    <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
-    <Description>Клиентът написва коментара си дадения артикул.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e0\'ef\'e8\'f1\'e2\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e0 \'f1\'e8 \'e4\'e0\'e4\'e5\'ed\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\par
-}
-</RichDescription>
-    <Sequence>3</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -1196,97 +2377,51 @@
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-c89efe07-d027-47a9-a844-13ddb9c5af7a</UniqueID>
+    <UniqueID>ST-13cc14aa-3cda-464d-bacc-a19520cc3f77</UniqueID>
     <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
-    <Description>Приложението е стартирано.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e5 \'f1\'f2\'e0\'f0\'f2\'e8\'f0\'e0\'ed\'ee.\par
-}
-</RichDescription>
-    <Sequence>0</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-a39b9569-36f4-4704-9d66-dc6d4ee93134</UniqueID>
-    <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
-    <Description>Клиентът е получил и платил сметката.</Description>
+    <Description>Клиентът отваря форма за коментар за заведението и обслужването.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e5 \'ef\'ee\'eb\'f3\'f7\'e8\'eb \'e8 \'ef\'eb\'e0\'f2\'e8\'eb \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'f4\'ee\'f0\'ec\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-13cc14aa-3cda-464d-bacc-a19520cc3f77</UniqueID>
+    <UniqueID>ST-96e3195f-4875-49ba-a00b-e3bd840cb804</UniqueID>
     <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
-    <Description>Клиентът отваря форма за коментар за заведението и облуждането.</Description>
+    <Description>Клиентът попълва формата  за коментар за заведението и обслужването.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'f4\'ee\'f0\'ec\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e4\'e0\'ed\'e5\'f2\'ee.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ef\'ee\'ef\'fa\'eb\'e2\'e0 \'f4\'ee\'f0\'ec\'e0\'f2\'e0  \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-96e3195f-4875-49ba-a00b-e3bd840cb804</UniqueID>
-    <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
-    <Description>Клиентът попълва формата.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ef\'ee\'ef\'fa\'eb\'e2\'e0 \'f4\'ee\'f0\'ec\'e0\'f2\'e0.\par
-}
-</RichDescription>
-    <Sequence>3</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
     <UniqueID>ST-33e466c1-3dfe-43da-bc88-f110cfd1d9df</UniqueID>
     <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
-    <Description>Клиентът вижда всички коментари за заведението и облужването.</Description>
+    <Description>Клиентът вижда всички коментари за заведението и обслужването.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e2\'e8\'e6\'e4\'e0 \'e2\'f1\'e8\'f7\'ea\'e8 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e8 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e2\'e8\'e6\'e4\'e0 \'e2\'f1\'e8\'f7\'ea\'e8 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e8 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\cf0\par
 }
 </RichDescription>
     <Sequence>4</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-3dd3bcc2-b5dc-46c8-b9ba-145a18862b7a</UniqueID>
+    <UniqueID>ST-0f35e044-8858-44aa-b8a2-d39fd38a0c91</UniqueID>
     <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
-    <Description>Приложението е стартирано.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\'f2\'ee \'e5 \'f1\'f2\'e0\'f0\'f2\'e8\'f0\'e0\'ed\'ee.\par
-}
-</RichDescription>
-    <Sequence>0</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-1b6f3f8c-7433-465c-97d1-b1a57703ebeb</UniqueID>
-    <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
-    <Description>Клиентът е получил и платил сметката.</Description>
+    <Description>Клиентът отваря анкета за заведението и обслужването.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e5 \'ef\'ee\'eb\'f3\'f7\'e8\'eb \'e8 \'ef\'eb\'e0\'f2\'e8\'eb \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'e0\'ed\'ea\'e5\'f2\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \cf0\'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee\cf1 .\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-0f35e044-8858-44aa-b8a2-d39fd38a0c91</UniqueID>
-    <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
-    <Description>Клиентът отваря анкета за заведението и облуждането.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ee\'f2\'e2\'e0\'f0\'ff \'e0\'ed\'ea\'e5\'f2\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e4\'e0\'ed\'e5\'f2\'ee.\cf0\par
-}
-</RichDescription>
-    <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -1298,16 +2433,16 @@
 \viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ef\'ee\'ef\'fa\'eb\'e2\'e0 \'e0\'ed\'ea\'e5\'f2\'e0\'f2\'e0.\par
 }
 </RichDescription>
-    <Sequence>3</Sequence>
+    <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
     <UniqueID>ST-1b84cb02-d217-4bcf-a18f-bca2023cbdd6</UniqueID>
     <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
-    <Description>Клиентът вижда общата оценка за заведението и облужването.</Description>
+    <Description>Клиентът вижда общата оценка за заведението и обслужването.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e2\'e8\'e6\'e4\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'e2\'e8\'e6\'e4\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \cf0\'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee\cf1 .\cf0\par
 }
 </RichDescription>
     <Sequence>4</Sequence>
@@ -1504,6 +2639,7 @@
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 \viewkind4\uc1\pard\f0\fs20\'cf\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'ff\'f2 \'e2\'e8\'e6\'e4\'e0 \'ef\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\'f2\'e5 \'ee\'f2 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'ff\'f1\'f2\'e8\'ff.\par
 }
+<<<<<<< HEAD
 </RichDescription>
     <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
@@ -1512,6 +2648,23 @@
     <UniqueID>ST-f2f4897d-10d9-4fdf-bb40-925bb9a4c428</UniqueID>
     <ParentID>MSS-395bb342-7ddd-407e-824f-deff915cc0b2</ParentID>
     <Description>Системата зарежда на потребителя най-високо оценените ястия.</Description>
+=======
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-43b2e0db-c517-4277-9a15-7bc8dd325948</UniqueID>
+    <ParentID>MSS-97f92019-8ac4-451e-8454-11e2fbdb8a7f</ParentID>
+    <Description />
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f2f4897d-10d9-4fdf-bb40-925bb9a4c428</UniqueID>
+    <ParentID>MSS-395bb342-7ddd-407e-824f-deff915cc0b2</ParentID>
+    <Description>Системата зарежда на потребителя най-високо оценените ястия.</Description>
+>>>>>>> 7481684768b1c6d9651f3e7d1fbe1eee2189514c
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 \viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e7\'e0\'f0\'e5\'e6\'e4\'e0 \'ed\'e0 \'ef\'ee\'f2\'f0\'e5\'e1\'e8\'f2\'e5\'eb\'ff \'ed\'e0\'e9-\'e2\'e8\'f1\'ee\'ea\'ee \'ee\'f6\'e5\'ed\'e5\'ed\'e8\'f2\'e5 \'ff\'f1\'f2\'e8\'ff.\par
 }
@@ -1628,6 +2781,7 @@
 {\colortbl ;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e0\'f2\'e8\'f1\'ea\'e0 \'e1\'f3\'f2\'ee\'ed\'e0 \'e7\'e0 \'e8\'e7\'e2\'e8\'ea\'e2\'e0\'ed\'e5 \'ed\'e0 \'f1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'e0.\cf0\par
 }
+<<<<<<< HEAD
 </RichDescription>
     <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
@@ -1636,10 +2790,21 @@
     <UniqueID>ST-2a21e568-195a-42d2-8a42-63d2143aacec</UniqueID>
     <ParentID>MSS-705ab59a-8d6a-4e62-a662-54f420cef9df</ParentID>
     <Description>Системата изпраща известие на сервитьора.</Description>
+=======
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a21e568-195a-42d2-8a42-63d2143aacec</UniqueID>
+    <ParentID>MSS-705ab59a-8d6a-4e62-a662-54f420cef9df</ParentID>
+    <Description>Системата изпраща известие на сервитьора.</Description>
+>>>>>>> 7481684768b1c6d9651f3e7d1fbe1eee2189514c
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
 \viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e8\'e7\'ef\'f0\'e0\'f9\'e0 \'e8\'e7\'e2\'e5\'f1\'f2\'e8\'e5 \'ed\'e0 \cf1\'f1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'e0.\cf0\par
 }
+<<<<<<< HEAD
 </RichDescription>
     <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
@@ -1648,6 +2813,16 @@
     <UniqueID>ST-1a8d3f4b-513f-429a-a45a-6fee9d99e172</UniqueID>
     <ParentID>MSS-705ab59a-8d6a-4e62-a662-54f420cef9df</ParentID>
     <Description>Сервитьорът вижда известието и отива при клиента.</Description>
+=======
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1a8d3f4b-513f-429a-a45a-6fee9d99e172</UniqueID>
+    <ParentID>MSS-705ab59a-8d6a-4e62-a662-54f420cef9df</ParentID>
+    <Description>Сервитьорът вижда известието и отива при клиента.</Description>
+>>>>>>> 7481684768b1c6d9651f3e7d1fbe1eee2189514c
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'e2\'e8\'e6\'e4\'e0 \'e8\'e7\'e2\'e5\'f1\'f2\'e8\'e5\'f2\'ee \'e8 \'ee\'f2\'e8\'e2\'e0 \'ef\'f0\'e8 \'ea\'eb\'e8\'e5\'ed\'f2\'e0.\cf0\par
@@ -1676,6 +2851,381 @@
 }
 </RichDescription>
     <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-440c5950-01cc-4563-9c09-e274a4a99247</UniqueID>
+    <ParentID>MSS-705ab59a-8d6a-4e62-a662-54f420cef9df</ParentID>
+    <Description />
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bb103125-86ee-48cd-855e-e84939f112cb</UniqueID>
+    <ParentID>MSS-8568f6a0-b0ed-4d90-96ca-b62a882e6fd6</ParentID>
+    <Description>Системата позволява на клиента да прегледа общата сметка на масата.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'ee\'e7\'e2\'ee\'eb\'ff\'e2\'e0 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'e4\'e0 \'ef\'f0\'e5\'e3\'eb\'e5\'e4\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d8762fd8-f6b1-4f5d-a8cb-e29de73bad5a</UniqueID>
+    <ParentID>MSS-0291cbe2-6d05-442d-b24e-4b37b5e962a4</ParentID>
+    <Description>Системата предоставя възможност на клиента да отвори общата сметка.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a8553d61-02f1-46e5-9048-5a45942ffe3e</UniqueID>
+    <ParentID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</ParentID>
+    <Description>Системата предоставя възможност на клиента да отвори формата за оценяване на артикул.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ee\'f6\'e5\'ed\'ff\'e2\'e0\'ed\'e5 \'ed\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0ba92c98-e338-46f7-8e92-1bce44d6eb2f</UniqueID>
+    <ParentID>MSS-524e34c1-b0a8-4b9b-85a7-c0d11445a133</ParentID>
+    <Description>Системата записва оценката на клиента и преизчислява общата оценка за артикула.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e7\'e0\'ef\'e8\'f1\'e2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0\'f2\'e0 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'e8 \'ef\'f0\'e5\'e8\'e7\'f7\'e8\'f1\'eb\'ff\'e2\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-16642381-ebf6-4423-8a1e-35b4c319e7ee</UniqueID>
+    <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
+    <Description>Системата предоставя възможност на клиента да отвори формата за писане на кометар.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ef\'e8\'f1\'e0\'ed\'e5 \'ed\'e0 \'ea\'ee\'ec\'e5\'f2\'e0\'f0.\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1ba15356-7b65-425c-b1f2-4d982a0b6867</UniqueID>
+    <ParentID>MSS-e16ce468-a66f-4c81-bc92-54b236ddac92</ParentID>
+    <Description>Системата записва коментара на клиента.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e7\'e0\'ef\'e8\'f1\'e2\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e0 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-04cd91ed-19f4-47a1-a7f9-b49a3ceaef8f</UniqueID>
+    <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
+    <Description>Системата предоставя възможност на клиента да отвори формата за писане на кометар за заведението и обслужването.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ef\'e8\'f1\'e0\'ed\'e5 \'ed\'e0 \'ea\'ee\'ec\'e5\'f2\'e0\'f0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2a6e35d8-787b-4e7c-925a-768bc5abdbba</UniqueID>
+    <ParentID>MSS-dda9c555-a128-4917-8557-d3273cd0b7f4</ParentID>
+    <Description>Системата записва коментара на клиента.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e7\'e0\'ef\'e8\'f1\'e2\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e0 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3065119b-4383-4afa-a0f6-63a562eccf90</UniqueID>
+    <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
+    <Description>Системата предоставя възможност на клиента да отвори анкета за заведението и обслужването.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ef\'f0\'e5\'e4\'ee\'f1\'f2\'e0\'e2\'ff \'e2\'fa\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2 \'ed\'e0 \cf1\'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'e0\'ed\'ea\'e5\'f2\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d33036eb-3ce5-4f92-94ba-7de408b5ea63</UniqueID>
+    <ParentID>MSS-d25656e6-6408-4477-bfde-a1f83c855148</ParentID>
+    <Description>Системата записва попълнената анкета.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e7\'e0\'ef\'e8\'f1\'e2\'e0 \'ef\'ee\'ef\'fa\'eb\'ed\'e5\'ed\'e0\'f2\'e0 \'e0\'ed\'ea\'e5\'f2\'e0.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-afe75a63-5da6-46e5-bdac-10548a856ff5</UniqueID>
+    <ParentID>MSS-23417514-9321-4c33-ab0d-e635b0a4be6e</ParentID>
+    <Description>Отваря дървото с категориите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ce\'f2\'e2\'e0\'f0\'ff \'e4\'fa\'f0\'e2\'ee\'f2\'ee \'f1 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3b7e484d-ecba-4fd1-be3a-731b5fd8051f</UniqueID>
+    <ParentID>MSS-23417514-9321-4c33-ab0d-e635b0a4be6e</ParentID>
+    <Description>Маркирата избраната категория</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cc\'e0\'f0\'ea\'e8\'f0\'e0\'f2\'e0 \'e8\'e7\'e1\'f0\'e0\'ed\'e0\'f2\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-97a18ebd-dd3d-4b30-8051-f38ebd2fc832</UniqueID>
+    <ParentID>MSS-23417514-9321-4c33-ab0d-e635b0a4be6e</ParentID>
+    <Description>Избира "Изтрий"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c8\'e7\'f2\'f0\'e8\'e9"\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ea9f8db9-ffc2-4555-ae13-490c9f643a36</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description>Отваря дървото с категориите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ce\'f2\'e2\'e0\'f0\'ff \'e4\'fa\'f0\'e2\'ee\'f2\'ee \'f1 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fa158a37-e1e4-49c9-829c-66874b8c8cf3</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description>Маркирата избраната категория</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cc\'e0\'f0\'ea\'e8\'f0\'e0\'f2\'e0 \'e8\'e7\'e1\'f0\'e0\'ed\'e0\'f2\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bba0f0d4-06cb-4c42-81ff-3d736de823a3</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description>Избира "Редактирай"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'d0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0\'e9"\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-acab4708-ea35-4b19-8083-46e7fe1118d0</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description>Редактира</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-348ef922-f55e-4196-9767-a9e63a3701fb</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description>Избира "Запиши"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c7\'e0\'ef\'e8\'f8\'e8"\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0d77aca6-0b46-4a06-a6d1-e0a9f0124a80</UniqueID>
+    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <Description />
+    <Sequence>5</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-640b8926-c9c6-4677-a59a-f0de48421c90</UniqueID>
+    <ParentID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</ParentID>
+    <Description>Избира "Добави артикул"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c4\'ee\'e1\'e0\'e2\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb"\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9046feb1-6bb4-41b6-80bf-43b621d7e9d3</UniqueID>
+    <ParentID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</ParentID>
+    <Description>Въвежда информацията за артикула</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'fa\'e2\'e5\'e6\'e4\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff\'f2\'e0 \'e7\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-fbaf7500-6307-4e1b-bce1-beb05af5149d</UniqueID>
+    <ParentID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</ParentID>
+    <Description>Избира категориите, в които да се включи артикула</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5, \'e2 \'ea\'ee\'e8\'f2\'ee \'e4\'e0 \'f1\'e5 \'e2\'ea\'eb\'fe\'f7\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0719faa7-67d9-4562-92c1-d6b927e01c3d</UniqueID>
+    <ParentID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</ParentID>
+    <Description>Избира "Запиши"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c7\'e0\'ef\'e8\'f8\'e8"\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-63b360eb-742a-4339-a347-4ddca9fee400</UniqueID>
+    <ParentID>MSS-7377e798-f25b-413e-954b-766d3da9f237</ParentID>
+    <Description>Намира продуктът</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cd\'e0\'ec\'e8\'f0\'e0 \'ef\'f0\'ee\'e4\'f3\'ea\'f2\'fa\'f2\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0aab481a-adfa-4e68-ba2f-0e2468b92348</UniqueID>
+    <ParentID>MSS-7377e798-f25b-413e-954b-766d3da9f237</ParentID>
+    <Description>Избира "Изтрий"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c8\'e7\'f2\'f0\'e8\'e9"\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2f9d5911-2f31-42b4-a504-239483d66d7d</UniqueID>
+    <ParentID>X-f39810b0-8d80-440f-ab4e-ca03ba4058f0</ParentID>
+    <Description>намира категория в която артикулът е добавен</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ed\'e0\'ec\'e8\'f0\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'e2 \'ea\'ee\'ff\'f2\'ee \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'fa\'f2 \'e5 \'e4\'ee\'e1\'e0\'e2\'e5\'ed\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f8ddce3c-3a14-4403-8174-21d88d9d760e</UniqueID>
+    <ParentID>X-f39810b0-8d80-440f-ab4e-ca03ba4058f0</ParentID>
+    <Description>маркира артикула</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ec\'e0\'f0\'ea\'e8\'f0\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d2f5a4af-7ab1-4949-8585-f1fd71b8125a</UniqueID>
+    <ParentID>MSS-a5d1aeff-e58d-4724-be38-6084422c76bf</ParentID>
+    <Description>Намира продуктът</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cd\'e0\'ec\'e8\'f0\'e0 \'ef\'f0\'ee\'e4\'f3\'ea\'f2\'fa\'f2\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8f13ab70-9f2d-4d0c-a522-78d14295b3a0</UniqueID>
+    <ParentID>X-b9a73e6f-e7ed-4d61-ac5e-91684d47fb8c</ParentID>
+    <Description>намира категория в която артикулът е добавен</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ed\'e0\'ec\'e8\'f0\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'e2 \'ea\'ee\'ff\'f2\'ee \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'fa\'f2 \'e5 \'e4\'ee\'e1\'e0\'e2\'e5\'ed\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-929c0e86-0c45-4b5e-ab96-12aa3a79f9f5</UniqueID>
+    <ParentID>X-b9a73e6f-e7ed-4d61-ac5e-91684d47fb8c</ParentID>
+    <Description>маркира артикула</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ec\'e0\'f0\'ea\'e8\'f0\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d1bf9fdc-27c5-421b-9504-125f500be441</UniqueID>
+    <ParentID>MSS-a5d1aeff-e58d-4724-be38-6084422c76bf</ParentID>
+    <Description>Избира "Редактирай"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'d0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0\'e9"\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3d9f0d41-6551-46eb-8a7f-ba8b71d611da</UniqueID>
+    <ParentID>MSS-a5d1aeff-e58d-4724-be38-6084422c76bf</ParentID>
+    <Description>Редактира желаната информация</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'d0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0 \'e6\'e5\'eb\'e0\'ed\'e0\'f2\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'ff\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5cee14f9-2b88-426c-9d23-9438036ac799</UniqueID>
+    <ParentID>MSS-a5d1aeff-e58d-4724-be38-6084422c76bf</ParentID>
+    <Description>Избира "Запиши"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c7\'e0\'ef\'e8\'f8\'e8"\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Extension>
@@ -1714,21 +3264,10 @@
   <Extension>
     <UniqueID>X-555d29f1-d902-4d30-ab38-9373e004b472</UniqueID>
     <ParentID>ST-1b310f7a-63b4-40ae-a21a-bc25f0b65a02</ParentID>
-    <Description>Клиента не може да види общата сметка на масата.</Description>
+    <Description>Клиентът не може да види общата сметка на масата.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'e0 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e2\'e8\'e4\'e8 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\cf0\par
-}
-</RichDescription>
-    <Sequence>0</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Extension>
-  <Extension>
-    <UniqueID>X-8de32e95-8043-4b92-9bf0-ddc21b2dc0a5</UniqueID>
-    <ParentID>ST-3ea3faee-47cd-4521-84ce-ec3b79548206</ParentID>
-    <Description>Системата не е успяла да изчисли общата сметка на масата.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e5 \'f3\'f1\'ef\'ff\'eb\'e0 \'e4\'e0 \'e8\'e7\'f7\'e8\'f1\'eb\'e8 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e2\'e8\'e4\'e8 \'ee\'e1\'f9\'e0\'f2\'e0 \'f1\'ec\'e5\'f2\'ea\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0.\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -1772,10 +3311,10 @@
   <Extension>
     <UniqueID>X-31a4ddc7-894c-4235-ac7b-7738aedb9f49</UniqueID>
     <ParentID>ST-bc2f5368-7048-47c8-a1b8-5678115983d3</ParentID>
-    <Description>Клиентът не може да отвори дадено ястие и формата за оценяване към него.</Description>
+    <Description>Клиентът не може да отвори даден артикул и формата за оценяване към него.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'e4\'e0\'e4\'e5\'ed\'ee \'ff\'f1\'f2\'e8\'e5 \'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ee\'f6\'e5\'ed\'ff\'e2\'e0\'ed\'e5 \'ea\'fa\'ec \'ed\'e5\'e3\'ee.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'e4\'e0\'e4\'e5\'ed \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ee\'f6\'e5\'ed\'ff\'e2\'e0\'ed\'e5 \'ea\'fa\'ec \'ed\'e5\'e3\'ee.\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -1796,10 +3335,10 @@
   <Extension>
     <UniqueID>X-7fb1d912-d922-4105-9d01-c17e05c844a8</UniqueID>
     <ParentID>ST-19249b93-5e99-426b-ac78-d8e7ce9fb827</ParentID>
-    <Description>Клиентът не може да отвори дадено ястие и формата за коментар към него.</Description>
+    <Description>Клиентът не може да отвори даден артикул и формата за коментар към него.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'e4\'e0\'e4\'e5\'ed\'ee \'ff\'f1\'f2\'e8\'e5 \'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'ea\'fa\'ec \'ed\'e5\'e3\'ee.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'e4\'e0\'e4\'e5\'ed \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'ea\'fa\'ec \'ed\'e5\'e3\'ee.\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -1820,9 +3359,9 @@
   <Extension>
     <UniqueID>X-4437168a-c372-4a73-a297-5f8261c593c6</UniqueID>
     <ParentID>ST-36fbcf43-9c18-459e-8112-693d58805473</ParentID>
-    <Description>Системата не визуализира общата оценка за артикула.</Description>
+    <Description>Системата не визуализира коментарите за артикула.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0.\par
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0\'e8\'f2\'e5 \'e7\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0.\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -1843,10 +3382,10 @@
   <Extension>
     <UniqueID>X-c9ca029c-5145-429f-95b1-27447e6d52eb</UniqueID>
     <ParentID>ST-13cc14aa-3cda-464d-bacc-a19520cc3f77</ParentID>
-    <Description>Клиентът не може да отвори  формата за коментар за заведението и облуждането</Description>
+    <Description>Клиентът не може да отвори  формата за коментар за заведението и обслужването.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8  \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e4\'e0\'ed\'e5\'f2\'ee\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8  \'f4\'ee\'f0\'ec\'e0\'f2\'e0 \'e7\'e0 \'ea\'ee\'ec\'e5\'ed\'f2\'e0\'f0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -1890,10 +3429,10 @@
   <Extension>
     <UniqueID>X-ac5980db-b339-40a4-9b1e-a5d713b82b79</UniqueID>
     <ParentID>ST-0f35e044-8858-44aa-b8a2-d39fd38a0c91</ParentID>
-    <Description>Клиентът не може да отвори анкетата за заведението и облуждането</Description>
+    <Description>Клиентът не може да отвори анкетата за заведението и обслужването.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'e0\'ed\'ea\'e5\'f2\'e0\'f2\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e4\'e0\'ed\'e5\'f2\'ee\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'e0\'ed\'ea\'e5\'f2\'e0\'f2\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \cf0\'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -1926,9 +3465,9 @@
   <Extension>
     <UniqueID>X-bcfa0603-bc20-4c5d-85da-9e77374ecbbb</UniqueID>
     <ParentID>ST-1b84cb02-d217-4bcf-a18f-bca2023cbdd6</ParentID>
-    <Description>Системата не визуализира общата оценка за заведението и облужването.</Description>
+    <Description>Системата не визуализира общата оценка за заведението и обслужването.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\par
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'e2\'e8\'e7\'f3\'e0\'eb\'e8\'e7\'e8\'f0\'e0 \'ee\'e1\'f9\'e0\'f2\'e0 \'ee\'f6\'e5\'ed\'ea\'e0 \'e7\'e0 \'e7\'e0\'e2\'e5\'e4\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'e1\'f1\'eb\'f3\'e6\'e2\'e0\'ed\'e5\'f2\'ee.\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -2128,6 +3667,7 @@
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 \viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e7\'e0\'ef\'e8\'f8\'e5 \'ed\'e0\'ef\'f0\'e0\'e2\'e5\'ed\'e0\'f2\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e0.\par
 }
+<<<<<<< HEAD
 </RichDescription>
     <Sequence>0</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
@@ -2461,4 +4001,405 @@
     <ChoicesExclusive>false</ChoicesExclusive>
     <Multiline>false</Multiline>
   </BuiltInField>
+=======
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-fe1fcdc3-d44d-41c6-b227-122b656a277c</UniqueID>
+    <ParentID>ST-4c7bf06c-88d5-4832-9eac-cb2c0df6a13f</ParentID>
+    <Description>Клиентът не може да отвори сметката.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0.\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-171b5096-9a8d-427a-aafe-79941228fda9</UniqueID>
+    <ParentID>ST-9046feb1-6bb4-41b6-80bf-43b621d7e9d3</ParentID>
+    <Description>добавя артикула в "Препоръчани"</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'e4\'ee\'e1\'e0\'e2\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0 \'e2 "\'cf\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8"\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-f39810b0-8d80-440f-ab4e-ca03ba4058f0</UniqueID>
+    <ParentID>ST-63b360eb-742a-4339-a347-4ddca9fee400</ParentID>
+    <Description>през категориите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ef\'f0\'e5\'e7 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-e280ade5-b8a4-4a27-972d-a9cbecd09213</UniqueID>
+    <ParentID>ST-63b360eb-742a-4339-a347-4ddca9fee400</ParentID>
+    <Description>използва търсачката</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'e8\'e7\'ef\'ee\'eb\'e7\'e2\'e0 \'f2\'fa\'f0\'f1\'e0\'f7\'ea\'e0\'f2\'e0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-b9a73e6f-e7ed-4d61-ac5e-91684d47fb8c</UniqueID>
+    <ParentID>ST-d2f5a4af-7ab1-4949-8585-f1fd71b8125a</ParentID>
+    <Description>през категориите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ef\'f0\'e5\'e7 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-5b5715c9-e389-4d8e-99f1-9fb3cbb0a9b2</UniqueID>
+    <ParentID>ST-d2f5a4af-7ab1-4949-8585-f1fd71b8125a</ParentID>
+    <Description>използва търсачката</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'e8\'e7\'ef\'ee\'eb\'e7\'e2\'e0 \'f2\'fa\'f0\'f1\'e0\'f7\'ea\'e0\'f2\'e0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-b15314e2-2ef7-4e8d-88d7-afee1e96bb1d</UniqueID>
+    <ParentID>ST-3d9f0d41-6551-46eb-8a7f-ba8b71d611da</ParentID>
+    <Description>добавя или премахва от списъка с препоръчани</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'e4\'ee\'e1\'e0\'e2\'ff \'e8\'eb\'e8 \'ef\'f0\'e5\'ec\'e0\'f5\'e2\'e0 \'ee\'f2 \'f1\'ef\'e8\'f1\'fa\'ea\'e0 \'f1 \'ef\'f0\'e5\'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <UserID>
+    <DefaultPrefix>UC-</DefaultPrefix>
+    <NextValue>32</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-</DefaultPrefix>
+    <NextValue>8</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-</DefaultPrefix>
+    <NextValue>39</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <BuiltInField>
+    <UniqueID>1</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the use case.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>2</UniqueID>
+    <Name>Level</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>The level of detail in the use case.</Description>
+    <DefaultValue />
+    <Choices>Summary;User;Subfunction</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>3</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>An indication of the difficulty of implementation.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>4</UniqueID>
+    <Name>UseCaseStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case specification.</Description>
+    <DefaultValue />
+    <Choices>Name Only;Initial;Base;Complete;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>5</UniqueID>
+    <Name>ImplStatus</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the use case implementation.</Description>
+    <DefaultValue />
+    <Choices>Scheduled;Started;Partially Complete;Complete;Partially Deferred;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>6</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this use case.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>7</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>0</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this use case is applicable to.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>100</UniqueID>
+    <Name>ReqType</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>The type of requirement.</Description>
+    <DefaultValue>Non-functional</DefaultValue>
+    <Choices>Functional;Non-functional;Business Rule;Constraint;Performance;Test;Change Request</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>101</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the requirement.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>102</UniqueID>
+    <Name>Source</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Where did the requirement originate?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>103</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the requirement.</Description>
+    <DefaultValue />
+    <Choices>Proposed;Approved;Rejected;Deferred;Implemented;Mandatory;Obsolete</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>104</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this requirement?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>105</UniqueID>
+    <Name>Release</Name>
+    <AppliesTo>3</AppliesTo>
+    <Category>Details</Category>
+    <Description>Which release this requirement is applicable to.</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>200</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>1</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of this actor's interactions with the system.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>300</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority for resolving issue.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>301</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of issue.</Description>
+    <DefaultValue />
+    <Choices>New;Assigned;Resolved;Deferred</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>302</UniqueID>
+    <Name>Type</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of issue.</Description>
+    <DefaultValue />
+    <Choices>Question;Approval;Clarification;Defect;Feature</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>303</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of issue to be resolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>304</UniqueID>
+    <Name>Risk</Name>
+    <AppliesTo>6</AppliesTo>
+    <Category>Details</Category>
+    <Description>Risk to project while unresolved.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>400</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>State of test scenario.</Description>
+    <DefaultValue />
+    <Choices>New;Partially defined;Defined</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>401</UniqueID>
+    <Name>TestType</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Type of test.</Description>
+    <DefaultValue />
+    <Choices>Acceptance;Usability;Performance;Load;Security;Bounds;White box</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>402</UniqueID>
+    <Name>Complexity</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Complexity of test.</Description>
+    <DefaultValue />
+    <Choices>Low;Medium;High</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>403</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>7</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the test scenario.</Description>
+    <DefaultValue>1</DefaultValue>
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>501</UniqueID>
+    <Name>Priority</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Priority of the user story.</Description>
+    <DefaultValue />
+    <Choices>Must;Should;Could;Won't</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>502</UniqueID>
+    <Name>Size</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>The relative complexity of the user story.</Description>
+    <DefaultValue />
+    <Choices>X-Small;Small;Med;Large;X-Large</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>503</UniqueID>
+    <Name>AssignedTo</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Who is responsible for this user story?</Description>
+    <DefaultValue />
+    <Choices />
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+  <BuiltInField>
+    <UniqueID>504</UniqueID>
+    <Name>Status</Name>
+    <AppliesTo>9</AppliesTo>
+    <Category>Details</Category>
+    <Description>Status of the user story.</Description>
+    <DefaultValue />
+    <Choices>Backlog;Doing;Review;Done</Choices>
+    <ChoicesExclusive>false</ChoicesExclusive>
+    <Multiline>false</Multiline>
+  </BuiltInField>
+>>>>>>> 7481684768b1c6d9651f3e7d1fbe1eee2189514c
 </UCTDataSet>
