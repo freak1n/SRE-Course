@@ -845,7 +845,7 @@
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
     <Name>Препоръчани и най-високо оцененни ястия</Name>
     <Description>Системата трябва да показва на клиента препоръчани от заведението ястия и най-високо оценените ястия.</Description>
-Клиентът е поръчал ястия или напитки.</PreConditions>
+<PreConditions>Клиентът е поръчал ястия или напитки.</PreConditions>
     <PostConditions />
     <Level />
     <Complexity />
