@@ -373,10 +373,10 @@
     <UniqueID>UC-0da821a8-262b-4f83-9f7c-adb5bf71cd30</UniqueID>
     <UserID>UC-24</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Информация за артикула</Name>
-    <Description />
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20\par
+    <Name>Изтриване на артикул</Name>
+    <Description>Изтрива артикул от менюто</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c8\'e7\'f2\'f0\'e8\'e2\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
 }
 </RichDescription>
     <Sequence>17</Sequence>
@@ -391,8 +391,8 @@
     <Release />
     <TestingSetup />
     <TestingConfigurations />
-    <DateAdded>2014-05-21T23:02:51.6157368+03:00</DateAdded>
-    <DateModified>2014-05-23T19:14:34.0846712+03:00</DateModified>
+    <DateAdded>2014-05-22T00:10:55.3159266+03:00</DateAdded>
+    <DateModified>2014-05-22T00:15:41.4742939+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-79fbf735-a08b-4979-b260-f7685d1d4092</UniqueID>
@@ -413,232 +413,6 @@
     <TestingConfigurations />
     <DateAdded>2014-05-21T23:06:57.8096565+03:00</DateAdded>
     <DateModified>2014-05-23T18:56:20.290545+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-59d75528-06c7-4fb8-96c3-82913fb4c96a</UniqueID>
-    <UserID>UC-26</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Log in
-</Name>
-    <Sequence>19</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T18:58:07.2687703+03:00</DateAdded>
-    <DateModified>2014-05-23T19:00:55.0414758+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-1cddb340-7f57-4e2f-8582-2ca2c349e94c</UniqueID>
-    <UserID>UC-27</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Отваряне на менюто</Name>
-    <Sequence>20</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T18:59:23.5065298+03:00</DateAdded>
-    <DateModified>2014-05-23T19:01:07.4277227+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-0bab8b1f-90ce-462b-8583-9bf4a4441f3f</UniqueID>
-    <UserID>UC-28</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Добавяне на нова категория</Name>
-    <Sequence>21</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T18:59:25.6059276+03:00</DateAdded>
-    <DateModified>2014-05-23T19:01:13.1455305+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-e2557e28-6526-4d1b-b470-8d417faa1554</UniqueID>
-    <UserID>UC-29</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Отваряне на анкетата</Name>
-    <Sequence>22</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:03:00.1697877+03:00</DateAdded>
-    <DateModified>2014-05-23T19:07:16.2562918+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-ae22b4fd-c161-49fb-9fc6-e7954b4341ee</UniqueID>
-    <UserID>UC-30</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Неотваряне на анкетата
-</Name>
-    <Sequence>23</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:03:44.2391287+03:00</DateAdded>
-    <DateModified>2014-05-23T19:07:24.3987136+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-224bcc98-6dc0-4a40-9208-e485481ce0ef</UniqueID>
-    <UserID>UC-31</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Попълване на анкетата
-</Name>
-    <Sequence>24</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:03:51.1006977+03:00</DateAdded>
-    <DateModified>2014-05-23T19:05:24.6950139+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-5bf26f34-8b7e-45bd-bca3-54c9440a0bce</UniqueID>
-    <UserID>UC-32</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Неуспешно попълване</Name>
-    <Sequence>25</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:03:54.4599339+03:00</DateAdded>
-    <DateModified>2014-05-23T19:06:05.834405+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-03c5827e-6e90-49bd-aa06-e73f69d42c71</UniqueID>
-    <UserID>UC-33</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Записване  анкетата
-</Name>
-    <Sequence>26</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:04:24.3668471+03:00</DateAdded>
-    <DateModified>2014-05-23T19:06:31.0942241+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-64987eff-1bf7-4b5e-bc04-e945dabe1e3f</UniqueID>
-    <UserID>UC-34</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Визуализиране на обща оценка</Name>
-    <Sequence>27</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:04:31.5716433+03:00</DateAdded>
-    <DateModified>2014-05-23T19:06:53.7923372+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-247bebdb-bcb0-4ff6-aff1-d27cb10eee5f</UniqueID>
-    <UserID>UC-35</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Липса на визуализация</Name>
-    <Sequence>28</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:04:39.2087281+03:00</DateAdded>
-    <DateModified>2014-05-23T19:07:10.1932563+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-2c5d63ca-1b6b-4e82-9d5d-96a46eb835ac</UniqueID>
-    <UserID>UC-36</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>New Use Case</Name>
-    <Sequence>29</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:04:49.8668253+03:00</DateAdded>
-    <DateModified>2014-05-23T19:04:49.8678259+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-254df9b8-9994-4ec6-83e5-80f9a6bf66c8</UniqueID>
-    <UserID>UC-37</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Добавяне на ново описание</Name>
-    <Sequence>30</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:09:12.5727372+03:00</DateAdded>
-    <DateModified>2014-05-23T19:10:05.8402482+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-790ad012-4690-4d3e-8620-9d87fc452bfd</UniqueID>
-    <UserID>UC-38</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Редактиране на описание
-</Name>
-    <Sequence>31</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:09:24.2244959+03:00</DateAdded>
-    <DateModified>2014-05-23T19:10:08.7231685+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-cac1f29d-e140-4c68-aa6d-56b7c62f6e6f</UniqueID>
-    <UserID>UC-39</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Добавяне на външна препратка</Name>
-    <Sequence>32</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:09:26.3869361+03:00</DateAdded>
-    <DateModified>2014-05-23T19:09:57.7638717+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-937675a1-274e-4f0c-b378-62ae3715bbe0</UniqueID>
-    <UserID>UC-40</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Отваряне на карта на заведението
-</Name>
-    <Sequence>33</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:10:45.8648971+03:00</DateAdded>
-    <DateModified>2014-05-23T19:11:07.417069+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-60be4cd2-d171-419e-9e02-401ba91261b9</UniqueID>
-    <UserID>UC-41</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Отваряне на менюто</Name>
-    <Sequence>34</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:12:23.3796458+03:00</DateAdded>
-    <DateModified>2014-05-23T19:13:55.1397412+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-a098e7ff-73c1-4beb-9bf2-dc9be2ceaff7</UniqueID>
-    <UserID>UC-42</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Избиране на категория</Name>
-    <Sequence>35</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:12:26.7638995+03:00</DateAdded>
-    <DateModified>2014-05-23T19:13:09.3202348+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-537fc4b4-af13-453f-973c-4312b4ce98cc</UniqueID>
-    <UserID>UC-43</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Връщане към менюто</Name>
-    <Sequence>36</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:12:29.2075265+03:00</DateAdded>
-    <DateModified>2014-05-23T19:13:18.3942764+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-f7509ccd-1903-48e1-8330-141aac0840f5</UniqueID>
-    <UserID>UC-44</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Избиране на артикул</Name>
-    <Sequence>37</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:12:31.3099263+03:00</DateAdded>
-    <DateModified>2014-05-23T19:13:13.1738006+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-4cc20036-293f-4830-b7ef-78765e7a0791</UniqueID>
-    <UserID>UC-45</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Осъществяване на поръчка</Name>
-    <Sequence>38</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:12:33.5864416+03:00</DateAdded>
-    <DateModified>2014-05-23T19:13:39.6504282+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-ad84c259-e4ba-4ac7-9600-95330abe123a</UniqueID>
-    <UserID>UC-46</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Избор на артикул</Name>
-    <Sequence>39</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:15:14.3774982+03:00</DateAdded>
-    <DateModified>2014-05-23T19:15:35.4385209+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-e5b86e91-7ee8-4ba4-a4fd-f130263f53ed</UniqueID>
-    <UserID>UC-47</UserID>
-    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Показване на детайлна информация</Name>
-    <Sequence>40</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2014-05-23T19:15:16.3528134+03:00</DateAdded>
-    <DateModified>2014-05-23T19:15:26.9248536+03:00</DateModified>
   </UseCase>
   <Actor>
     <UniqueID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</UniqueID>
@@ -987,46 +761,6 @@
   <UCActor>
     <ParentID>UC-79fbf735-a08b-4979-b260-f7685d1d4092</ParentID>
     <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-59d75528-06c7-4fb8-96c3-82913fb4c96a</ParentID>
-    <ActorID>A-b872bbd1-4e70-4487-89fb-9e67d29e40a4</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-e2557e28-6526-4d1b-b470-8d417faa1554</ParentID>
-    <ActorID>A-b23709ec-eafe-4631-9761-6ef4e29a7474</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-ae22b4fd-c161-49fb-9fc6-e7954b4341ee</ParentID>
-    <ActorID>A-b23709ec-eafe-4631-9761-6ef4e29a7474</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-254df9b8-9994-4ec6-83e5-80f9a6bf66c8</ParentID>
-    <ActorID>A-5c0f7bd5-79a6-4eb4-bce8-aae0d4f01ddf</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-790ad012-4690-4d3e-8620-9d87fc452bfd</ParentID>
-    <ActorID>A-5c0f7bd5-79a6-4eb4-bce8-aae0d4f01ddf</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-937675a1-274e-4f0c-b378-62ae3715bbe0</ParentID>
-    <ActorID>A-3bbc3bde-0539-4a86-b845-7d85d0b35189</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-60be4cd2-d171-419e-9e02-401ba91261b9</ParentID>
-    <ActorID>A-93cd0d20-f92f-4d06-abc7-76fa1b3679a4</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-ad84c259-e4ba-4ac7-9600-95330abe123a</ParentID>
-    <ActorID>A-a6252782-7d18-425f-b7aa-659da956da4e</ActorID>
     <Kind>0</Kind>
   </UCActor>
   <Scenario>
@@ -4839,7 +4573,7 @@
   </Extension>
   <UserID>
     <DefaultPrefix>UC-</DefaultPrefix>
-    <NextValue>48</NextValue>
+    <NextValue>27</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-</DefaultPrefix>
