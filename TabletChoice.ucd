@@ -856,7 +856,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:11:50.0146214+03:00</DateAdded>
-    <DateModified>2014-05-24T09:50:03.0138135+03:00</DateModified>
+    <DateModified>2014-05-19T12:48:02.3528958+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</UniqueID>
@@ -876,7 +876,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:16:52.45392+03:00</DateAdded>
-    <DateModified>2014-05-24T09:50:16.7538328+03:00</DateModified>
+    <DateModified>2014-05-20T11:35:50.9631494+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-a32427bc-c13c-4edd-b85f-bc9c2784275b</UniqueID>
@@ -898,7 +898,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:34:35.3177123+03:00</DateAdded>
-    <DateModified>2014-05-24T09:52:01.7739798+03:00</DateModified>
+    <DateModified>2014-05-19T19:49:24.5800299+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-5d16630e-3421-424a-8965-99b228e535da</UniqueID>
@@ -919,7 +919,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:36:30.1542806+03:00</DateAdded>
-    <DateModified>2014-05-24T09:55:02.4742328+03:00</DateModified>
+    <DateModified>2014-05-18T13:33:54.6380202+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-9825e2ac-3709-43ae-b360-eba6aaab8885</UniqueID>
@@ -940,7 +940,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:38:01.5425077+03:00</DateAdded>
-    <DateModified>2014-05-24T09:57:01.0143987+03:00</DateModified>
+    <DateModified>2014-05-18T13:43:45.1507956+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-0a194b0e-a479-404b-86ae-16b93f099b3e</UniqueID>
@@ -961,7 +961,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:38:43.1508876+03:00</DateAdded>
-    <DateModified>2014-05-24T09:58:44.6545438+03:00</DateModified>
+    <DateModified>2014-05-18T13:52:56.1573114+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-8b27f9a5-44f7-47a0-94dc-b07520366762</UniqueID>
@@ -982,7 +982,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:41:44.3612522+03:00</DateAdded>
-    <DateModified>2014-05-24T10:04:58.6050674+03:00</DateModified>
+    <DateModified>2014-05-20T17:37:37.9503978+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-c85218f3-dab4-4c2b-ada3-282089735d38</UniqueID>
@@ -1002,7 +1002,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-19T12:48:37.0858824+03:00</DateAdded>
-    <DateModified>2014-05-24T10:02:35.6848673+03:00</DateModified>
+    <DateModified>2014-05-20T17:37:37.9233962+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-4cae19ba-a1c9-4661-b711-7a32d8eb963b</UniqueID>
@@ -1022,7 +1022,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-19T12:57:08.6901445+03:00</DateAdded>
-    <DateModified>2014-05-24T10:11:43.2939418+03:00</DateModified>
+    <DateModified>2014-05-20T17:39:42.9165454+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-d6516cde-8c4b-4816-ac12-e5ad0eb894d9</UniqueID>
@@ -1042,7 +1042,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-19T13:01:35.7174176+03:00</DateAdded>
-    <DateModified>2014-05-24T10:13:01.0240506+03:00</DateModified>
+    <DateModified>2014-05-20T17:41:59.8653784+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-71b82bce-d47a-4ac0-8910-d17ad3355258</UniqueID>
@@ -1062,7 +1062,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-19T13:05:40.2224025+03:00</DateAdded>
-    <DateModified>2014-05-24T10:14:43.8341946+03:00</DateModified>
+    <DateModified>2014-05-20T17:42:54.3164929+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-f1b3e280-1f57-48e4-875a-84f0b94ac3fe</UniqueID>
@@ -1082,7 +1082,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-19T13:13:16.3834934+03:00</DateAdded>
-    <DateModified>2014-05-24T10:18:02.6444729+03:00</DateModified>
+    <DateModified>2014-05-20T17:45:10.2562682+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-d5b8cd48-27c0-4868-8e6b-224236a9fe95</UniqueID>
@@ -1102,7 +1102,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-20T11:29:34.0145892+03:00</DateAdded>
-    <DateModified>2014-05-24T10:18:47.724536+03:00</DateModified>
+    <DateModified>2014-05-20T11:51:08.071605+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-63b30154-c329-4bcb-a306-4a3da0eb31b6</UniqueID>
@@ -1435,7 +1435,7 @@
     <Name>Клиент</Name>
     <Sequence>6</Sequence>
     <DateAdded>2014-05-17T17:11:33.7406906+03:00</DateAdded>
-    <DateModified>2014-05-24T09:45:25.7334253+03:00</DateModified>
+    <DateModified>2014-05-17T17:11:46.5294221+03:00</DateModified>
   </Actor>
   <Diagram>
     <UniqueID>D-5efb1714-73cb-4653-b395-8be94f29285b</UniqueID>
@@ -1455,114 +1455,26 @@
   </Diagram>
   <Diagram>
     <UniqueID>D-cdfe3893-cd6f-436b-a80c-a099ebd757f4</UniqueID>
-    <ParentID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ParentID>
+    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
     <Name>Клиент</Name>
     <Sequence>0</Sequence>
     <FileName>menu_administration.ndx</FileName>
     <Type>0</Type>
   </Diagram>
   <Diagram>
+    <UniqueID>D-0df3142a-ae2d-4d37-aad9-9d37d398b73a</UniqueID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>Индивидуална сметка</Name>
+    <Sequence>0</Sequence>
+    <FileName>Индивидуална сметка.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <Diagram>
     <UniqueID>D-d99e24a5-fad9-4003-9d4b-7679b3c519df</UniqueID>
     <ParentID>UC-8b27f9a5-44f7-47a0-94dc-b07520366762</ParentID>
-    <Name>Попълване на анкета за заведението и обслужването</Name>
+    <Name>Activity Diagram</Name>
     <Sequence>0</Sequence>
-    <FileName>РедакцияНаАртикулActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-2b956059-82fb-4226-b131-83780cd57202</UniqueID>
-    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
-    <Name>Преглед на обща сметка</Name>
-    <Sequence>0</Sequence>
-    <FileName>ПрегледНаОбщаСметкаActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-b8c7baa3-bc33-4035-a218-f47f292e6bd5</UniqueID>
-    <ParentID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</ParentID>
-    <Name>Поръчване на артикул</Name>
-    <Sequence>0</Sequence>
-    <FileName>ПоръчванеНаАртикулActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-c7c6b7f9-6893-482b-a351-d0d7192334b2</UniqueID>
-    <ParentID>UC-a32427bc-c13c-4edd-b85f-bc9c2784275b</ParentID>
-    <Name>Преглед на индивидуална сметка</Name>
-    <Sequence>0</Sequence>
-    <FileName>ПрегледНаИндивидуалнаСметкаActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-657a6d2f-6b13-4932-bb69-19cb4fa9f7d8</UniqueID>
-    <ParentID>UC-5d16630e-3421-424a-8965-99b228e535da</ParentID>
-    <Name>Оценка на  даден артикул</Name>
-    <Sequence>0</Sequence>
-    <FileName>ОценкаНаДаденАртикулActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-eeb3879d-96dc-414e-9883-abdce0e68e0f</UniqueID>
-    <ParentID>UC-9825e2ac-3709-43ae-b360-eba6aaab8885</ParentID>
-    <Name>Пишене на коментар за даден артикул</Name>
-    <Sequence>0</Sequence>
-    <FileName>ПишенеНаКоментарЗаДаденАртикулActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-53232485-0c20-43f5-a0e5-974a8d4fd2cf</UniqueID>
-    <ParentID>UC-0a194b0e-a479-404b-86ae-16b93f099b3e</ParentID>
-    <Name>Пишене на коментар за заведението и облужването</Name>
-    <Sequence>0</Sequence>
-    <FileName>ПишенеНаКоментарЗаЗаведениетоИОблужванетоActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-19f7c0c0-f076-4cde-80c4-928b72e4d51f</UniqueID>
-    <ParentID>UC-c85218f3-dab4-4c2b-ada3-282089735d38</ParentID>
-    <Name>Показване на препоръчани ястия</Name>
-    <Sequence>0</Sequence>
-    <FileName>ПоказванеНаПрепоръчаниЯстияActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-95bfe5e3-104c-4598-b81f-76dc9c1a8cb0</UniqueID>
-    <ParentID>UC-4cae19ba-a1c9-4661-b711-7a32d8eb963b</ParentID>
-    <Name>Избиране на грамаж</Name>
-    <Sequence>0</Sequence>
-    <FileName>ИзбиранеНаГрамажActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-987e5dab-be4f-4478-b25f-6a079c7e4400</UniqueID>
-    <ParentID>UC-d6516cde-8c4b-4816-ac12-e5ad0eb894d9</ParentID>
-    <Name>Поръчване на ястие с добавки</Name>
-    <Sequence>0</Sequence>
-    <FileName>ПоръчванеНаЯстиеСДобавкиActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-8542bdc9-8abb-4c5b-b441-302cc2553ecd</UniqueID>
-    <ParentID>UC-71b82bce-d47a-4ac0-8910-d17ad3355258</ParentID>
-    <Name>Поръчване на ястие без някаква съставка</Name>
-    <Sequence>0</Sequence>
-    <FileName>ПоръчванеНаЯстиеБезНякакваСъставкаActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-a7645c0a-9077-4380-8e52-05c5e74ccc07</UniqueID>
-    <ParentID>UC-f1b3e280-1f57-48e4-875a-84f0b94ac3fe</ParentID>
-    <Name>Повикване на сервитьор</Name>
-    <Sequence>0</Sequence>
-    <FileName>ПовикванеНаСервитьорActivityDiagram.ndx</FileName>
-    <Type>1</Type>
-  </Diagram>
-  <Diagram>
-    <UniqueID>D-e6309e22-24bb-4088-affc-bf3dc80fe2c4</UniqueID>
-    <ParentID>UC-d5b8cd48-27c0-4868-8e6b-224236a9fe95</ParentID>
-    <Name>Показване на най-високо оценените ястия</Name>
-    <Sequence>0</Sequence>
-    <FileName>ПоказванеНаНай-високоОцененитеЯстияActivityDiagram.ndx</FileName>
+    <FileName>ПопълванеНаАнкетаЗаЗаведениетоИОбслужванетоActivityDiagram.ndx</FileName>
     <Type>1</Type>
   </Diagram>
   <UCActor>
@@ -3921,16 +3833,16 @@
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-0d77aca6-0b46-4a06-a6d1-e0a9f0124a80</UniqueID>
-    <ParentID>MSS-9c2702e6-b8f7-4f4d-87c4-51c9bfecbe0f</ParentID>
+    <UniqueID>ST-43b2e0db-c517-4277-9a15-7bc8dd325948</UniqueID>
+    <ParentID>MSS-97f92019-8ac4-451e-8454-11e2fbdb8a7f</ParentID>
     <Description />
-    <Sequence>5</Sequence>
+    <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-640b8926-c9c6-4677-a59a-f0de48421c90</UniqueID>
-    <ParentID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</ParentID>
-    <Description>Избира "Добави артикул"</Description>
+    <UniqueID>ST-f2f4897d-10d9-4fdf-bb40-925bb9a4c428</UniqueID>
+    <ParentID>MSS-395bb342-7ddd-407e-824f-deff915cc0b2</ParentID>
+    <Description>Системата зарежда на потребителя най-високо оценените ястия.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 \viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 "\'c4\'ee\'e1\'e0\'e2\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb"\par
 }
@@ -3950,9 +3862,16 @@
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-fbaf7500-6307-4e1b-bce1-beb05af5149d</UniqueID>
-    <ParentID>MSS-64adef19-f577-4359-93ed-95f286b61ba2</ParentID>
-    <Description>Избира категориите, в които да се включи артикула</Description>
+    <UniqueID>ST-e110e5ad-1e69-43db-91cd-ac08ba2b110f</UniqueID>
+    <ParentID>MSS-395bb342-7ddd-407e-824f-deff915cc0b2</ParentID>
+    <Description />
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3e84a39a-5bd0-43b1-b246-5ae2e471bc4f</UniqueID>
+    <ParentID>MSS-d449acf9-3b83-4fa8-a42f-fc5c781b3a8b</ParentID>
+    <Description>Системата записва поръчания артикул.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 \viewkind4\uc1\pard\f0\fs20\'c8\'e7\'e1\'e8\'f0\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'e8\'f2\'e5, \'e2 \'ea\'ee\'e8\'f2\'ee \'e4\'e0 \'f1\'e5 \'e2\'ea\'eb\'fe\'f7\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e0\par
 }
@@ -4079,6 +3998,13 @@
 }
 </RichDescription>
     <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-440c5950-01cc-4563-9c09-e274a4a99247</UniqueID>
+    <ParentID>MSS-705ab59a-8d6a-4e62-a662-54f420cef9df</ParentID>
+    <Description />
+    <Sequence>4</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Extension>
@@ -4524,64 +4450,17 @@
     <Sequence>0</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Extension>
-  <Extension>
-    <UniqueID>X-fe1fcdc3-d44d-41c6-b227-122b656a277c</UniqueID>
-    <ParentID>ST-4c7bf06c-88d5-4832-9eac-cb2c0df6a13f</ParentID>
-    <Description>Клиентът не може да отвори сметката.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ee\'f2\'e2\'ee\'f0\'e8 \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0.\cf0\par
-}
-</RichDescription>
-    <Sequence>0</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Extension>
-  <Extension>
-    <UniqueID>X-fdc734d8-3ac5-4f0b-8688-45fa7e6cf8e0</UniqueID>
-    <ParentID>ST-c79ee359-2b9b-4cce-a96d-3209fe01d54b</ParentID>
-    <Description>Администраторът редактира вече налично описание към артикул</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\lang1026\f0\fs20\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'fa\'f2 \'f0\'e5\'e4\'e0\'ea\'f2\'e8\'f0\'e0 \'e2\'e5\'f7\'e5 \'ed\'e0\'eb\'e8\'f7\'ed\'ee \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5 \'ea\'fa\'ec \'e0\'f0\'f2\'e8\'ea\'f3\'eb\lang2057\f1\par
-}
-</RichDescription>
-    <Sequence>0</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Extension>
-  <Extension>
-    <UniqueID>X-d6a95357-b1ae-4027-bc4a-212d0f0f96f1</UniqueID>
-    <ParentID>ST-ac2ede7a-439b-40cc-928e-73b5d4dd3f42</ParentID>
-    <Description>Клиентът може отново да избере категория артикули в менюто</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\lang1026\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ec\'ee\'e6\'e5 \'ee\'f2\'ed\'ee\'e2\'ee \'e4\'e0 \'e8\'e7\'e1\'e5\'f0\'e5 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e2 \'ec\'e5\'ed\'fe\'f2\'ee\cf0\lang2057\f1\par
-}
-</RichDescription>
-    <Sequence>0</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Extension>
-  <Extension>
-    <UniqueID>X-fc2e8820-195e-48e7-b784-ffd85278fa42</UniqueID>
-    <ParentID>ST-ac2ede7a-439b-40cc-928e-73b5d4dd3f42</ParentID>
-    <Description>Клиентът може да не избере друга категория в менюто и се пренасочва към финализирането на поръчката</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\lang1026\f0\fs20\'ca\'eb\'e8\'e5\'ed\'f2\'fa\'f2 \'ec\'ee\'e6\'e5 \'e4\'e0 \'ed\'e5 \'e8\'e7\'e1\'e5\'f0\'e5 \'e4\'f0\'f3\'e3\'e0 \'ea\'e0\'f2\'e5\'e3\'ee\'f0\'e8\'ff \'e2 \'ec\'e5\'ed\'fe\'f2\'ee \'e8 \'f1\'e5 \'ef\'f0\'e5\'ed\'e0\'f1\'ee\'f7\'e2\'e0 \'ea\'fa\'ec \'f4\'e8\'ed\'e0\'eb\'e8\'e7\'e8\'f0\'e0\'ed\'e5\'f2\'ee \'ed\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e0\'f2\'e0\cf0\lang2057\f1\par
-}
-</RichDescription>
-    <Sequence>1</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Extension>
   <UserID>
     <DefaultPrefix>UC-</DefaultPrefix>
-    <NextValue>27</NextValue>
+    <NextValue>20</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-</DefaultPrefix>
-    <NextValue>17</NextValue>
+    <NextValue>9</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-</DefaultPrefix>
-    <NextValue>19</NextValue>
+    <NextValue>17</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>DEF-</DefaultPrefix>
