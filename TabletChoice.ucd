@@ -388,7 +388,7 @@
     <UniqueID>UC-d8292d38-f9cf-4657-868f-92a7739620c2</UniqueID>
     <UserID>UC-25</UserID>
     <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
-    <Name>Изтриване на артикул</Name>
+    <Name>yИзтриване на артикул</Name>
     <Description>Изтрива артикул от менюто</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 \viewkind4\uc1\pard\f0\fs20\'c8\'e7\'f2\'f0\'e8\'e2\'e0 \'e0\'f0\'f2\'e8\'ea\'f3\'eb \'ee\'f2 \'ec\'e5\'ed\'fe\'f2\'ee\par
@@ -407,7 +407,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-22T00:10:55.3159266+03:00</DateAdded>
-    <DateModified>2014-05-22T00:15:41.4742939+03:00</DateModified>
+    <DateModified>2014-05-22T10:18:15.8116834+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-5bf3bb7e-72e4-4fe1-83cb-433c7f617776</UniqueID>
@@ -433,6 +433,126 @@
     <TestingConfigurations />
     <DateAdded>2014-05-22T00:10:55.3159266+03:00</DateAdded>
     <DateModified>2014-05-22T00:19:52.4386483+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-32d10214-1759-4ddd-81f5-a84930fac26a</UniqueID>
+    <UserID>UC-27</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yВижда коментарите</Name>
+    <Sequence>19</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:18:33.7639474+03:00</DateAdded>
+    <DateModified>2014-05-22T10:19:27.3819778+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-65faaee7-2808-4105-8b1f-9ddc3cbefee5</UniqueID>
+    <UserID>UC-28</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yИзбиране на номер на маса преди да се даде устройството</Name>
+    <Description>yИзбира номера на масата, на която оставя таблета, като преди това въвежда парола</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset204 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 y\lang1026\f1\'c8\lang1033\'e7\'e1\'e8\'f0\'e0 \'ed\'ee\'ec\'e5\'f0\'e0 \'ed\'e0 \'ec\'e0\'f1\'e0\'f2\'e0, \'ed\'e0 \'ea\'ee\'ff\'f2\'ee \'ee\'f1\'f2\'e0\'e2\'ff \'f2\'e0\'e1\'eb\'e5\'f2\'e0, \'ea\'e0\'f2\'ee \'ef\'f0\'e5\'e4\'e8 \'f2\'ee\'e2\'e0 \'e2\'fa\'e2\'e5\'e6\'e4\'e0 \'ef\'e0\'f0\'ee\'eb\'e0\f0\par
+}
+</RichDescription>
+    <Sequence>20</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:19:51.213997+03:00</DateAdded>
+    <DateModified>2014-05-22T10:20:40.7038594+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-68beffbc-fd00-49be-85ae-dff540b48c68</UniqueID>
+    <UserID>UC-29</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yПреглед на поръчани артикули за дадена маса</Name>
+    <Description>Преглежда кои са поръчаните артикули за дадена маса</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'cf\'f0\'e5\'e3\'eb\'e5\'e6\'e4\'e0 \'ea\'ee\'e8 \'f1\'e0 \'ef\'ee\'f0\'fa\'f7\'e0\'ed\'e8\'f2\'e5 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'e7\'e0 \'e4\'e0\'e4\'e5\'ed\'e0 \'ec\'e0\'f1\'e0\f1\par
+}
+</RichDescription>
+    <Sequence>21</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:20:58.318045+03:00</DateAdded>
+    <DateModified>2014-05-22T10:21:51.0974002+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-828d3aa6-62b6-4e3a-8a3f-2a74bc40fe26</UniqueID>
+    <UserID>UC-30</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yПреглед на кой артикули са вече занесени на клиента</Name>
+    <Description>Вижда, кои артикули са занесени на клиентите</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'c2\'e8\'e6\'e4\'e0, \'ea\'ee\'e8 \'e0\'f0\'f2\'e8\'ea\'f3\'eb\'e8 \'f1\'e0 \'e7\'e0\'ed\'e5\'f1\'e5\'ed\'e8 \'ed\'e0 \'ea\'eb\'e8\'e5\'ed\'f2\'e8\'f2\'e5\f1\par
+}
+</RichDescription>
+    <Sequence>22</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:22:00.0008002+03:00</DateAdded>
+    <DateModified>2014-05-22T10:22:24.6915586+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-dedde7dd-08cd-4386-a3e0-34247aef52c0</UniqueID>
+    <UserID>UC-31</UserID>
+    <ParentID>P-740dbcf6-4085-4e65-930f-945fea8e4a89</ParentID>
+    <Name>yПриключване на поръчката</Name>
+    <Description>приключване поръчката, след като се поиска сметката</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20\'ef\'f0\'e8\'ea\'eb\'fe\'f7\'e2\'e0\'ed\'e5 \'ef\'ee\'f0\'fa\'f7\'ea\'e0\'f2\'e0, \'f1\'eb\'e5\'e4 \'ea\'e0\'f2\'ee \'f1\'e5 \'ef\'ee\'e8\'f1\'ea\'e0 \'f1\'ec\'e5\'f2\'ea\'e0\'f2\'e0\f1\par
+}
+</RichDescription>
+    <Sequence>23</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2014-05-22T10:22:26.2726018+03:00</DateAdded>
+    <DateModified>2014-05-22T10:23:08.4621778+03:00</DateModified>
   </UseCase>
   <Actor>
     <UniqueID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</UniqueID>
@@ -603,6 +723,31 @@
   <UCActor>
     <ParentID>UC-d8292d38-f9cf-4657-868f-92a7739620c2</ParentID>
     <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-32d10214-1759-4ddd-81f5-a84930fac26a</ParentID>
+    <ActorID>A-d6df2fd6-2677-4d22-910a-e067ad66ed7c</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-65faaee7-2808-4105-8b1f-9ddc3cbefee5</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-68beffbc-fd00-49be-85ae-dff540b48c68</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-828d3aa6-62b6-4e3a-8a3f-2a74bc40fe26</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-dedde7dd-08cd-4386-a3e0-34247aef52c0</ParentID>
+    <ActorID>A-a508edb3-dbd6-4e7e-88b2-0a76518b88b8</ActorID>
     <Kind>0</Kind>
   </UCActor>
   <Scenario>
@@ -2978,7 +3123,7 @@
   </Extension>
   <UserID>
     <DefaultPrefix>UC-</DefaultPrefix>
-    <NextValue>27</NextValue>
+    <NextValue>32</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-</DefaultPrefix>
