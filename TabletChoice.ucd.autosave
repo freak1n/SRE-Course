@@ -61,7 +61,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:11:50.0146214+03:00</DateAdded>
-    <DateModified>2014-05-19T12:48:02.3528958+03:00</DateModified>
+    <DateModified>2014-05-24T09:50:03.0138135+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</UniqueID>
@@ -81,7 +81,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:16:52.45392+03:00</DateAdded>
-    <DateModified>2014-05-20T11:35:50.9631494+03:00</DateModified>
+    <DateModified>2014-05-24T09:50:16.7538328+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-a32427bc-c13c-4edd-b85f-bc9c2784275b</UniqueID>
@@ -103,7 +103,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:34:35.3177123+03:00</DateAdded>
-    <DateModified>2014-05-19T19:49:24.5800299+03:00</DateModified>
+    <DateModified>2014-05-24T09:52:01.7739798+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-5d16630e-3421-424a-8965-99b228e535da</UniqueID>
@@ -113,7 +113,7 @@
     <Sequence>4</Sequence>
     <Priority>1</Priority>
     <DateAdded>2014-05-17T17:36:30.1542806+03:00</DateAdded>
-    <DateModified>2014-05-18T13:33:54.6380202+03:00</DateModified>
+    <DateModified>2014-05-24T09:55:02.4742328+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-9825e2ac-3709-43ae-b360-eba6aaab8885</UniqueID>
@@ -123,7 +123,7 @@
     <Sequence>5</Sequence>
     <Priority>1</Priority>
     <DateAdded>2014-05-17T17:38:01.5425077+03:00</DateAdded>
-    <DateModified>2014-05-18T13:43:45.1507956+03:00</DateModified>
+    <DateModified>2014-05-24T09:57:01.0143987+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-0a194b0e-a479-404b-86ae-16b93f099b3e</UniqueID>
@@ -143,7 +143,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-17T17:38:43.1508876+03:00</DateAdded>
-    <DateModified>2014-05-18T13:52:56.1573114+03:00</DateModified>
+    <DateModified>2014-05-24T09:58:44.6545438+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-8b27f9a5-44f7-47a0-94dc-b07520366762</UniqueID>
@@ -153,7 +153,7 @@
     <Sequence>8</Sequence>
     <Priority>1</Priority>
     <DateAdded>2014-05-17T17:41:44.3612522+03:00</DateAdded>
-    <DateModified>2014-05-20T17:37:37.9503978+03:00</DateModified>
+    <DateModified>2014-05-24T10:04:58.6050674+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-c85218f3-dab4-4c2b-ada3-282089735d38</UniqueID>
@@ -173,7 +173,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-19T12:48:37.0858824+03:00</DateAdded>
-    <DateModified>2014-05-20T17:37:37.9233962+03:00</DateModified>
+    <DateModified>2014-05-24T10:02:35.6848673+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-4cae19ba-a1c9-4661-b711-7a32d8eb963b</UniqueID>
@@ -193,7 +193,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-19T12:57:08.6901445+03:00</DateAdded>
-    <DateModified>2014-05-20T17:39:42.9165454+03:00</DateModified>
+    <DateModified>2014-05-24T10:11:43.2939418+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-d6516cde-8c4b-4816-ac12-e5ad0eb894d9</UniqueID>
@@ -213,7 +213,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-19T13:01:35.7174176+03:00</DateAdded>
-    <DateModified>2014-05-20T17:41:59.8653784+03:00</DateModified>
+    <DateModified>2014-05-24T10:13:01.0240506+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-71b82bce-d47a-4ac0-8910-d17ad3355258</UniqueID>
@@ -233,7 +233,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-19T13:05:40.2224025+03:00</DateAdded>
-    <DateModified>2014-05-20T17:42:54.3164929+03:00</DateModified>
+    <DateModified>2014-05-24T10:14:43.8341946+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-f1b3e280-1f57-48e4-875a-84f0b94ac3fe</UniqueID>
@@ -253,7 +253,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2014-05-19T13:13:16.3834934+03:00</DateAdded>
-    <DateModified>2014-05-20T17:43:57.4191021+03:00</DateModified>
+    <DateModified>2014-05-24T10:17:46.5044503+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-d5b8cd48-27c0-4868-8e6b-224236a9fe95</UniqueID>
@@ -341,7 +341,7 @@
     <Name>Клиент</Name>
     <Sequence>6</Sequence>
     <DateAdded>2014-05-17T17:11:33.7406906+03:00</DateAdded>
-    <DateModified>2014-05-17T17:11:46.5294221+03:00</DateModified>
+    <DateModified>2014-05-24T09:45:25.7334253+03:00</DateModified>
   </Actor>
   <Diagram>
     <UniqueID>D-5efb1714-73cb-4653-b395-8be94f29285b</UniqueID>
@@ -361,7 +361,7 @@
   </Diagram>
   <Diagram>
     <UniqueID>D-cdfe3893-cd6f-436b-a80c-a099ebd757f4</UniqueID>
-    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
+    <ParentID>A-9dca5ca8-eb69-4ad4-901d-e9e1aff5527f</ParentID>
     <Name>Клиент</Name>
     <Sequence>0</Sequence>
     <FileName>Обща сметка.ndx</FileName>
@@ -378,9 +378,97 @@
   <Diagram>
     <UniqueID>D-d99e24a5-fad9-4003-9d4b-7679b3c519df</UniqueID>
     <ParentID>UC-8b27f9a5-44f7-47a0-94dc-b07520366762</ParentID>
-    <Name>Activity Diagram</Name>
+    <Name>Попълване на анкета за заведението и обслужването</Name>
     <Sequence>0</Sequence>
     <FileName>ПопълванеНаАнкетаЗаЗаведениетоИОбслужванетоActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-2b956059-82fb-4226-b131-83780cd57202</UniqueID>
+    <ParentID>UC-9094c264-a03e-4880-8773-13d23475681a</ParentID>
+    <Name>Преглед на обща сметка</Name>
+    <Sequence>0</Sequence>
+    <FileName>ПрегледНаОбщаСметкаActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-b8c7baa3-bc33-4035-a218-f47f292e6bd5</UniqueID>
+    <ParentID>UC-2153aa22-c395-4fba-bff0-88ef06b58652</ParentID>
+    <Name>Поръчване на артикул</Name>
+    <Sequence>0</Sequence>
+    <FileName>ПоръчванеНаАртикулActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-c7c6b7f9-6893-482b-a351-d0d7192334b2</UniqueID>
+    <ParentID>UC-a32427bc-c13c-4edd-b85f-bc9c2784275b</ParentID>
+    <Name>Преглед на индивидуална сметка</Name>
+    <Sequence>0</Sequence>
+    <FileName>ПрегледНаИндивидуалнаСметкаActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-657a6d2f-6b13-4932-bb69-19cb4fa9f7d8</UniqueID>
+    <ParentID>UC-5d16630e-3421-424a-8965-99b228e535da</ParentID>
+    <Name>Оценка на  даден артикул</Name>
+    <Sequence>0</Sequence>
+    <FileName>ОценкаНаДаденАртикулActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-eeb3879d-96dc-414e-9883-abdce0e68e0f</UniqueID>
+    <ParentID>UC-9825e2ac-3709-43ae-b360-eba6aaab8885</ParentID>
+    <Name>Пишене на коментар за даден артикул</Name>
+    <Sequence>0</Sequence>
+    <FileName>ПишенеНаКоментарЗаДаденАртикулActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-53232485-0c20-43f5-a0e5-974a8d4fd2cf</UniqueID>
+    <ParentID>UC-0a194b0e-a479-404b-86ae-16b93f099b3e</ParentID>
+    <Name>Пишене на коментар за заведението и облужването</Name>
+    <Sequence>0</Sequence>
+    <FileName>ПишенеНаКоментарЗаЗаведениетоИОблужванетоActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-19f7c0c0-f076-4cde-80c4-928b72e4d51f</UniqueID>
+    <ParentID>UC-c85218f3-dab4-4c2b-ada3-282089735d38</ParentID>
+    <Name>Показване на препоръчани ястия</Name>
+    <Sequence>0</Sequence>
+    <FileName>ПоказванеНаПрепоръчаниЯстияActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-95bfe5e3-104c-4598-b81f-76dc9c1a8cb0</UniqueID>
+    <ParentID>UC-4cae19ba-a1c9-4661-b711-7a32d8eb963b</ParentID>
+    <Name>Избиране на грамаж</Name>
+    <Sequence>0</Sequence>
+    <FileName>ИзбиранеНаГрамажActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-987e5dab-be4f-4478-b25f-6a079c7e4400</UniqueID>
+    <ParentID>UC-d6516cde-8c4b-4816-ac12-e5ad0eb894d9</ParentID>
+    <Name>Поръчване на ястие с добавки</Name>
+    <Sequence>0</Sequence>
+    <FileName>ПоръчванеНаЯстиеСДобавкиActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-8542bdc9-8abb-4c5b-b441-302cc2553ecd</UniqueID>
+    <ParentID>UC-71b82bce-d47a-4ac0-8910-d17ad3355258</ParentID>
+    <Name>Поръчване на ястие без някаква съставка</Name>
+    <Sequence>0</Sequence>
+    <FileName>ПоръчванеНаЯстиеБезНякакваСъставкаActivityDiagram.ndx</FileName>
+    <Type>1</Type>
+  </Diagram>
+  <Diagram>
+    <UniqueID>D-a7645c0a-9077-4380-8e52-05c5e74ccc07</UniqueID>
+    <ParentID>UC-f1b3e280-1f57-48e4-875a-84f0b94ac3fe</ParentID>
+    <Name>Activity Diagram</Name>
+    <Sequence>0</Sequence>
+    <FileName>ПовикванеНаСервитьорActivityDiagram.ndx</FileName>
     <Type>1</Type>
   </Diagram>
   <UCActor>
@@ -1421,13 +1509,6 @@
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
-    <UniqueID>ST-43b2e0db-c517-4277-9a15-7bc8dd325948</UniqueID>
-    <ParentID>MSS-97f92019-8ac4-451e-8454-11e2fbdb8a7f</ParentID>
-    <Description />
-    <Sequence>2</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
     <UniqueID>ST-f2f4897d-10d9-4fdf-bb40-925bb9a4c428</UniqueID>
     <ParentID>MSS-395bb342-7ddd-407e-824f-deff915cc0b2</ParentID>
     <Description>Системата зарежда на потребителя най-високо оценените ястия.</Description>
@@ -1554,10 +1635,10 @@
   <Step>
     <UniqueID>ST-2a21e568-195a-42d2-8a42-63d2143aacec</UniqueID>
     <ParentID>MSS-705ab59a-8d6a-4e62-a662-54f420cef9df</ParentID>
-    <Description>Системата изпраща съобщение на сервитьора.</Description>
+    <Description>Системата изпраща известие на сервитьора.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e8\'e7\'ef\'f0\'e0\'f9\'e0 \'f1\'fa\'ee\'e1\'f9\'e5\'ed\'e8\'e5 \'ed\'e0 \cf1\'f1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'e0.\cf0\par
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'e8\'e7\'ef\'f0\'e0\'f9\'e0 \'e8\'e7\'e2\'e5\'f1\'f2\'e8\'e5 \'ed\'e0 \cf1\'f1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'e0.\cf0\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -1566,10 +1647,10 @@
   <Step>
     <UniqueID>ST-1a8d3f4b-513f-429a-a45a-6fee9d99e172</UniqueID>
     <ParentID>MSS-705ab59a-8d6a-4e62-a662-54f420cef9df</ParentID>
-    <Description>Сервитьорът прочита съобщението и отива при клиентите.</Description>
+    <Description>Сервитьорът вижда известието и отива при клиента.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'ef\'f0\'ee\'f7\'e8\'f2\'e0 \'f1\'fa\'ee\'e1\'f9\'e5\'ed\'e8\'e5\'f2\'ee \'e8 \'ee\'f2\'e8\'e2\'e0 \'ef\'f0\'e8 \'ea\'eb\'e8\'e5\'ed\'f2\'e8\'f2\'e5.\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20\'d1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'fa\'f2 \'e2\'e8\'e6\'e4\'e0 \'e8\'e7\'e2\'e5\'f1\'f2\'e8\'e5\'f2\'ee \'e8 \'ee\'f2\'e8\'e2\'e0 \'ef\'f0\'e8 \'ea\'eb\'e8\'e5\'ed\'f2\'e0.\cf0\par
 }
 </RichDescription>
     <Sequence>3</Sequence>
@@ -2046,6 +2127,18 @@
     <Description>Системата не може да запише направената поръчка.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
 \viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e7\'e0\'ef\'e8\'f8\'e5 \'ed\'e0\'ef\'f0\'e0\'e2\'e5\'ed\'e0\'f2\'e0 \'ef\'ee\'f0\'fa\'f7\'ea\'e0.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-3eb03c26-a447-412c-939b-0cb0c1d4f9d7</UniqueID>
+    <ParentID>ST-2a21e568-195a-42d2-8a42-63d2143aacec</ParentID>
+    <Description>Системата не може да изпрати  известие на сервитьора.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1251\deff0\deflang1026{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20\'d1\'e8\'f1\'f2\'e5\'ec\'e0\'f2\'e0 \'ed\'e5 \'ec\'ee\'e6\'e5 \'e4\'e0 \'e8\'e7\'ef\'f0\'e0\'f2\'e8  \'e8\'e7\'e2\'e5\'f1\'f2\'e8\'e5 \'ed\'e0 \cf1\'f1\'e5\'f0\'e2\'e8\'f2\'fc\'ee\'f0\'e0.\cf0\fs20\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
